@@ -37,7 +37,7 @@ export default function CTA() {
         </p>
 
         <Link
-          href={"https://chat.whatsapp.com/EKH7bgABxlpLdL9GohvvF3"}
+          href={"/registration"}
           className="w-fit bg-red-600 hover:bg-black text-white font-black py-5 px-12 rounded-full flex items-center mx-auto shadow-2xl shadow-red-200 transition-all duration-300 group hover:scale-105"
         >
           <span className="text-lg uppercase">Secure My Free Spot</span>

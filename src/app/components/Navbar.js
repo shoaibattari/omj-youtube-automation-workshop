@@ -8,7 +8,12 @@ import {
   FaIdCard,
 } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import {
+  HiOutlineClipboardCheck,
+  HiOutlineLocationMarker,
+  HiOutlinePencilAlt,
+} from "react-icons/hi";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,6 +60,12 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <div className="hidden lg:flex space-x-6 items-center">
             <NavLink
+              href="/registration" // Points to the ID of your form section
+              icon={<HiOutlinePencilAlt />}
+              label="REGISTRATION"
+              scrolled={scrolled}
+            />
+            <NavLink
               href="https://maps.app.goo.gl/13eDSbC5hvYhka3u6"
               icon={<HiOutlineLocationMarker />}
               label="VENUE"
@@ -66,17 +77,17 @@ export default function Navbar() {
               scrolled={scrolled}
             />
             <NavLink
-              href="/generate-dp"
+              href="/status"
               icon={<CgProfile />}
               label="CREATE DP"
               scrolled={scrolled}
             />
-            <a
-              href="/download-pass"
+            <Link
+              href="/status"
               className="bg-red-600 text-white px-5 py-2.5 rounded-full font-bold hover:bg-black transition-all flex items-center gap-2"
             >
               <FaIdCard /> ENTRY PASS
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Toggle */}
@@ -113,7 +124,13 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               />
               <MobileNavLink
-                href="#"
+                href="/registration"
+                icon={<HiOutlineClipboardCheck />}
+                label="Register Now"
+                onClick={() => setIsOpen(false)}
+              />
+              <MobileNavLink
+                href="/status"
                 icon={<CgProfile />}
                 label="Create Workshop DP"
                 onClick={() => setIsOpen(false)}
@@ -122,7 +139,7 @@ export default function Navbar() {
 
             <div className="mt-auto space-y-4">
               <a
-                href="#"
+                href="/status"
                 className="flex items-center justify-center bg-red-600 text-white p-5 rounded-2xl font-bold text-xl shadow-lg active:scale-95 transition-transform"
                 onClick={() => setIsOpen(false)}
               >

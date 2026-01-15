@@ -15,7 +15,7 @@ const LandingPage = () => {
     <div className="min-h-screen bg-white text-slate-900 font-sans">
       {/* HERO SECTION */}
       <div className="relative bg-slate-50 py-16 lg:py-24 border-b overflow-hidden">
-        <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto px-2 md:px-6 grid lg:grid-cols-2 gap-12 items-center">
           <div className="z-10">
             <span className="text-green-600 font-bold">OMJ</span> <br />
             <h1 className="text-5xl lg:text-7xl font-black leading-none mb-6">
@@ -29,10 +29,10 @@ const LandingPage = () => {
             </p>
             <div className="flex gap-4">
               <Link
-                href={"https://chat.whatsapp.com/EKH7bgABxlpLdL9GohvvF3"}
+                href={"/registration"}
                 className="bg-red-600 text-white px-8 py-4 rounded-xl font-bold text-base hover:shadow-2xl transition shadow-red-200"
               >
-                Join Now for Free Whatsaap community
+                Register NOW!
               </Link>
             </div>
           </div>
