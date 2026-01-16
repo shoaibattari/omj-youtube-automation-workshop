@@ -71,11 +71,7 @@ export default function Navbar() {
               label="VENUE"
               scrolled={scrolled}
             />
-            <NavLink
-              href={"https://chat.whatsapp.com/EKH7bgABxlpLdL9GohvvF3"}
-              label="COMMUNITY"
-              scrolled={scrolled}
-            />
+
             <NavLink
               href="/status"
               icon={<CgProfile />}
@@ -115,12 +111,6 @@ export default function Navbar() {
                 href="https://maps.app.goo.gl/13eDSbC5hvYhka3u6"
                 icon={<HiOutlineLocationMarker />}
                 label="Event Venue"
-                onClick={() => setIsOpen(false)}
-              />
-              <MobileNavLink
-                href={"https://chat.whatsapp.com/EKH7bgABxlpLdL9GohvvF3"}
-                icon={<FaWhatsapp />}
-                label="WhatsApp Community"
                 onClick={() => setIsOpen(false)}
               />
               <MobileNavLink

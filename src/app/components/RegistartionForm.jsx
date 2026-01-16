@@ -11,8 +11,10 @@ import {
   FaGraduationCap,
   FaMapMarkerAlt,
   FaUsers,
+  FaIdCard,
 } from "react-icons/fa";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function RegistrationForm() {
   const [loading, setLoading] = useState(false);
@@ -145,7 +147,7 @@ export default function RegistrationForm() {
                       error={errors.fullName}
                     />
                     <InputField
-                      label="Father Name"
+                      label="Father / Husband Name"
                       name="fatherName"
                       onChange={handleChange}
                       value={values.fatherName}
@@ -328,17 +330,17 @@ export default function RegistrationForm() {
               Registration for {modalData?.fullName} has been received.
             </p>
 
-            <a
-              href="https://chat.whatsapp.com/EKH7bgABxlpLdL9GohvvF3"
+            <Link
+              href="/status"
               target="_blank"
               className="flex items-center justify-center gap-3 w-full bg-[#25D366] text-white font-black py-4 rounded-2xl mb-4 transition-transform hover:scale-105"
             >
-              <FaWhatsapp size={24} /> JOIN WHATSAPP GROUP
-            </a>
+              <FaIdCard /> ENTRY PASS CREATE
+            </Link>
 
             <button
               onClick={handleCloseAndNavigate}
-              className="bg-slate-100 text-slate-900 font-bold py-4 rounded-2xl hover:bg-slate-200 transition-colors uppercase tracking-widest text-xs"
+              className="bg-slate-200 text-slate-900 font-bold p-4 cursor-pointer rounded-2xl hover:bg-slate-300 transition-colors uppercase tracking-widest text-xs"
             >
               Return to Home
             </button>

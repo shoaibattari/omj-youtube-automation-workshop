@@ -106,7 +106,7 @@ export default function StatusPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 py-12 px-4">
+    <div className="min-h-screen bg-slate-100 py-12 pt-20 px-4">
       <div className="max-w-6xl mx-auto">
         {/* SEARCH SECTION */}
         <div className="text-center max-w-xl mx-auto mb-12">

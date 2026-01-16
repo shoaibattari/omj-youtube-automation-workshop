@@ -1,8 +1,14 @@
 import React from "react";
 import CheckStatus from "../components/CheckStatus";
+import Navbar from "../components/Navbar";
 
 const page = () => {
-  return <CheckStatus />;
+  return (
+    <>
+      <Navbar />
+      <CheckStatus />
+    </>
+  );
 };
 
 export default page;

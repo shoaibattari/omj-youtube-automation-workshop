@@ -42,10 +42,10 @@
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
-  background: #003e3e;
+  background: #000000;
 }
 ::-webkit-scrollbar-thumb {
-  background: #a6f100;
+  background: #760302;
   border-radius: 4px;
 }
 .glow-box {
