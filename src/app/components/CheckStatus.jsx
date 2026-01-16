@@ -9,31 +9,43 @@ import {
   FaWhatsapp,
   FaIdCard,
   FaUserCircle,
+  FaUserCheck,
 } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 export default function StatusPage() {
   const [query, setQuery] = useState("");
-  const [participant, setParticipant] = useState(null);
+  const [results, setResults] = useState([]); // List of multiple people
+  const [participant, setParticipant] = useState(null); // The selected person
   const [loading, setLoading] = useState(false);
   const [userImage, setUserImage] = useState(null);
 
   const cardRef = useRef(null);
   const dpRef = useRef(null);
 
-  // 1. Search Logic
+  // 1. Updated Search Logic for Multiple Results
   const handleSearch = async () => {
     if (!query) return toast.error("Please enter Phone or CNIC");
     setLoading(true);
+    setParticipant(null); // Reset selection
     try {
       const res = await fetch(
         `https://ems-production-aff7.up.railway.app/participant/find?query=${query}`
       );
       const result = await res.json();
       if (result.status) {
-        setParticipant(result.data);
-        toast.success("Registration Found!");
+        // Assume backend now returns an array in result.data
+        const data = Array.isArray(result.data) ? result.data : [result.data];
+        setResults(data);
+
+        if (data.length === 1) {
+          setParticipant(data[0]);
+          toast.success("Registration Found!");
+        } else {
+          toast.info(`${data.length} registrations found on this number.`);
+        }
       } else {
+        setResults([]);
         setParticipant(null);
         toast.error(result.message);
       }
@@ -44,33 +56,28 @@ export default function StatusPage() {
     }
   };
 
-  // 2. Base64 Image Conversion (Crucial for fixing Download Failed)
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     if (file) {
       const reader = new FileReader();
       reader.onloadend = () => {
-        setUserImage(reader.result); // Base64 string set ho rahi hai
+        setUserImage(reader.result);
       };
       reader.readAsDataURL(file);
     }
   };
 
-  // 3. Optimized Download Function
   const downloadImage = async (ref, fileName, isSquare = false) => {
     if (!ref.current) return;
-
     const loadingToast = toast.loading("Generating high-quality image...");
-
     try {
       const options = {
-        pixelRatio: 2, // Sharp quality
+        pixelRatio: 2,
         cacheBust: false,
-        backgroundColor: "#0f172a", // Slate-900 color
+        backgroundColor: "#0f172a",
         ...(isSquare && { canvasWidth: 1000, canvasHeight: 1000 }),
       };
 
-      // Chota sa delay taake DOM update ho chuka ho
       setTimeout(async () => {
         try {
           const dataUrl = await toPng(ref.current, options);
@@ -85,9 +92,8 @@ export default function StatusPage() {
             autoClose: 2000,
           });
         } catch (error) {
-          console.error("Capture Error:", error);
           toast.update(loadingToast, {
-            render: "Download failed. Use Chrome.",
+            render: "Download failed.",
             type: "error",
             isLoading: false,
             autoClose: 3000,
@@ -124,16 +130,52 @@ export default function StatusPage() {
           </div>
         </div>
 
+        {/* --- MULTIPLE RECORDS SELECTION --- */}
+        {results.length > 1 && !participant && (
+          <div className="max-w-2xl mx-auto mb-12 animate-in fade-in zoom-in duration-300">
+            <div className="bg-white p-8 rounded-[2rem] shadow-xl border-t-8 border-red-600">
+              <h2 className="text-2xl font-black text-slate-800 mb-2 uppercase italic">
+                Multiple Names Found!
+              </h2>
+              <p className="text-slate-500 mb-6 font-medium">
+                Please select your name to continue:
+              </p>
+              <div className="grid gap-4">
+                {results.map((person, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => setParticipant(person)}
+                    className="flex items-center justify-between p-5 bg-slate-50 hover:bg-red-50 border-2 border-slate-100 hover:border-red-200 rounded-2xl transition-all group"
+                  >
+                    <div className="flex items-center gap-4">
+                      <div className="bg-white p-3 rounded-full shadow-sm text-red-600 group-hover:bg-red-600 group-hover:text-white transition-colors">
+                        <FaUserCheck />
+                      </div>
+                      <span className="text-xl font-bold text-slate-700">
+                        {person.fullName}
+                      </span>
+                    </div>
+                    <span className="text-xs font-black text-slate-400 uppercase tracking-widest">
+                      {person.city}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* --- MAIN GENERATOR CONTENT --- */}
         {participant && (
-          <div className="space-y-12 animate-in fade-in slide-in-from-bottom-5">
+          <div className="space-y-12 animate-in fade-in slide-in-from-bottom-5 duration-500">
             {/* PHOTO UPLOAD STEP */}
             <div className="bg-white p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-6 border-l-8 border-red-600">
               <div>
-                <h2 className="text-xl font-black uppercase italic tracking-tight">
-                  Step 1: Upload Your Profile Photo
+                <h2 className="text-xl font-black uppercase italic tracking-tight text-slate-800">
+                  Welcome, {participant.fullName.split(" ")[0]}!
                 </h2>
                 <p className="text-slate-500 text-sm italic font-medium">
-                  For better results, use a square-cropped face photo.
+                  Step 1: Upload your photo to personalize your Pass & DP.
                 </p>
               </div>
               <label className="bg-slate-900 text-white px-8 py-4 rounded-2xl cursor-pointer hover:bg-red-600 transition-all font-bold flex items-center gap-2 shadow-lg">
@@ -196,7 +238,7 @@ export default function StatusPage() {
                   onClick={() =>
                     downloadImage(cardRef, `${participant.fullName}-Pass.png`)
                   }
-                  className="w-full max-w-[350px] bg-slate-900 text-white font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-red-600 shadow-xl"
+                  className="w-full max-w-[350px] bg-slate-900 text-white font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-red-600 shadow-xl transition-all"
                 >
                   <FaDownload /> DOWNLOAD ENTRY PASS
                 </button>
@@ -234,9 +276,9 @@ export default function StatusPage() {
                       </p>
                     </div>
                   </div>
-                  <div className="absolute bottom-6 w-full text-center">
+                  <div className="absolute bottom-6 w-full text-center px-4">
                     <p className="text-[12px] text-green-500 font-extrabold uppercase tracking-[0.4em]">
-                      OMJ Social Welfare Commitee
+                      OMJ Social Welfare Committee
                     </p>
                   </div>
                 </div>
@@ -244,7 +286,7 @@ export default function StatusPage() {
                   onClick={() =>
                     downloadImage(dpRef, `${participant.fullName}-DP.png`, true)
                   }
-                  className="w-full max-w-[350px] bg-white border-2 border-slate-900 text-slate-900 font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-100 shadow-xl"
+                  className="w-full max-w-[350px] bg-white border-2 border-slate-900 text-slate-900 font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-100 shadow-xl transition-all"
                 >
                   <FaDownload /> DOWNLOAD WHATSAPP DP
                 </button>
