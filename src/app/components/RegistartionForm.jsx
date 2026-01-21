@@ -15,6 +15,7 @@ import {
 } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { baseUrl } from "../data/constant";
 
 export default function RegistrationForm() {
   const [loading, setLoading] = useState(false);
@@ -60,7 +61,7 @@ export default function RegistrationForm() {
     institute: Yup.string().required("Institute is required"),
     address: Yup.string().required("Address is required"),
   });
-
+  // this is event form
   const handleSubmit = async (values, { resetForm }) => {
     setLoading(true);
 
@@ -73,14 +74,11 @@ export default function RegistrationForm() {
     };
 
     try {
-      const response = await fetch(
-        "https://ems-production-aff7.up.railway.app/participant/add",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-        }
-      );
+      const response = await fetch(`${baseUrl}/participant/add`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
 
       const result = await response.json();
 

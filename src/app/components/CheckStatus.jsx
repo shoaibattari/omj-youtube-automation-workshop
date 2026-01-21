@@ -12,6 +12,7 @@ import {
   FaUserCheck,
 } from "react-icons/fa";
 import { toast } from "react-toastify";
+import { baseUrl } from "../data/constant";
 
 export default function StatusPage() {
   const [query, setQuery] = useState("");
@@ -29,9 +30,7 @@ export default function StatusPage() {
     setLoading(true);
     setParticipant(null); // Reset selection
     try {
-      const res = await fetch(
-        `https://ems-production-aff7.up.railway.app/participant/find?query=${query}`
-      );
+      const res = await fetch(`${baseUrl}/student/find?query=${query}`);
       const result = await res.json();
       if (result.status) {
         // Assume backend now returns an array in result.data
@@ -208,9 +207,9 @@ export default function StatusPage() {
                       AUTOMATION
                     </h2>
                     <p className="text-[16px] tracking-[0.3em] font-bold text-red-400 uppercase">
-                      Workshop 2026
+                      FUNDAMENTAL COURSE
                     </p>
-                    <div className="mt-6 w-32 h-32 mx-auto rounded-full border-4 border-white overflow-hidden bg-slate-800 shadow-xl">
+                    <div className="mt-3 w-24 h-24 mx-auto rounded-full border-4 border-white overflow-hidden bg-slate-800 shadow-xl">
                       <img
                         src={userImage || "/avatar.png"}
                         crossOrigin="anonymous"
@@ -223,8 +222,15 @@ export default function StatusPage() {
                         {participant.fullName}
                       </h3>
                       <p className="text-red-500 font-bold text-lg tracking-widest">
-                        {participant.participantId || "PARTICIPANT"}
+                        {participant.studentId || "PARTICIPANT"}
                       </p>
+
+                      <h3 className="text-xl font-black uppercase tracking-tighter leading-none">
+                        {participant.sectionTime}
+                      </h3>
+                      <h3 className="text-xs font-black text-red-500 uppercase tracking-tighter leading-none">
+                        Student Identity Card
+                      </h3>
                     </div>
                   </div>
                   <div className="absolute bottom-0 w-full bg-white py-4 px-8 flex justify-between items-center text-slate-900">
