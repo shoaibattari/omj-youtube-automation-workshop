@@ -1,7 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
 import { format } from "date-fns";
-import { FaClock, FaCalendarAlt, FaHourglassHalf } from "react-icons/fa";
+import {
+  FaClock,
+  FaCalendarAlt,
+  FaHourglassHalf,
+  FaFire,
+} from "react-icons/fa";
 
 export default function Countdown() {
   const [timeLeft, setTimeLeft] = useState({
@@ -11,8 +16,8 @@ export default function Countdown() {
     seconds: 0,
   });
 
-  // Target Date: January 18, 2026, at 3:30 PM (15:30)
-  const eventDate = "2026-01-18T15:30:00";
+  // Updated Target Date per Poster: February 1, 2026, at 11:00 AM
+  const eventDate = "2026-02-01T11:00:00";
 
   useEffect(() => {
     const target = new Date(eventDate).getTime();
@@ -38,39 +43,52 @@ export default function Countdown() {
   }, [eventDate]);
 
   return (
-    <section className="py-16 bg-slate-900 text-center relative overflow-hidden">
-      {/* Background Decoration */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-red-600 to-transparent"></div>
+    <section className="py-20 bg-slate-950 text-center relative overflow-hidden">
+      {/* Background Glow Effect */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-red-600/10 rounded-full blur-[120px]"></div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="inline-flex items-center bg-red-600/10 border border-red-600/20 px-4 py-2 rounded-full mb-8">
-          <FaHourglassHalf className="text-red-500 mr-2 animate-pulse" />
-          <span className="text-red-500 font-bold tracking-widest text-sm">
-            HURRY! SEATS ARE FILLING FAST
+        <div className="inline-flex items-center bg-red-600 text-white px-6 py-2 rounded-full mb-8 shadow-lg shadow-red-900/20">
+          <FaFire className="mr-2 animate-bounce" />
+          <span className="font-black tracking-widest text-[10px] uppercase">
+            Limited Seats Only! Batch Starts Soon
           </span>
         </div>
 
-        <h2 className="text-white text-3xl md:text-4xl font-black mb-10 uppercase italic">
-          Event Starts In
+        <h2 className="text-white text-4xl md:text-6xl font-black mb-12 uppercase italic tracking-tighter">
+          Course <span className="text-red-600">Countdown</span>
         </h2>
 
-        <div className="flex justify-center flex-wrap gap-4 md:gap-8 px-4">
+        <div className="flex justify-center flex-wrap gap-4 md:gap-10 px-4">
           <TimeUnit value={timeLeft.days} label="Days" />
           <TimeUnit value={timeLeft.hours} label="Hours" />
           <TimeUnit value={timeLeft.minutes} label="Minutes" />
           <TimeUnit value={timeLeft.seconds} label="Seconds" highlight />
         </div>
 
-        <div className="mt-12 flex flex-col md:flex-row justify-center items-center gap-6">
-          <div className="flex items-center text-gray-400 bg-white/5 px-6 py-3 rounded-xl border border-white/10">
-            <FaCalendarAlt className="text-red-600 mr-3 text-xl" />
-            <span className="font-bold text-white">JANUARY 18, 2026</span>
+        <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-6">
+          <div className="flex items-center text-slate-300 bg-slate-900 px-8 py-4 rounded-2xl border border-slate-800 shadow-xl">
+            <FaCalendarAlt className="text-red-600 mr-4 text-2xl" />
+            <div className="text-left">
+              <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                Starting From
+              </p>
+              <span className="font-black text-white uppercase italic">
+                February 01, 2026
+              </span>
+            </div>
           </div>
-          <div className="flex items-center text-gray-400 bg-white/5 px-6 py-3 rounded-xl border border-white/10">
-            <FaClock className="text-red-600 mr-3 text-xl" />
-            <span className="font-bold text-white">
-              {format(new Date(eventDate), "EEEE '|' h:mm a")}
-            </span>
+
+          <div className="flex items-center text-slate-300 bg-slate-900 px-8 py-4 rounded-2xl border border-slate-800 shadow-xl">
+            <FaClock className="text-red-600 mr-4 text-2xl" />
+            <div className="text-left">
+              <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                Class Time
+              </p>
+              <span className="font-black text-white uppercase italic">
+                {format(new Date(eventDate), "EEEE '|' h:mm a")}
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -83,19 +101,19 @@ function TimeUnit({ value, label, highlight = false }) {
     <div className="group">
       <div
         className={`
-        w-20 h-20 md:w-28 md:h-28 rounded-2xl flex flex-col items-center justify-center transition-all duration-300
+        w-24 h-24 md:w-36 md:h-36 rounded-[2.5rem] flex flex-col items-center justify-center transition-all duration-500 transform group-hover:-translate-y-2
         ${
           highlight
-            ? "bg-red-600 shadow-[0_0_20px_rgba(220,38,38,0.4)] border-b-4 border-red-800"
-            : "bg-white/10 border border-white/10 group-hover:bg-white/20"
+            ? "bg-red-600 shadow-[0_20px_50px_rgba(220,38,38,0.3)] border-b-8 border-red-800"
+            : "bg-slate-900 border border-slate-800 shadow-2xl group-hover:border-red-600/50"
         }
       `}
       >
-        <p className="text-3xl md:text-5xl font-black text-white leading-none">
+        <p className="text-4xl md:text-6xl font-black text-white leading-none tracking-tighter font-mono">
           {value.toString().padStart(2, "0")}
         </p>
       </div>
-      <p className="mt-3 text-gray-400 font-bold uppercase text-xs md:text-sm tracking-widest">
+      <p className="mt-5 text-slate-500 font-black uppercase text-[10px] md:text-xs tracking-[0.3em]">
         {label}
       </p>
     </div>

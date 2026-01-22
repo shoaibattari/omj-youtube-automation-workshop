@@ -13,29 +13,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "OMJ YouTube Automation Free Workshop | OMJ Karachi",
+  // Title poster ke mutabiq update kiya gaya hai
+  title: "Fundamentals of YouTube Automation Course | OMJ Karachi",
   description:
-    "Join Ms. Saba Vayani on 18 Jan 2026 at Husein Ebrahim Sports Complex. Learn faceless channel creation, AI tools, and secret growth strategies.",
+    "Learn to build income-generating YouTube channels. Batch starts 1st Feb 2026. 8 Power-Packed Sessions every Sunday at Husein Ebrahim Sports Complex.", //
   keywords: [
     "YouTube Automation",
     "Faceless Channels",
-    "OMJ Workshop",
-    "Saba Vayani",
+    "OMJ Course",
     "Digital Income Karachi",
+    "Okhai Memon Jamat",
   ],
   authors: [{ name: "Okhai Memon Jamat" }],
   openGraph: {
-    title: "YouTube Automation Free Workshop - OMJ",
+    title: "YouTube Automation Course Admission Open - OMJ",
     description:
-      "Learn to build a faceless YouTube empire. Free registration now open!",
-    url: "https://your-domain.com", // Replace with your actual URL
-    siteName: "OMJ YouTube Workshop",
+      "Turn your ideas into income. Exclusive 50% OFF for Memon Community Students!", //
+    url: "https://omj-youtube-automation-course.vercel.app/",
+    siteName: "OMJ YouTube Course",
     images: [
       {
-        url: "/main-poster.jpg", // This will use your flyer image when sharing the link
+        url: "/main-poster.jpg", // Poster image path
         width: 1200,
         height: 630,
-        alt: "YouTube Automation Workshop Flyer",
+        alt: "YouTube Automation Course Poster",
       },
     ],
     locale: "en_US",

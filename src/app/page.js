@@ -24,7 +24,7 @@ export default function Home() {
   const mediaData = [
     {
       type: "image",
-      src: "/main-poster.jpg",
+      src: "/main-poster.jpeg",
       alt: "main event",
       caption: "Event Details",
     },
@@ -47,13 +47,13 @@ export default function Home() {
       <ImageModal
         isOpen={isModalOpen}
         onClose={handleClose}
-        imageSrc="/main-poster.jpg" // Update this path
+        imageSrc="/main-poster.jpeg" // Update this path
       />
       <Navbar />
       <Hero />
-      <div>
+      {/* <div>
         <Gallery mediaItems={mediaData} />
-      </div>
+      </div> */}
       <Countdown />
 
       <CTA />
