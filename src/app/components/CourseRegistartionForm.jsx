@@ -95,7 +95,7 @@ export default function CourseRegistrationForm() {
     try {
       const response = await fetch(`${baseUrl}/student/add`, {
         method: "POST",
-      
+
         body: formData,
       });
 
@@ -144,6 +144,45 @@ export default function CourseRegistrationForm() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
                   {/* Left Column */}
                   <div className="lg:col-span-4 space-y-6">
+                    <div className="bg-red-600 text-white p-6 rounded-3xl shadow-xl shadow-red-200 relative overflow-hidden">
+                      <FaMoneyCheckAlt className="absolute -bottom-4 -right-4 text-white/10 text-7xl rotate-12" />
+                      <h4 className="text-[10px] font-black uppercase mb-4 tracking-widest border-b border-white/20 pb-2 flex items-center gap-2">
+                        🏦 Bank Account for Fee
+                      </h4>
+                      <div className="space-y-4 relative z-10">
+                        <div>
+                          <p className="text-[9px] font-bold text-red-100 uppercase">
+                            Account Title
+                          </p>
+                          <p className="font-black text-sm">
+                            The Okhai Memon Jamat HO
+                          </p>
+                        </div>
+                        <div>
+                          <p className="text-[9px] font-bold text-red-100 uppercase">
+                            Bank Name
+                          </p>
+                          <p className="font-black text-sm">Meezan Bank</p>
+                        </div>
+                        <div>
+                          <p className="text-[9px] font-bold text-red-100 uppercase">
+                            Account Number
+                          </p>
+                          <p className="font-black text-xl font-mono tracking-tighter">
+                            0128-01000-47040
+                          </p>
+                        </div>
+                        <div>
+                          <p className="text-[9px] font-bold text-red-100 uppercase">
+                            Branch
+                          </p>
+                          <p className="font-black text-sm uppercase">
+                            Hussainabad
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
                     <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200">
                       <h4 className="text-[10px] font-black text-slate-900 uppercase mb-4 flex items-center gap-2">
                         <FaMoneyCheckAlt className="text-red-600" /> Fee Details

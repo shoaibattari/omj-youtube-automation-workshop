@@ -4,7 +4,7 @@ export default function Leadership() {
   const organizers = [
     {
       name: "Saba Vayani",
-      role: "Guest Speaker / Mentor",
+      role: "Trainer / Mentor",
       type: "speaker",
       desc: "YouTube Automation Expert",
     },

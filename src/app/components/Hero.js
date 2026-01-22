@@ -20,7 +20,7 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans">
       {/* HERO SECTION */}
-      <div className="relative bg-slate-900 py-20 lg:py-32 overflow-hidden">
+      <div className="relative bg-slate-900 py-20 overflow-hidden">
         {/* Background Decorative Element */}
         <div className="absolute top-0 right-0 p-10 opacity-10 rotate-12 hidden lg:block">
           <FaYoutube size={400} className="text-red-600" />
@@ -59,7 +59,20 @@ const LandingPage = () => {
               </span>{" "}
               YouTube channels. Learn systems used by successful creators!
             </p>
-
+            <div className="flex flex-wrap gap-4 mb-10">
+              <div className="bg-white/5 border border-white/10 px-4 py-2 rounded-xl flex items-center gap-3">
+                <MdCheckCircle className="text-red-600" />
+                <span className="text-white text-xs font-black uppercase tracking-widest">
+                  Onsite Classes
+                </span>
+              </div>
+              <div className="bg-white/5 border border-white/10 px-4 py-2 rounded-xl flex items-center gap-3">
+                <MdLocationOn className="text-red-600" />
+                <span className="text-white text-xs font-black uppercase tracking-widest">
+                  Hussainabad
+                </span>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-5">
               <Link
                 href={"/registration"}
@@ -76,15 +89,92 @@ const LandingPage = () => {
               <img
                 src="/main-poster.jpeg"
                 alt="Course Flyer"
-                className="w-full h-auto object-contain transform group-hover:scale-105 transition duration-700"
+                className="w-full h-full object-contain transform group-hover:scale-105 transition duration-700"
               />
             </div>
           </div>
         </div>
       </div>
 
+      {/* MENTOR SECTION - Placed after Quick Info */}
+      <section className="py-20 bg-white overflow-hidden">
+        <div className="container mx-auto px-6">
+          <div className="bg-slate-900 rounded-[3rem] p-8 md:p-16 flex flex-col lg:flex-row items-center gap-12 relative">
+            {/* Background Glow */}
+            <div className="absolute top-0 right-0 w-64 h-64 bg-red-600/20 blur-[100px] rounded-full"></div>
+
+            {/* Trainer Image / Avatar Area */}
+            <div className="w-full lg:w-1/3 flex justify-center relative">
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-red-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                <div className="relative w-64 h-80 bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 flex flex-col items-center justify-center">
+                  {/* Placeholder for Trainer Image */}
+                  <FaYoutube className="text-red-600 text-8xl mb-4 opacity-50 group-hover:scale-110 transition-transform" />
+                  <div className="text-center px-4">
+                    <p className="text-red-500 font-black text-[10px] uppercase tracking-widest mb-1">
+                      Course Instructor
+                    </p>
+                    <h3 className="text-2xl font-black text-white italic tracking-tighter uppercase">
+                      Ms. Saba Vayani
+                    </h3>
+                  </div>
+                </div>
+                {/* Experience Badge */}
+                <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-xl shadow-xl transform -rotate-3 border border-slate-100">
+                  <p className="text-slate-900 font-black text-lg leading-none">
+                    YT Expert
+                  </p>
+                  <p className="text-red-600 font-bold text-[10px] uppercase tracking-tighter">
+                    Certified Mentor
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Mentor Content */}
+            <div className="w-full lg:w-2/3 text-left">
+              <div className="inline-block bg-red-600/10 text-red-500 px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest mb-4">
+                Meet Your Mentor
+              </div>
+              <h2 className="text-4xl md:text-5xl font-black text-white mb-6 italic tracking-tighter">
+                LEARN FROM{" "}
+                <span className="text-red-600 underline decoration-slate-700">
+                  MS. SABA VAYANI
+                </span>
+              </h2>
+              <p className="text-slate-400 text-lg mb-8 leading-relaxed font-medium max-w-2xl">
+                Pakistan's leading voice in YouTube Automation. With years of
+                experience in creating faceless channels that generate
+                consistent passive income, she is here to reveal the exact
+                systems used by the top 1% of creators.
+              </p>
+
+              {/* Feature list for Trainer */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {[
+                  "Step-by-Step Practical Training",
+                  "Niche Research Mastery",
+                  "AI Content Systems",
+                  "Monetization Secrets",
+                ].map((text, i) => (
+                  <div key={i} className="flex items-center gap-3">
+                    <MdCheckCircle
+                      className="text-red-600 shrink-0"
+                      size={20}
+                    />
+                    <span className="text-slate-300 font-bold text-sm uppercase tracking-tight">
+                      {text}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* QUICK INFO BOXES (Updated per Poster) */}
-      <section className="container mx-auto px-6 -mt-16 relative z-20">
+      <section className="container mx-auto px-6 mt-16 relative z-20">
         <div className="grid md:grid-cols-3 gap-0 rounded-[2.5rem] shadow-2xl overflow-hidden border-4 border-white">
           <div className="bg-white p-10 flex items-center gap-5 border-r border-slate-100">
             <div className="bg-red-50 p-4 rounded-2xl text-red-600">
@@ -192,44 +282,6 @@ const LandingPage = () => {
           ))}
         </div>
       </section>
-
-      {/* FOOTER - From Poster */}
-      <footer className="bg-slate-50 py-16 border-t border-slate-200">
-        <div className="container mx-auto px-6 text-center">
-          <div className="mb-10">
-            <p className="text-xs font-black text-slate-400 uppercase tracking-widest mb-4">
-              Further Queries? Contact Us
-            </p>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-              <div className="flex items-center gap-3 bg-white px-6 py-3 rounded-2xl shadow-sm border border-slate-100">
-                <MdPhone className="text-red-600" size={24} />
-                <span className="font-black text-slate-800">
-                  Moiz Hanif Mamdani: 0321-2752209
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto border-t pt-10">
-            <div className="text-center md:text-left">
-              <p className="font-black text-slate-900 text-sm uppercase">
-                Shahid Adam Kath
-              </p>
-              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-tighter">
-                Chairman, Social Welfare Committee & Joint Secretary OMJ
-              </p>
-            </div>
-            <div className="text-center md:text-right">
-              <p className="font-black text-slate-900 text-sm uppercase">
-                Muhammad Arif Tayyab Suriya
-              </p>
-              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-tighter">
-                Hon. General Secretary
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

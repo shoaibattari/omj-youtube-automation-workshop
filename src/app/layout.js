@@ -33,7 +33,7 @@ export const metadata = {
     siteName: "OMJ YouTube Course",
     images: [
       {
-        url: "/main-poster.jpg", // Poster image path
+        url: "/main-poster.jpeg", // Poster image path
         width: 1200,
         height: 630,
         alt: "YouTube Automation Course Poster",
