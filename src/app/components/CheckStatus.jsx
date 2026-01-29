@@ -132,7 +132,7 @@ export default function StatusPage() {
         {/* --- MULTIPLE RECORDS SELECTION --- */}
         {results.length > 1 && !participant && (
           <div className="max-w-2xl mx-auto mb-12 animate-in fade-in zoom-in duration-300">
-            <div className="bg-white p-8 rounded-[2rem] shadow-xl border-t-8 border-red-600">
+            <div className="bg-white p-8 rounded-4xl shadow-xl border-t-8 border-red-600">
               <h2 className="text-2xl font-black text-slate-800 mb-2 uppercase italic">
                 Multiple Names Found!
               </h2>
@@ -193,7 +193,7 @@ export default function StatusPage() {
               <div className="flex flex-col items-center gap-6">
                 <div
                   ref={cardRef}
-                  className="w-[350px] h-[500px] bg-slate-900 rounded-[2.5rem] relative overflow-hidden text-white shadow-2xl"
+                  className="w-87.5 h-125 bg-slate-900 rounded-[2.5rem] relative overflow-hidden text-white shadow-2xl"
                 >
                   <div className="absolute top-0 left-0 w-full h-12 bg-red-600 -skew-y-6 origin-top-left"></div>
                   <div className="relative z-10 pt-12 text-center px-6">
@@ -244,7 +244,7 @@ export default function StatusPage() {
                   onClick={() =>
                     downloadImage(cardRef, `${participant.fullName}-Pass.png`)
                   }
-                  className="w-full max-w-[350px] bg-slate-900 text-white font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-red-600 shadow-xl transition-all"
+                  className="w-full max-w-87.5 bg-slate-900 text-white font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-red-600 shadow-xl transition-all"
                 >
                   <FaDownload /> DOWNLOAD ENTRY PASS
                 </button>
@@ -254,7 +254,7 @@ export default function StatusPage() {
               <div className="flex flex-col items-center gap-6">
                 <div
                   ref={dpRef}
-                  className="w-[350px] h-[350px] bg-slate-900 relative overflow-hidden flex items-center justify-center rounded-[3rem] shadow-2xl"
+                  className="w-87.5 h-87.5 bg-slate-900 relative overflow-hidden flex items-center justify-center rounded-[3rem] shadow-2xl"
                 >
                   <div className="absolute -top-10 -left-10 w-40 h-40 bg-red-600 rounded-full blur-3xl opacity-40"></div>
                   <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-red-600 rounded-full blur-3xl opacity-40"></div>
@@ -262,7 +262,7 @@ export default function StatusPage() {
                     <p className="text-[18px] text-green-500 font-extrabold uppercase tracking-[0.3em] mb-4">
                       THE OKHAI MEMON JAMAT
                     </p>
-                    <div className="relative p-1 bg-gradient-to-tr from-red-600 to-white rounded-full">
+                    <div className="relative p-1 bg-linear-to-tr from-red-600 to-white rounded-full">
                       <div className="w-36 h-36 rounded-full border-[6px] border-slate-900 overflow-hidden">
                         <img
                           src={userImage || "/avatar.png"}
@@ -292,7 +292,7 @@ export default function StatusPage() {
                   onClick={() =>
                     downloadImage(dpRef, `${participant.fullName}-DP.png`, true)
                   }
-                  className="w-full max-w-[350px] bg-white border-2 border-slate-900 text-slate-900 font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-100 shadow-xl transition-all"
+                  className="w-full max-w-87.5 bg-white border-2 border-slate-900 text-slate-900 font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-slate-100 shadow-xl transition-all"
                 >
                   <FaDownload /> DOWNLOAD WHATSAPP DP
                 </button>

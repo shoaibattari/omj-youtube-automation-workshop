@@ -8,6 +8,7 @@ import Leadership from "./components/Leadership";
 import Navbar from "./components/Navbar";
 import ImageModal from "./components/ImageModal";
 import Gallery from "./components/Gallery";
+import VideoModal from "./components/VideoModal";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -44,10 +45,10 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-dark text-white">
-      <ImageModal
+      <VideoModal
         isOpen={isModalOpen}
         onClose={handleClose}
-        imageSrc="/main-poster.jpeg" // Update this path
+        videoSrc="/promo.mp4" // Update this path
       />
       <Navbar />
       <Hero />

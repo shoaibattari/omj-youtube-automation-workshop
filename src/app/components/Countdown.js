@@ -17,7 +17,7 @@ export default function Countdown() {
   });
 
   // Updated Target Date per Poster: February 1, 2026, at 11:00 AM
-  const eventDate = "2026-02-01T11:00:00";
+  const eventDate = "2026-03-22T11:00:00";
 
   useEffect(() => {
     const target = new Date(eventDate).getTime();
@@ -74,7 +74,7 @@ export default function Countdown() {
                 Starting From
               </p>
               <span className="font-black text-white uppercase italic">
-                February 01, 2026
+                Marhc 22, 2026
               </span>
             </div>
           </div>

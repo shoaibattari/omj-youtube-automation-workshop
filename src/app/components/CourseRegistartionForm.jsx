@@ -50,16 +50,24 @@ export default function CourseRegistrationForm() {
   const validationSchema = Yup.object({
     fullName: Yup.string().required("Full name is required"),
     fatherName: Yup.string().required("Father name is required"),
-    contact: Yup.string().required("WhatsApp contact is required"),
+    contact: Yup.string()
+      .required("WhatsApp contact is required")
+      .min(11, "Contact number must be 11 digits")
+      .max(11, "Contact number must be 11 digits"),
     email: Yup.string().email("Invalid email").required("Email is required"),
     community: Yup.string().required("Community selection is required"),
-    cnic: Yup.string().min(13, "Min 13 digits").required("CNIC is required"),
+    cnic: Yup.string()
+      .required("CNIC is required")
+      .min(13, "CNIC must be 13 digits")
+      .max(13, "CNIC must be 13 digits"),
     gender: Yup.string().required("Gender is required"),
-    dob: Yup.date().required("Date of Birth is required"),
-    qualification: Yup.string().required("Qualification is required"),
-    institute: Yup.string().required("Institute is required"),
-    address: Yup.string().required("Address is required"),
-    city: Yup.string().required("City is required"),
+    dob: Yup.date()
+      .max(new Date(), "Date of birth cannot be in the future")
+      .required("Date of Birth is required"),
+    qualification: Yup.string(),
+    institute: Yup.string(),
+    address: Yup.string(),
+    city: Yup.string(),
     paymentSlip: Yup.mixed().required("Payment slip is required"),
   });
 
@@ -237,7 +245,7 @@ export default function CourseRegistrationForm() {
                         error={errors.fullName}
                       />
                       <InputField
-                        label="Father Name"
+                        label="Father / Husband Name"
                         name="fatherName"
                         onChange={handleChange}
                         value={values.fatherName}
@@ -245,13 +253,18 @@ export default function CourseRegistrationForm() {
                         error={errors.fatherName}
                       />
                       <InputField
-                        label="WhatsApp Contact"
+                        label="WhatsApp Contact (without dashes)"
                         name="contact"
+                        type="tel"
+                        maxLength={11} // 03007654321
+                        placeholder="03007654321"
                         onChange={handleChange}
                         value={values.contact}
                         touched={touched.contact}
                         error={errors.contact}
+                        inputMode="numeric"
                       />
+
                       <InputField
                         label="Email Address"
                         name="email"
@@ -262,13 +275,18 @@ export default function CourseRegistrationForm() {
                         error={errors.email}
                       />
                       <InputField
-                        label="CNIC Number"
+                        label="CNIC Number (without dashes)"
                         name="cnic"
+                        type="tel"
+                        maxLength={13}
+                        placeholder="4210176543211"
                         onChange={handleChange}
                         value={values.cnic}
                         touched={touched.cnic}
                         error={errors.cnic}
+                        inputMode="numeric"
                       />
+
                       <div className="grid grid-cols-2 gap-3">
                         <SelectField
                           label="Gender"
@@ -370,7 +388,7 @@ export default function CourseRegistrationForm() {
 
       {/* --- Success Modal --- */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-md">
+        <div className="fixed inset-0 z-100 flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-md">
           <div className="bg-white w-full max-w-md rounded-[2.5rem] p-10 text-center shadow-2xl relative overflow-hidden animate-in zoom-in duration-300">
             <div className="w-24 h-24 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-5xl shadow-lg shadow-green-200">
               <FaCheckCircle />
@@ -403,14 +421,22 @@ export default function CourseRegistrationForm() {
 
             <div className="flex flex-col gap-3">
               <Link
+                href="https://chat.whatsapp.com/JVYy8KLuOle5n8SHYkeKHV"
+                target="_blank"
+                className="flex items-center justify-center gap-2 w-full bg-red-600 text-white font-black py-4 rounded-xl shadow-lg uppercase tracking-widest text-[11px] hover:scale-105 transition-transform"
+              >
+                <FaIdCard /> Join Student Whatsaap Group
+              </Link>
+              <Link
                 href="/status"
                 className="flex items-center justify-center gap-2 w-full bg-[#25D366] text-white font-black py-4 rounded-xl shadow-lg uppercase tracking-widest text-[11px] hover:scale-105 transition-transform"
               >
                 <FaIdCard /> Check Admission Status
               </Link>
+
               <button
                 onClick={() => setIsModalOpen(false)}
-                className="text-slate-400 font-black text-[10px] uppercase tracking-widest hover:text-red-600 transition-colors"
+                className="text-slate-800 font-black text-[12px] uppercase tracking-widest hover:text-red-600 transition-colors"
               >
                 Close Window
               </button>

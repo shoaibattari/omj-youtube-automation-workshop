@@ -184,7 +184,9 @@ const LandingPage = () => {
               <p className="text-[10px] uppercase font-black text-slate-400 tracking-widest">
                 Batch Starts
               </p>
-              <p className="font-black text-xl text-slate-900">1st Feb, 2026</p>
+              <p className="font-black text-xl text-slate-900">
+                After Ramadan 2026
+              </p>
               <p className="text-xs font-bold text-red-600 italic">
                 Every Sunday
               </p>
