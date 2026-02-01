@@ -45,7 +45,7 @@ export default function VideoModal({ isOpen, onClose, videoSrc }) {
             autoPlay
             className="w-full h-auto max-h-[70vh] rounded-md"
           />
-          <div className="p-4 flex justify-center gap-4 mt-4">
+          <div className="p-4 flex justify-center gap-4">
             <Link
               href="/registration"
               target="_blank"
