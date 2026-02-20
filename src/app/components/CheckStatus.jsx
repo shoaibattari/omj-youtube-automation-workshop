@@ -20,6 +20,7 @@ export default function StatusPage() {
   const [participant, setParticipant] = useState(null); // The selected person
   const [loading, setLoading] = useState(false);
   const [userImage, setUserImage] = useState(null);
+  const [type, setType] = useState("student"); // Default to student/course
 
   const cardRef = useRef(null);
   const dpRef = useRef(null);
@@ -30,7 +31,8 @@ export default function StatusPage() {
     setLoading(true);
     setParticipant(null); // Reset selection
     try {
-      const res = await fetch(`${baseUrl}/student/find?query=${query}`);
+      const endpoint = type === "student" ? "student/find" : "participant/find";
+      const res = await fetch(`${baseUrl}/${endpoint}?query=${query}`);
       const result = await res.json();
       if (result.status) {
         // Assume backend now returns an array in result.data
@@ -112,6 +114,33 @@ export default function StatusPage() {
           <h1 className="text-4xl font-black text-slate-900 uppercase tracking-tight mb-4">
             CHECK <span className="text-red-600">STATUS</span>
           </h1>
+          {/* TYPE SELECTION */}
+          <div className="flex justify-center gap-4 mb-6">
+            {["student", "event"].map((t) => (
+              <label key={t} className="flex items-center cursor-pointer group">
+                <input
+                  type="radio"
+                  name="searchType"
+                  className="hidden"
+                  checked={type === t}
+                  onChange={() => {
+                    setType(t);
+                    setResults([]); // Clear results when switching types
+                    setParticipant(null);
+                  }}
+                />
+                <div
+                  className={`px-6 py-2 rounded-full font-bold border-2 transition-all ${
+                    type === t
+                      ? "bg-red-600 border-red-600 text-white shadow-lg"
+                      : "bg-white border-slate-200 text-slate-500 hover:border-red-300"
+                  }`}
+                >
+                  {t === "student" ? "📚 Full Course" : "🎟️ Workshop / Event"}
+                </div>
+              </label>
+            ))}
+          </div>
           <div className="flex gap-2 p-2 bg-white rounded-3xl shadow-xl border border-slate-200">
             <input
               type="text"
@@ -207,7 +236,9 @@ export default function StatusPage() {
                       AUTOMATION
                     </h2>
                     <p className="text-[16px] tracking-[0.3em] font-bold text-red-400 uppercase">
-                      FUNDAMENTAL COURSE
+                      {type === "student"
+                        ? "FUNDAMENTAL COURSE"
+                        : "ONLINE WORKSHOP"}
                     </p>
                     <div className="mt-3 w-24 h-24 mx-auto rounded-full border-4 border-white overflow-hidden bg-slate-800 shadow-xl">
                       <img
@@ -222,14 +253,18 @@ export default function StatusPage() {
                         {participant.fullName}
                       </h3>
                       <p className="text-red-500 font-bold text-lg tracking-widest">
-                        {participant.studentId || "PARTICIPANT"}
+                        {participant.studentId ||
+                          participant.participantId ||
+                          "PARTICIPANT"}
                       </p>
 
                       <h3 className="text-xl font-black uppercase tracking-tighter leading-none">
                         {participant.sectionTime}
                       </h3>
                       <h3 className="text-xs font-black text-red-500 uppercase tracking-tighter leading-none">
-                        Student Identity Card
+                        {type === "student"
+                          ? "Student Identity Card"
+                          : "Event Entry Pass"}
                       </h3>
                     </div>
                   </div>

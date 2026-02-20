@@ -66,6 +66,12 @@ export default function Navbar() {
               scrolled={scrolled}
             />
             <NavLink
+              href="/online-workshop-registration"
+              icon={<HiOutlinePencilAlt />}
+              label="ONLINE WORKSHOP REGISTRATION"
+              scrolled={scrolled}
+            />
+            <NavLink
               href="https://maps.app.goo.gl/13eDSbC5hvYhka3u6"
               icon={<HiOutlineLocationMarker />}
               label="VENUE"
@@ -110,6 +116,12 @@ export default function Navbar() {
                 href="/registration"
                 icon={<HiOutlinePencilAlt />}
                 label="Course Admission"
+                onClick={() => setIsOpen(false)}
+              />
+              <MobileNavLink
+                href="/online-workshop-registration"
+                icon={<HiOutlinePencilAlt />}
+                label="ONLINE WORKSHOP REGISTRATION"
                 onClick={() => setIsOpen(false)}
               />
               <MobileNavLink
