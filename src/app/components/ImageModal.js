@@ -48,13 +48,13 @@ export default function ImageModal({ isOpen, onClose, imageSrc }) {
             className="w-full h-auto max-h-[70vh] object-contain"
           />
           <div className="p-4  flex justify-center gap-4">
-            <Link
+            {/* <Link
               href={"/registration"}
               target="_blank"
               className="px-6 py-2 bg-red-500 rounded-md hover:bg-red-900/40 text-white transition-colors"
             >
               Register Now!
-            </Link>
+            </Link> */}
             <button
               onClick={onClose}
               className="px-6 py-2 bg-white rounded-md hover:bg-white/40 text-red-500 transition-colors"

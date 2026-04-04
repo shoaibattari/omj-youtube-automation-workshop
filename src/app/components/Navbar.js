@@ -31,9 +31,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-100 transition-all duration-300 ${
-        scrolled || isOpen ? "py-2 bg-white shadow-xl" : "py-4 bg-transparent"
-      }`}
+      className={`fixed w-full z-100 transition-all duration-300 ${scrolled || isOpen ? "py-2 bg-white shadow-xl" : "py-4 bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center relative z-110">
@@ -46,11 +45,10 @@ export default function Navbar() {
               <FaYoutube className="text-white text-xl" />
             </div>
             <div
-              className={`text-sm md:text-xl font-black tracking-tighter transition-colors ${
-                scrolled || isOpen
-                  ? "text-slate-900"
-                  : "text-white drop-shadow-md"
-              }`}
+              className={`text-sm md:text-xl font-black tracking-tighter transition-colors ${scrolled || isOpen
+                ? "text-slate-900"
+                : "text-white drop-shadow-md"
+                }`}
             >
               OMJ{" "}
               <span className="text-red-600 uppercase">YouTube Automation</span>
@@ -59,18 +57,18 @@ export default function Navbar() {
 
           {/* Desktop Nav - Content Updated per Poster */}
           <div className="hidden lg:flex space-x-8 items-center">
-            <NavLink
+            {/* <NavLink
               href="/registration"
               icon={<HiOutlinePencilAlt />}
               label="ADMISSION"
               scrolled={scrolled}
-            />
-            <NavLink
+            /> */}
+            {/* <NavLink
               href="/online-workshop-registration"
               icon={<HiOutlinePencilAlt />}
               label="ONLINE WORKSHOP REGISTRATION"
               scrolled={scrolled}
-            />
+            /> */}
             <NavLink
               href="https://maps.app.goo.gl/13eDSbC5hvYhka3u6"
               icon={<HiOutlineLocationMarker />}
@@ -93,9 +91,8 @@ export default function Navbar() {
 
           {/* Mobile Toggle */}
           <button
-            className={`lg:hidden p-2 rounded-lg transition-colors ${
-              scrolled || isOpen ? "text-slate-900" : "text-white"
-            }`}
+            className={`lg:hidden p-2 rounded-lg transition-colors ${scrolled || isOpen ? "text-slate-900" : "text-white"
+              }`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
@@ -104,26 +101,25 @@ export default function Navbar() {
 
         {/* Mobile Full-Screen Overlay */}
         <div
-          className={`lg:hidden fixed inset-0 bg-white transition-all duration-500 ease-in-out ${
-            isOpen
-              ? "translate-y-0 opacity-100"
-              : "-translate-y-full opacity-0 pointer-events-none"
-          }`}
+          className={`lg:hidden fixed inset-0 bg-white transition-all duration-500 ease-in-out ${isOpen
+            ? "translate-y-0 opacity-100"
+            : "-translate-y-full opacity-0 pointer-events-none"
+            }`}
         >
           <div className="flex flex-col h-full pt-28 pb-10 px-8">
             <div className="flex flex-col space-y-4">
-              <MobileNavLink
+              {/* <MobileNavLink
                 href="/registration"
                 icon={<HiOutlinePencilAlt />}
                 label="Course Admission"
                 onClick={() => setIsOpen(false)}
-              />
-              <MobileNavLink
+              /> */}
+              {/* <MobileNavLink
                 href="/online-workshop-registration"
                 icon={<HiOutlinePencilAlt />}
                 label="ONLINE WORKSHOP REGISTRATION"
                 onClick={() => setIsOpen(false)}
-              />
+              /> */}
               <MobileNavLink
                 href="/status"
                 icon={<HiOutlineSearchCircle />}
@@ -161,9 +157,8 @@ function NavLink({ href, icon, label, scrolled }) {
   return (
     <Link
       href={href}
-      className={`flex items-center gap-1.5 font-black text-[11px] tracking-widest transition-all hover:text-red-500 uppercase ${
-        scrolled ? "text-slate-700" : "text-red-600 drop-shadow-md"
-      }`}
+      className={`flex items-center gap-1.5 font-black text-[11px] tracking-widest transition-all hover:text-red-500 uppercase ${scrolled ? "text-slate-700" : "text-red-600 drop-shadow-md"
+        }`}
     >
       <span className="text-lg text-red-600">{icon}</span>
       {label}

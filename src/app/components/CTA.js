@@ -62,7 +62,7 @@ export default function CTA() {
           </div>
         </div>
 
-        <Link
+        {/* <Link
           href={"/registration"}
           className="inline-flex w-full sm:w-fit bg-red-600 hover:bg-slate-900 text-white font-black py-6 px-16 rounded-4xl items-center justify-center mx-auto shadow-2xl shadow-red-900/30 transition-all duration-500 group hover:scale-105"
         >
@@ -70,7 +70,7 @@ export default function CTA() {
             Apply for Admission
           </span>
           <FaArrowRight className="ml-4 group-hover:translate-x-3 transition-transform text-2xl" />
-        </Link>
+        </Link> */}
 
         {/* Footer Credits */}
         <div className="mt-16 pt-10 border-t border-slate-200 flex flex-col items-center">

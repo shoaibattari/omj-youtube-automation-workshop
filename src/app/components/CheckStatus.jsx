@@ -115,7 +115,7 @@ export default function StatusPage() {
             CHECK <span className="text-red-600">STATUS</span>
           </h1>
           {/* TYPE SELECTION */}
-          <div className="flex justify-center gap-4 mb-6">
+          {/* <div className="flex justify-center gap-4 mb-6">
             {["student", "event"].map((t) => (
               <label key={t} className="flex items-center cursor-pointer group">
                 <input
@@ -140,7 +140,7 @@ export default function StatusPage() {
                 </div>
               </label>
             ))}
-          </div>
+          </div> */}
           <div className="flex gap-2 p-2 bg-white rounded-3xl shadow-xl border border-slate-200">
             <input
               type="text"

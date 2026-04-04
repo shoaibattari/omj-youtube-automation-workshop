@@ -73,14 +73,14 @@ const LandingPage = () => {
                 </span>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-5">
+            {/* <div className="flex flex-col sm:flex-row gap-5">
               <Link
                 href={"/registration"}
                 className="bg-red-600 text-white px-10 py-5 rounded-2xl font-black text-lg hover:bg-white hover:text-red-600 transition-all shadow-2xl shadow-red-900/20 text-center uppercase tracking-widest"
               >
                 Register Now – Don't Wait!
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div className="relative group">
@@ -182,10 +182,10 @@ const LandingPage = () => {
             </div>
             <div>
               <p className="text-[10px] uppercase font-black text-slate-400 tracking-widest">
-                Batch Starts
+                2nd Batch Starts
               </p>
               <p className="font-black text-xl text-slate-900">
-                After Ramadan 2026
+                {/* After Ramadan 2026 */} Announced Soon
               </p>
               <p className="text-xs font-bold text-red-600 italic">
                 Every Sunday

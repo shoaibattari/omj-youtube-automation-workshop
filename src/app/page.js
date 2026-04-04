@@ -9,18 +9,19 @@ import Navbar from "./components/Navbar";
 import ImageModal from "./components/ImageModal";
 import Gallery from "./components/Gallery";
 import VideoModal from "./components/VideoModal";
+import RegistrationClosed from "./components/RegistrationClosed";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Auto-open modal when component mounts
-  useEffect(() => {
-    setIsModalOpen(true);
-  }, []);
+  // useEffect(() => {
+  //   setIsModalOpen(true);
+  // }, []);
 
-  const handleClose = () => {
-    setIsModalOpen(false);
-  };
+  // const handleClose = () => {
+  //   setIsModalOpen(false);
+  // };
 
   const mediaData = [
     {
@@ -45,13 +46,14 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-dark text-white">
-      <VideoModal
+      {/* <VideoModal
         isOpen={isModalOpen}
         onClose={handleClose}
         videoSrc="/promo.mp4" // Update this path
-      />
+      /> */}
       <Navbar />
-      <Hero />
+      <RegistrationClosed />
+      {/* <Hero /> */}
 
       {/* <div>
         <Gallery mediaItems={mediaData} />

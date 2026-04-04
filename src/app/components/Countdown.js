@@ -17,7 +17,7 @@ export default function Countdown() {
   });
 
   // Updated Target Date per Poster: February 1, 2026, at 11:00 AM
-  const eventDate = "2026-03-29T11:00:00";
+  const eventDate = "2026-04-05T11:00:00";
 
   useEffect(() => {
     const target = new Date(eventDate).getTime();
@@ -74,7 +74,7 @@ export default function Countdown() {
                 Starting From
               </p>
               <span className="font-black text-white uppercase italic">
-                MarcH 29, 2026
+                April 05, 2026
               </span>
             </div>
           </div>
@@ -102,11 +102,10 @@ function TimeUnit({ value, label, highlight = false }) {
       <div
         className={`
         w-24 h-24 md:w-36 md:h-36 rounded-[2.5rem] flex flex-col items-center justify-center transition-all duration-500 transform group-hover:-translate-y-2
-        ${
-          highlight
+        ${highlight
             ? "bg-red-600 shadow-[0_20px_50px_rgba(220,38,38,0.3)] border-b-8 border-red-800"
             : "bg-slate-900 border border-slate-800 shadow-2xl group-hover:border-red-600/50"
-        }
+          }
       `}
       >
         <p className="text-4xl md:text-6xl font-black text-white leading-none tracking-tighter font-mono">
