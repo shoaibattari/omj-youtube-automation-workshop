@@ -1,12 +1,12 @@
 import React from "react";
-import CheckStatus from "../components/CheckStatus";
+import CheckStatus3 from "../components/CheckStatus3";
 import Navbar from "../components/Navbar";
 
 const page = () => {
   return (
     <>
       <Navbar />
-      <CheckStatus />
+      <CheckStatus3 />
     </>
   );
 };

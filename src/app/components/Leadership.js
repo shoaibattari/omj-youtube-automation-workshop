@@ -1,12 +1,17 @@
-import { FaUserTie, FaMicrophone, FaGraduationCap } from "react-icons/fa";
+import {
+  FaUserTie,
+  FaMicrophone,
+  FaGraduationCap,
+  FaStar,
+} from "react-icons/fa";
 
 export default function Leadership() {
   const organizers = [
     {
-      name: "Saba Vayani",
-      role: "Trainer / Mentor",
-      type: "speaker",
-      desc: "YouTube Automation Expert",
+      name: "Ms Saba Vayani",
+      role: "Lead Trainer",
+      type: "trainer",
+      desc: "YouTube Automation Expert & Digital Skills Mentor",
     },
     {
       name: "Shahid Adam Kath",
@@ -23,72 +28,86 @@ export default function Leadership() {
   ];
 
   return (
-    <section className="py-24 bg-white text-slate-900 border-t border-slate-100">
-      <div className="container mx-auto px-4 text-center">
-        {/* Section Heading */}
-        <div className="mb-16">
-          <p className="text-red-600 font-black tracking-[0.3em] uppercase text-xs mb-3">
-            Expertise & Management
+    <section className="relative py-28 bg-[#070707] overflow-hidden">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-125 h-125 bg-red-600/10 rounded-full blur-[120px]" />
+
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="text-center mb-20">
+          <p className="text-red-500 font-black uppercase tracking-[0.35em] text-xs mb-4">
+            Workshop Leadership
           </p>
-          <h2 className="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tighter italic">
-            Course <span className="text-red-600">Leadership</span>
+
+          <h2 className="text-5xl md:text-6xl font-black text-white uppercase tracking-tight">
+            Meet The Team
           </h2>
-          <div className="w-20 h-1.5 bg-slate-900 mx-auto rounded-full"></div>
+
+          <p className="mt-5 text-white/50 max-w-2xl mx-auto">
+            Learn from experienced trainers and community leaders guiding this
+            workshop.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {organizers.map((leader, index) => (
             <div
               key={index}
-              className={`relative p-10 rounded-[2.5rem] border transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group bg-white ${
-                leader.type === "speaker"
-                  ? "border-red-600 shadow-xl shadow-red-50"
-                  : "border-slate-100"
+              className={`relative rounded-[2rem] border backdrop-blur-xl p-8 transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl ${
+                leader.type === "trainer"
+                  ? "bg-gradient-to-b from-red-600/20 to-black border-red-500/40 shadow-red-600/20"
+                  : "bg-white/5 border-white/10"
               }`}
             >
-              {/* Icon Badge */}
-              <div
-                className={`w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-8 transition-all duration-500 transform group-hover:rotate-6 ${
-                  leader.type === "speaker"
-                    ? "bg-red-600 text-white shadow-lg shadow-red-200"
-                    : "bg-slate-900 text-white shadow-lg shadow-slate-200"
-                }`}
-              >
-                {leader.type === "speaker" ? (
-                  <FaMicrophone size={28} />
-                ) : leader.role.includes("Chairman") ? (
-                  <FaUserTie size={28} />
-                ) : (
-                  <FaGraduationCap size={28} />
-                )}
-              </div>
-
-              <h3 className="text-2xl font-black mb-2 tracking-tighter uppercase italic">
-                {leader.name}
-              </h3>
-
-              <div className="min-h-15 flex flex-col justify-center">
-                <p className="text-red-600 font-black text-xs uppercase mb-3 tracking-widest">
-                  {leader.role}
-                </p>
-                <p className="text-slate-400 text-xs font-bold uppercase tracking-tighter leading-relaxed">
-                  {leader.desc}
-                </p>
-              </div>
-
-              {leader.type === "speaker" && (
-                <div className="absolute top-6 right-6 bg-red-600 text-white text-[9px] font-black px-3 py-1 rounded-full uppercase tracking-widest animate-pulse">
-                  Guest Mentor
+              {leader.type === "trainer" && (
+                <div className="absolute top-5 right-5 bg-red-600 text-white px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest flex items-center gap-2">
+                  <FaStar />
+                  Featured Trainer
                 </div>
               )}
+
+              <div className="flex justify-center mb-8">
+                <div
+                  className={`w-28 h-28 rounded-full flex items-center justify-center text-4xl ${
+                    leader.type === "trainer"
+                      ? "bg-red-600 text-white shadow-lg shadow-red-600/30"
+                      : "bg-slate-800 text-white"
+                  }`}
+                >
+                  {leader.type === "trainer" ? (
+                    <FaMicrophone />
+                  ) : leader.role.includes("Chairman") ? (
+                    <FaUserTie />
+                  ) : (
+                    <FaGraduationCap />
+                  )}
+                </div>
+              </div>
+
+              <div className="text-center">
+                <h3 className="text-3xl font-black text-white mb-3">
+                  {leader.name}
+                </h3>
+
+                <p
+                  className={`font-black uppercase tracking-widest text-xs mb-4 ${
+                    leader.type === "trainer"
+                      ? "text-yellow-300"
+                      : "text-red-500"
+                  }`}
+                >
+                  {leader.role}
+                </p>
+
+                <p className="text-white/60 leading-relaxed">{leader.desc}</p>
+              </div>
             </div>
           ))}
         </div>
 
-        {/* Support Text */}
-        <p className="mt-16 text-slate-400 font-bold text-[10px] uppercase tracking-[0.5em]">
-          Empowering the community through digital skills
-        </p>
+        <div className="mt-20 text-center">
+          <p className="text-white/30 uppercase text-xs tracking-[0.5em] font-bold">
+            Empowering The Community Through Digital Skills
+          </p>
+        </div>
       </div>
     </section>
   );

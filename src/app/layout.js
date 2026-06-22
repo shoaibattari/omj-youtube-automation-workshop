@@ -13,34 +13,53 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  // Title poster ke mutabiq update kiya gaya hai
-  title: "Fundamentals of YouTube Automation Course | OMJ Karachi",
+  title:
+    "YouTube Automation Workshop 3.0 | Zero to Pro Masterclass | The Okhai Memon Jamat",
+
   description:
-    "Learn to build income-generating YouTube channels. Batch starts 1st Feb 2026. 8 Power-Packed Sessions every Sunday at Husein Ebrahim Sports Complex.", //
+    "Join YouTube Automation Workshop 3.0 presented by The Okhai Memon Jamat. Learn YouTube Automation, AI Tools, Content Strategy, Channel Growth, Monetization and practical workflows. Event Date: 28 June 2026, Sunday at 05:00 PM. Venue: 71 Banquet, Karachi.",
+
   keywords: [
-    "YouTube Automation",
-    "Faceless Channels",
-    "OMJ Course",
-    "Digital Income Karachi",
+    "YouTube Automation Workshop",
+    "YouTube Automation Karachi",
+    "YouTube Automation Pakistan",
+    "AI Workshop Karachi",
+    "AI Tools Training",
+    "Content Creation",
+    "Content Strategy",
+    "YouTube Growth",
+    "YouTube Monetization",
+    "Faceless YouTube Channel",
+    "YouTube Business",
+    "Digital Skills Training",
+    "YouTube Automation Workshop 3.0",
+    "Zero to Pro Masterclass",
     "Okhai Memon Jamat",
+    "OMJ",
+    "Social Welfare Committee",
+    "Karachi Workshop",
+    "YouTube Training",
+    "Creatomation Studio",
   ],
-  authors: [{ name: "Okhai Memon Jamat" }],
+
+  authors: [
+    {
+      name: "The Okhai Memon Jamat",
+      url: "https://omj-youtube-automation-course.vercel.app/",
+    },
+  ],
+
+  creator: "Creatomation Studio",
+  publisher: "The Okhai Memon Jamat",
+
+  metadataBase: new URL("https://omj-youtube-automation-course.vercel.app/"),
+
+  alternates: {
+    canonical: "/",
+  },
+
   openGraph: {
-    title: "YouTube Automation Course Admission Open - OMJ",
-    description:
-      "Turn your ideas into income. Exclusive 50% OFF for Memon Community Students!", //
-    url: "https://omj-youtube-automation-course.vercel.app/",
-    siteName: "OMJ YouTube Course",
-    images: [
-      {
-        url: "/main-poster.jpeg", // Poster image path
-        width: 1200,
-        height: 630,
-        alt: "YouTube Automation Course Poster",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
+    title: "YouTube Automation Workshop 3.0 | Zero to Pro Masterclass",
   },
 };
 
