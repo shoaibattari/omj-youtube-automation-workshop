@@ -12,11 +12,11 @@ import {
 export default function Countdown() {
   const event = {
     title: "YouTube Automation Workshop 3.0",
-    date: "2026-06-28",
-    time: "17:00:00",
-    displayDate: "28 June 2026",
+    date: "2026-07-05",
+    time: "14:00:00",
+    displayDate: "05 July 2026",
     displayDay: "Sunday",
-    displayTime: "05:00 PM",
+    displayTime: "02:00 PM",
     timeNote: "Onwards",
     venue: "71 Banquet",
     venueDetail: "Near University of Karachi",

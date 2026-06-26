@@ -13,6 +13,7 @@ import {
   HiOutlineSearchCircle,
 } from "react-icons/hi";
 import Link from "next/link";
+import { BiUser } from "react-icons/bi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,16 +66,16 @@ export default function Navbar() {
               <NavLink
                 href="https://forms.gle/LxQeXoz6CKPmcbmf6"
                 icon={<HiOutlinePencilAlt />}
-                label="Registrater Now"
+                label="Register Now"
                 scrolled={scrolled}
               />
             }
-            {/* <NavLink
-              href="/online-workshop-registration"
-              icon={<HiOutlinePencilAlt />}
-              label="ONLINE WORKSHOP REGISTRATION"
+            <NavLink
+              href="/create-dp"
+              icon={<BiUser />}
+              label="Create DP"
               scrolled={scrolled}
-            /> */}
+            />
             <NavLink
               href="https://maps.app.goo.gl/C1BGaqDTnfH3QUtU8"
               icon={<HiOutlineLocationMarker />}
@@ -122,12 +123,12 @@ export default function Navbar() {
                 label="Register Now"
                 onClick={() => setIsOpen(false)}
               />
-              {/* <MobileNavLink
-                href="/online-workshop-registration"
-                icon={<HiOutlinePencilAlt />}
-                label="ONLINE WORKSHOP REGISTRATION"
-                onClick={() => setIsOpen(false)}  
-              /> */}
+              <MobileNavLink
+                href="/create-dp"
+                icon={<BiUser />}
+                label="Create DP"
+                onClick={() => setIsOpen(false)}
+              />
               <MobileNavLink
                 href="/status"
                 icon={<HiOutlineSearchCircle />}

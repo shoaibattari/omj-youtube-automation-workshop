@@ -8,7 +8,9 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaCode,
+  FaTiktok,
 } from "react-icons/fa";
+import { FaLinkedin, FaThreads } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -45,13 +47,6 @@ export default function Footer() {
                 Empowering the community through practical digital skills,
                 AI-powered learning, and professional growth opportunities.
               </p>
-
-              <div className="mt-8 flex flex-wrap gap-3">
-                <SocialIcon href="#" icon={<FaFacebook />} />
-                <SocialIcon href="#" icon={<FaInstagram />} />
-                <SocialIcon href="#" icon={<FaGlobe />} />
-                <SocialIcon href="#" icon={<FaYoutube />} />
-              </div>
             </div>
           </div>
 
@@ -136,6 +131,32 @@ export default function Footer() {
               </p>
             </div>
           </Link>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <SocialIcon
+              href="https://www.facebook.com/creatomationstudio"
+              icon={<FaFacebook />}
+            />
+            <SocialIcon
+              href="https://whatsapp.com/channel/0029VbD31FL5Ui2Tb7S1bK1J"
+              icon={<FaWhatsapp />}
+            />
+            <SocialIcon
+              href="https://www.instagram.com/creatomationstudio"
+              icon={<FaInstagram />}
+            />
+            <SocialIcon
+              href="https://www.tiktok.com/@creatomationstudio"
+              icon={<FaTiktok />}
+            />
+            <SocialIcon
+              href="https://www.threads.com/@creatomationstudio"
+              icon={<FaThreads />}
+            />
+            <SocialIcon
+              href="https://www.linkedin.com/company/creatomation-studio"
+              icon={<FaLinkedin />}
+            />
+          </div>
         </div>
       </div>
     </footer>

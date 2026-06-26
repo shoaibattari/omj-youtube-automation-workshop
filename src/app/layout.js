@@ -17,7 +17,7 @@ export const metadata = {
     "YouTube Automation Workshop 3.0 | Zero to Pro Masterclass | The Okhai Memon Jamat",
 
   description:
-    "Join YouTube Automation Workshop 3.0 presented by The Okhai Memon Jamat. Learn YouTube Automation, AI Tools, Content Strategy, Channel Growth, Monetization and practical workflows. Event Date: 28 June 2026, Sunday at 05:00 PM. Venue: 71 Banquet, Karachi.",
+    "Join YouTube Automation Workshop 3.0 presented by The Okhai Memon Jamat. Learn YouTube Automation, AI Tools, Content Strategy, Channel Growth, Monetization and practical workflows. Event Date: 05 July 2026, Sunday at 02:00 PM. Venue: 71 Banquet, Karachi.",
 
   keywords: [
     "YouTube Automation Workshop",
@@ -41,26 +41,6 @@ export const metadata = {
     "YouTube Training",
     "Creatomation Studio",
   ],
-
-  authors: [
-    {
-      name: "The Okhai Memon Jamat",
-      url: "https://omj-youtube-automation-course.vercel.app/",
-    },
-  ],
-
-  creator: "Creatomation Studio",
-  publisher: "The Okhai Memon Jamat",
-
-  metadataBase: new URL("https://omj-youtube-automation-course.vercel.app/"),
-
-  alternates: {
-    canonical: "/",
-  },
-
-  openGraph: {
-    title: "YouTube Automation Workshop 3.0 | Zero to Pro Masterclass",
-  },
 };
 
 export default function RootLayout({ children }) {

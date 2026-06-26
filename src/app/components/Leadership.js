@@ -11,7 +11,8 @@ export default function Leadership() {
       name: "Ms Saba Vayani",
       role: "Lead Trainer",
       type: "trainer",
-      desc: "YouTube Automation Expert & Digital Skills Mentor",
+      desc:
+        "Founder Creatomation Studio, YouTube Automation Expert & Digital Skills Mentor",
     },
     {
       name: "Shahid Adam Kath",

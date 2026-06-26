@@ -64,25 +64,30 @@ export default function Home() {
               >
                 Register Now — Rs. 200
               </a>
-
-              <a
-                href="#details"
-                className="rounded-2xl border border-white/15 bg-white/10 px-8 py-4 text-center font-black uppercase backdrop-blur hover:bg-white/20 transition"
+              <Link
+                href="/status"
+                className="rounded-2xl border border-white/15 bg-green-700 px-8 py-4 text-center font-black uppercase backdrop-blur hover:bg-green-900 transition"
               >
-                View Details
+                View Status
+              </Link>
+              <a
+                href="/create-dp"
+                className="rounded-2xl border border-white/15 bg-orange-700 px-8 py-4 text-center font-black uppercase backdrop-blur hover:bg-orange-900 transition"
+              >
+                Create DP
               </a>
             </div>
 
             <div className="mt-10 grid grid-cols-3 gap-3 max-w-xl">
               <div className="rounded-3xl border border-white/10 bg-white/10 p-5 backdrop-blur">
                 <p className="text-white/50 text-sm font-bold">Date</p>
-                <h3 className="text-2xl font-black">28 Jun</h3>
+                <h3 className="text-2xl font-black">5 July</h3>
                 <p className="text-red-300 font-bold">Sunday</p>
               </div>
 
               <div className="rounded-3xl border border-white/10 bg-white/10 p-5 backdrop-blur">
                 <p className="text-white/50 text-sm font-bold">Time</p>
-                <h3 className="text-2xl font-black">05:00</h3>
+                <h3 className="text-2xl font-black">02:00</h3>
                 <p className="text-red-300 font-bold">PM Onwards</p>
               </div>
 
