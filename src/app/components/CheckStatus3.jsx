@@ -55,12 +55,13 @@ export default function StatusPage() {
 
       const matchedData = workshopData.filter((person) => {
         const personPhone = normalizePhone(person.whatsaapNumber);
+        const participantId = person.participantId?.toLowerCase() || "";
+
+        // Last 3 digits of Participant ID
+        const last3Digits = participantId.slice(-3);
 
         return (
-          person.fullName?.toLowerCase().includes(searchText) ||
-          person.email?.toLowerCase().includes(searchText) ||
-          person.participantId?.toLowerCase().includes(searchText) ||
-          personPhone.includes(normalizedSearch)
+          personPhone === normalizedSearch || last3Digits === searchText // Exact phone number match // e.g. 255
         );
       });
 
@@ -76,6 +77,10 @@ export default function StatusPage() {
 
       const pendingData = matchedData.filter(
         (person) => person.status?.toLowerCase() === "pending"
+      );
+
+      const rejectedData = matchedData.filter(
+        (person) => person.status?.toLowerCase() === "rejected"
       );
 
       if (paidData.length > 0) {
@@ -95,6 +100,14 @@ export default function StatusPage() {
       if (pendingData.length > 0) {
         setSearchStatus("pending");
         toast.warning("Your registration is found but payment is pending.");
+        return;
+      }
+
+      if (rejectedData.length > 0) {
+        setSearchStatus("rejected");
+        toast.error(
+          "Registration rejected. Participants under 13 years of age are not allowed to attend the workshop."
+        );
         return;
       }
     } catch (err) {
@@ -217,6 +230,24 @@ export default function StatusPage() {
               </a>
             </div>
           )}
+
+          {searchStatus === "rejected" && (
+            <div className="max-w-2xl mx-auto mt-8 rounded-3xl border-l-8 border-red-600 bg-red-50 p-8 shadow-lg">
+              <h2 className="text-2xl font-black text-red-700 uppercase">
+                Registration Rejected
+              </h2>
+
+              <p className="mt-3 text-slate-700 font-medium">
+                We appreciate your interest.
+                <br />
+                Unfortunately, your registration has been rejected because the
+                participant is <strong>under 13 years of age</strong>.
+                <br />
+                As per workshop policy, participants below 13 years are not
+                permitted to attend.
+              </p>
+            </div>
+          )}
         </div>
 
         {results.length > 1 && !participant && (
@@ -306,7 +337,7 @@ export default function StatusPage() {
                       WORKSHOP 3.0
                     </p>
 
-                    <div className="mt-3 w-24 h-24 mx-auto rounded-full border-4 border-white overflow-hidden bg-slate-800 shadow-xl">
+                    <div className="mt-1 w-24 h-24 mx-auto rounded-full border-4 border-white overflow-hidden bg-slate-800 shadow-xl">
                       <img
                         src={userImage || "/avatar.png"}
                         crossOrigin="anonymous"
@@ -315,8 +346,8 @@ export default function StatusPage() {
                       />
                     </div>
 
-                    <div className="mt-3 space-y-1">
-                      <h3 className="text-2xl font-black uppercase tracking-tighter leading-none">
+                    <div className="space-y-1">
+                      <h3 className="text-2xl mt-1 font-black uppercase tracking-tighter leading-none">
                         {participant.fullName}
                       </h3>
 
@@ -329,7 +360,20 @@ export default function StatusPage() {
                       </h3>
                     </div>
                   </div>
-
+                  {participant?.youtube && (
+                    <div className="mt-1 flex justify-center">
+                      <span className="bg-white/10 backdrop-blur-md border border-white/20 text-yellow-400 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
+                        ⭐ Youtube Automation Batch-1
+                      </span>
+                    </div>
+                  )}
+                  {participant?.digitalMarketing && (
+                    <div className="mt-1 flex justify-center">
+                      <span className="bg-white/10 backdrop-blur-md border border-white/20 text-yellow-400 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
+                        ⭐ Digital Marketing Batch-2
+                      </span>
+                    </div>
+                  )}
                   <div className="absolute bottom-0 w-full bg-white py-4 px-8 flex justify-between items-center text-slate-900">
                     <p className="text-[18px] text-green-600 font-black uppercase">
                       OMJ Social Welfare Committee
