@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import {
   FaYoutube,
@@ -32,9 +33,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-100 transition-all duration-300 ${
-        scrolled || isOpen ? "py-2 bg-white shadow-xl" : "py-4 bg-transparent"
-      }`}
+      className={`fixed w-full z-100 transition-all duration-300 ${scrolled || isOpen ? "py-2 bg-white shadow-xl" : "py-4 bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center relative z-110">
@@ -43,19 +43,18 @@ export default function Navbar() {
             href="/"
             className="flex items-center gap-2 group cursor-pointer"
           >
-            <div className="bg-red-600 p-1.5 rounded-lg shadow-lg group-hover:scale-110 transition-transform">
+            <div className="bg-[#ff1493] p-1.5 rounded-lg shadow-lg group-hover:scale-110 transition-transform">
               <FaYoutube className="text-white text-xl" />
             </div>
             <div
-              className={`text-sm md:text-xl font-black tracking-tighter transition-colors ${
-                scrolled || isOpen
-                  ? "text-slate-900"
-                  : "text-white drop-shadow-md"
-              }`}
+              className={`text-sm md:text-xl font-black tracking-tighter transition-colors ${scrolled || isOpen
+                ? "text-slate-900"
+                : "text-white drop-shadow-md"
+                }`}
             >
               OMJ{" "}
-              <span className="text-red-600 uppercase">
-                YouTube Automation Workshop 3.0
+              <span className="text-[#ff1493] uppercase">
+                HUNAR SE AMDANI TAK
               </span>
             </div>
           </Link>
@@ -64,7 +63,7 @@ export default function Navbar() {
           <div className="hidden lg:flex space-x-8 items-center">
             {
               <NavLink
-                href="https://forms.gle/LxQeXoz6CKPmcbmf6"
+                href="https://forms.gle/BYpufBDAt7hQ58kg6"
                 icon={<HiOutlinePencilAlt />}
                 label="Register Now"
                 scrolled={scrolled}
@@ -77,7 +76,7 @@ export default function Navbar() {
               scrolled={scrolled}
             />
             <NavLink
-              href="https://maps.app.goo.gl/C1BGaqDTnfH3QUtU8"
+              href="https://maps.app.goo.gl/8g1Q9ErenU87USUf7"
               icon={<HiOutlineLocationMarker />}
               label="VENUE"
               scrolled={scrolled}
@@ -90,7 +89,7 @@ export default function Navbar() {
             />
             <Link
               href="/status"
-              className="bg-red-600 text-white px-6 py-2.5 rounded-xl font-black hover:bg-slate-900 transition-all flex items-center gap-2 shadow-lg hover:shadow-red-200 uppercase text-xs tracking-widest"
+              className="bg-[#ff1493] text-white px-6 py-2.5 rounded-xl font-black hover:bg-slate-900 transition-all flex items-center gap-2 shadow-lg hover:shadow-pink-200 uppercase text-xs tracking-widest"
             >
               <FaIdCard /> Student Portal
             </Link>
@@ -98,9 +97,8 @@ export default function Navbar() {
 
           {/* Mobile Toggle */}
           <button
-            className={`lg:hidden p-2 rounded-lg transition-colors ${
-              scrolled || isOpen ? "text-slate-900" : "text-white"
-            }`}
+            className={`lg:hidden p-2 rounded-lg transition-colors ${scrolled || isOpen ? "text-slate-900" : "text-white"
+              }`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
@@ -109,16 +107,15 @@ export default function Navbar() {
 
         {/* Mobile Full-Screen Overlay */}
         <div
-          className={`lg:hidden fixed inset-0 bg-white transition-all duration-500 ease-in-out ${
-            isOpen
-              ? "translate-y-0 opacity-100"
-              : "-translate-y-full opacity-0 pointer-events-none"
-          }`}
+          className={`lg:hidden fixed inset-0 bg-white transition-all duration-500 ease-in-out ${isOpen
+            ? "translate-y-0 opacity-100"
+            : "-translate-y-full opacity-0 pointer-events-none"
+            }`}
         >
           <div className="flex flex-col h-full pt-28 pb-10 px-8">
             <div className="flex flex-col space-y-4">
               <MobileNavLink
-                href="https://forms.gle/LxQeXoz6CKPmcbmf6"
+                href="https://forms.gle/BYpufBDAt7hQ58kg6"
                 icon={<HiOutlinePencilAlt />}
                 label="Register Now"
                 onClick={() => setIsOpen(false)}
@@ -136,7 +133,7 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               />
               <MobileNavLink
-                href="https://maps.app.goo.gl/C1BGaqDTnfH3QUtU8"
+                href="https://maps.app.goo.gl/8g1Q9ErenU87USUf7"
                 icon={<HiOutlineLocationMarker />}
                 label="Event Location"
                 onClick={() => setIsOpen(false)}
@@ -146,7 +143,7 @@ export default function Navbar() {
             <div className="mt-auto space-y-4">
               <Link
                 href="/status"
-                className="flex items-center justify-center bg-red-600 text-white p-5 rounded-2xl font-black text-lg shadow-xl active:scale-95 transition-transform uppercase italic tracking-tighter"
+                className="flex items-center justify-center bg-[#ff1493] text-white p-5 rounded-2xl font-black text-lg shadow-xl active:scale-95 transition-transform uppercase italic tracking-tighter"
                 onClick={() => setIsOpen(false)}
               >
                 <FaIdCard className="mr-3 text-2xl" /> Access Student ID
@@ -166,11 +163,10 @@ function NavLink({ href, icon, label, scrolled }) {
   return (
     <Link
       href={href}
-      className={`flex items-center gap-1.5 font-black text-[11px] tracking-widest transition-all hover:text-red-500 uppercase ${
-        scrolled ? "text-slate-700" : "text-red-600 drop-shadow-md"
-      }`}
+      className={`flex items-center gap-1.5 font-black text-[11px] tracking-widest transition-all hover:text-[#ff1493] uppercase ${scrolled ? "text-slate-700" : "text-[#ff69b4] drop-shadow-md"
+        }`}
     >
-      <span className="text-lg text-red-600">{icon}</span>
+      <span className="text-lg text-[#ff1493]">{icon}</span>
       {label}
     </Link>
   );
@@ -181,9 +177,9 @@ function MobileNavLink({ href, icon, label, onClick }) {
     <Link
       href={href}
       onClick={onClick}
-      className="flex items-center gap-5 p-5 text-slate-900 border-b border-slate-50 font-black text-xl active:bg-red-50 transition-colors uppercase italic tracking-tighter"
+      className="flex items-center gap-5 p-5 text-slate-900 border-b border-slate-50 font-black text-xl active:bg-pink-50 transition-colors uppercase italic tracking-tighter"
     >
-      <span className="text-red-600 text-2xl">{icon}</span>
+      <span className="text-[#ff1493] text-2xl">{icon}</span>
       {label}
     </Link>
   );

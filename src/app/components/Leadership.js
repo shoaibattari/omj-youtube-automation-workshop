@@ -8,11 +8,17 @@ import {
 export default function Leadership() {
   const organizers = [
     {
-      name: "Ms Saba Vayani",
+      name: "Ms. Saba Vayani",
       role: "Lead Trainer",
       type: "trainer",
       desc:
-        "Founder Creatomation Studio, YouTube Automation Expert & Digital Skills Mentor",
+        "AI & YouTube Automation, Social Media Marketing Expert & Motivational Coach",
+    },
+    {
+      name: "Mst. Kulsoom Abdul Sattar Jakhura",
+      role: "Chairperson",
+      type: "organizer",
+      desc: "OMJ Vocational Centre (Female)",
     },
     {
       name: "Shahid Adam Kath",
@@ -20,21 +26,15 @@ export default function Leadership() {
       type: "organizer",
       desc: "Social Welfare Committee & Joint Secretary OMJ",
     },
-    {
-      name: "M. Arif Tayyab Suriya",
-      role: "Hon. General Secretary",
-      type: "organizer",
-      desc: "Okhai Memon Jamat",
-    },
   ];
 
   return (
-    <section className="relative py-28 bg-[#070707] overflow-hidden">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-125 h-125 bg-red-600/10 rounded-full blur-[120px]" />
+    <section className="relative py-28 bg-[#0a0a1a] overflow-hidden">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-125 h-125 bg-[#ff1493]/10 rounded-full blur-[120px]" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
-          <p className="text-red-500 font-black uppercase tracking-[0.35em] text-xs mb-4">
+          <p className="text-[#ff1493] font-black uppercase tracking-[0.35em] text-xs mb-4">
             Workshop Leadership
           </p>
 
@@ -52,14 +52,13 @@ export default function Leadership() {
           {organizers.map((leader, index) => (
             <div
               key={index}
-              className={`relative rounded-[2rem] border backdrop-blur-xl p-8 transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl ${
-                leader.type === "trainer"
-                  ? "bg-gradient-to-b from-red-600/20 to-black border-red-500/40 shadow-red-600/20"
-                  : "bg-white/5 border-white/10"
-              }`}
+              className={`relative rounded-[2rem] border backdrop-blur-xl p-8 transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl ${leader.type === "trainer"
+                ? "bg-gradient-to-b from-[#ff1493]/20 to-black border-[#ff1493]/40 shadow-pink-500/20"
+                : "bg-white/5 border-white/10"
+                }`}
             >
               {leader.type === "trainer" && (
-                <div className="absolute top-5 right-5 bg-red-600 text-white px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest flex items-center gap-2">
+                <div className="absolute top-5 right-5 bg-[#ff1493] text-white px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest flex items-center gap-2 shadow-lg shadow-pink-500/30">
                   <FaStar />
                   Featured Trainer
                 </div>
@@ -67,15 +66,14 @@ export default function Leadership() {
 
               <div className="flex justify-center mb-8">
                 <div
-                  className={`w-28 h-28 rounded-full flex items-center justify-center text-4xl ${
-                    leader.type === "trainer"
-                      ? "bg-red-600 text-white shadow-lg shadow-red-600/30"
-                      : "bg-slate-800 text-white"
-                  }`}
+                  className={`w-28 h-28 rounded-full flex items-center justify-center text-4xl ${leader.type === "trainer"
+                    ? "bg-[#ff1493] text-white shadow-lg shadow-pink-500/30"
+                    : "bg-slate-800 text-white"
+                    }`}
                 >
                   {leader.type === "trainer" ? (
                     <FaMicrophone />
-                  ) : leader.role.includes("Chairman") ? (
+                  ) : leader.role.includes("Chairman") || leader.role.includes("Chairperson") ? (
                     <FaUserTie />
                   ) : (
                     <FaGraduationCap />
@@ -89,11 +87,10 @@ export default function Leadership() {
                 </h3>
 
                 <p
-                  className={`font-black uppercase tracking-widest text-xs mb-4 ${
-                    leader.type === "trainer"
-                      ? "text-yellow-300"
-                      : "text-red-500"
-                  }`}
+                  className={`font-black uppercase tracking-widest text-xs mb-4 ${leader.type === "trainer"
+                    ? "text-[#ff69b4]"
+                    : "text-[#ff1493]"
+                    }`}
                 >
                   {leader.role}
                 </p>

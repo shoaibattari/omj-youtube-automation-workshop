@@ -14,31 +14,25 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title:
-    "YouTube Automation Workshop 3.0 | Zero to Pro Masterclass | The Okhai Memon Jamat",
+    "HUNAR SE AMDANI TAK | Turn Your Skills into a Successful Business | The Okhai Memon Jamat",
 
   description:
-    "Join YouTube Automation Workshop 3.0 presented by The Okhai Memon Jamat. Learn YouTube Automation, AI Tools, Content Strategy, Channel Growth, Monetization and practical workflows. Event Date: 05 July 2026, Sunday at 02:00 PM. Venue: 71 Banquet, Karachi.",
+    "Join 'HUNAR SE AMDANI TAK' Special Workshop for Women presented by The Okhai Memon Jamat. Learn AI Tools, Social Media, Personal Branding, and Online Selling. Trainer: Ms. Saba Vayani. Event Date: Wednesday, 5th August 2026 at 4:00 PM. Venue: Husien Ebrahim Sports Complex & Community Centre, Hussainabad.",
 
   keywords: [
-    "YouTube Automation Workshop",
-    "YouTube Automation Karachi",
-    "YouTube Automation Pakistan",
-    "AI Workshop Karachi",
+    "Hunar Se Aamdani Tak",
+    "Turn Your Skills into a Successful Business",
+    "Women Workshop Karachi",
     "AI Tools Training",
-    "Content Creation",
-    "Content Strategy",
-    "YouTube Growth",
-    "YouTube Monetization",
-    "Faceless YouTube Channel",
-    "YouTube Business",
-    "Digital Skills Training",
-    "YouTube Automation Workshop 3.0",
-    "Zero to Pro Masterclass",
+    "Social Media Marketing",
+    "Personal Branding",
+    "Online Selling",
     "Okhai Memon Jamat",
     "OMJ",
+    "Vocational Centre",
     "Social Welfare Committee",
     "Karachi Workshop",
-    "YouTube Training",
+    "Saba Vayani",
     "Creatomation Studio",
   ],
 };

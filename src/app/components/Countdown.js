@@ -11,16 +11,16 @@ import {
 
 export default function Countdown() {
   const event = {
-    title: "YouTube Automation Workshop 3.0",
-    date: "2026-07-05",
-    time: "14:00:00",
-    displayDate: "05 July 2026",
-    displayDay: "Sunday",
-    displayTime: "02:00 PM",
+    title: "HUNAR SE AMDANI TAK",
+    date: "2026-08-05",
+    time: "16:00:00",
+    displayDate: "05 August 2026",
+    displayDay: "Wednesday",
+    displayTime: "04:00 PM",
     timeNote: "Onwards",
-    venue: "71 Banquet",
-    venueDetail: "Near University of Karachi",
-    fee: "Rs. 200",
+    venue: "Husien Ebrahim Sports Complex & Community Centre",
+    venueDetail: "Hussainabad",
+    fee: "Free Registration",
   };
 
   const eventDate = `${event.date}T${event.time}`;
@@ -68,14 +68,14 @@ export default function Countdown() {
   }, [eventDate]);
 
   return (
-    <section className="relative overflow-hidden bg-[#070707] py-24 text-center text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(220,38,38,0.25),transparent_35%)]"></div>
-      <div className="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-red-600/20 blur-[120px]"></div>
-      <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-yellow-400/10 blur-[100px]"></div>
+    <section className="relative overflow-hidden bg-[#0a0a1a] py-24 text-center text-white">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,20,147,0.2),transparent_35%)]"></div>
+      <div className="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-[#ff1493]/20 blur-[120px]"></div>
+      <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-[#ff69b4]/10 blur-[100px]"></div>
 
       <div className="container relative z-10 mx-auto px-4">
-        <div className="mb-8 inline-flex items-center rounded-full border border-red-500/30 bg-red-600/15 px-6 py-2 text-yellow-300 shadow-lg shadow-red-900/20">
-          <FaFire className="mr-2 animate-bounce text-red-500" />
+        <div className="mb-8 inline-flex items-center rounded-full border border-[#ff1493]/30 bg-[#ff1493]/15 px-6 py-2 text-[#ff69b4] shadow-lg shadow-pink-950/20">
+          <FaFire className="mr-2 animate-bounce text-[#ff1493]" />
           <span className="text-[10px] font-black uppercase tracking-widest md:text-xs">
             Don’t Miss Out — Very Few Seats Available
           </span>
@@ -85,7 +85,7 @@ export default function Countdown() {
           Event Starts In
         </h2>
 
-        <p className="mx-auto mb-3 max-w-2xl text-xl font-black text-red-500 md:text-2xl">
+        <p className="mx-auto mb-3 max-w-2xl text-xl font-black text-[#ff1493] md:text-2xl">
           {event.title}
         </p>
 
@@ -95,8 +95,8 @@ export default function Countdown() {
         </p>
 
         {eventStarted ? (
-          <div className="mx-auto max-w-2xl rounded-[2rem] border border-red-500/30 bg-white/10 p-8 backdrop-blur">
-            <h3 className="text-3xl font-black text-yellow-300">
+          <div className="mx-auto max-w-2xl rounded-[2rem] border border-[#ff1493]/30 bg-white/10 p-8 backdrop-blur">
+            <h3 className="text-3xl font-black text-[#ff69b4]">
               Event Started
             </h3>
             <p className="mt-3 text-white/70">
@@ -150,11 +150,10 @@ function TimeUnit({ value, label, highlight = false }) {
   return (
     <div className="group">
       <div
-        className={`flex h-24 w-24 transform flex-col items-center justify-center rounded-[2rem] transition-all duration-500 group-hover:-translate-y-2 md:h-36 md:w-36 ${
-          highlight
-            ? "border-b-8 border-red-900 bg-red-600 shadow-[0_20px_60px_rgba(220,38,38,0.35)]"
-            : "border border-white/10 bg-white/10 shadow-2xl backdrop-blur group-hover:border-red-500/50"
-        }`}
+        className={`flex h-24 w-24 transform flex-col items-center justify-center rounded-[2rem] transition-all duration-500 group-hover:-translate-y-2 md:h-36 md:w-36 ${highlight
+          ? "border-b-8 border-[#b00b69] bg-[#ff1493] shadow-[0_20px_60px_rgba(255,20,147,0.35)]"
+          : "border border-white/10 bg-white/10 shadow-2xl backdrop-blur group-hover:border-[#ff1493]/50"
+          }`}
       >
         <p className="font-mono text-4xl font-black leading-none tracking-tighter text-white md:text-6xl">
           {String(value ?? 0).padStart(2, "0")}
@@ -170,8 +169,8 @@ function TimeUnit({ value, label, highlight = false }) {
 
 function InfoCard({ icon, label, value, detail }) {
   return (
-    <div className="rounded-[2rem] border border-white/10 bg-white/10 p-6 text-left shadow-2xl backdrop-blur transition hover:border-red-500/40 hover:bg-white/15">
-      <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-red-600 text-xl text-white">
+    <div className="rounded-[2rem] border border-white/10 bg-white/10 p-6 text-left shadow-2xl backdrop-blur transition hover:border-[#ff1493]/40 hover:bg-white/15">
+      <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-[#ff1493] text-xl text-white">
         {icon}
       </div>
 
@@ -181,7 +180,7 @@ function InfoCard({ icon, label, value, detail }) {
 
       <h3 className="mt-2 text-2xl font-black text-white">{value}</h3>
 
-      <p className="mt-1 font-bold text-yellow-300">{detail}</p>
+      <p className="mt-1 font-bold text-[#ff69b4]">{detail}</p>
     </div>
   );
 }
