@@ -35,6 +35,11 @@ export const metadata = {
     "Saba Vayani",
     "Creatomation Studio",
   ],
+  icons: {
+    icon: "/omj-logo.png",
+    shortcut: "/omj-logo.png",
+    apple: "/omj-logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
