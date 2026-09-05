@@ -21,8 +21,8 @@ export default function Footer() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-20">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
-          <div className="lg:col-span-5">
-            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
+          <div className="lg:col-span-6">
+            <div className="rounded-[2rem] border border-white/10 bg-white/5 h-full p-8 backdrop-blur-xl">
               <div className="flex items-center gap-4">
                 <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-white shadow-xl">
                   <img
@@ -43,13 +43,13 @@ export default function Footer() {
                 </div>
               </div>
 
-              <p className="mt-8 max-w-md text-sm leading-relaxed text-white/55">
+              {/* <p className="mt-8 max-w-md text-sm leading-relaxed text-white/55">
                 Empowering women through practical skill development, AI tools, and entrepreneurial growth opportunities.
-              </p>
+              </p> */}
             </div>
           </div>
 
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-6">
             <div className="h-full rounded-[2rem] border border-[#ff1493]/30 bg-gradient-to-br from-[#ff1493]/20 to-white/5 p-8 backdrop-blur-xl">
               <p className="mb-4 inline-flex rounded-full bg-[#ff1493] px-4 py-2 text-[10px] font-black uppercase tracking-widest text-white">
                 For More Details & Queries
@@ -74,15 +74,15 @@ export default function Footer() {
                   <span>Husien Ebrahim Sports Complex & Community Centre, Hussainabad</span>
                 </div>
 
-                <div className="flex gap-3">
+                {/* <div className="flex gap-3">
                   <FaPhoneAlt className="mt-1 text-[#ff1493] shrink-0" />
                   <span>Workshop Support & Registration Helpdesk</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
 
-          <div className="lg:col-span-3">
+          {/* <div className="lg:col-span-3">
             <div className="h-full rounded-[2rem] border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
               <h4 className="mb-6 text-xl font-black uppercase">Leadership</h4>
 
@@ -97,7 +97,7 @@ export default function Footer() {
                 <Leader name="Sabeen Fareed Dadwala" role="Coordinator, Vocational Centre" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="my-6 rounded-[1.5rem] border border-[#ff1493]/20 bg-gradient-to-r from-[#ff1493]/10 via-black/20 to-[#ff1493]/5 p-5 backdrop-blur-xl">
