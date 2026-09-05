@@ -221,13 +221,13 @@ export default function StatusPage() {
                 No registration found against this number, name, or ID.
               </p>
 
-              <a
+              {/* <a
                 href="https://forms.gle/BYpufBDAt7hQ58kg6"
                 target="_blank"
                 className="rounded-2xl bg-green-600 px-4 py-2 text-center text-white uppercase shadow-lg shadow-red-600/30 hover:bg-red-500 transition"
               >
                 Register Now
-              </a>
+              </a> */}
             </div>
           )}
 
@@ -377,7 +377,7 @@ export default function StatusPage() {
 
                           <div className="space-y-1">
                             <h3 className="text-2xl mt-1 font-black uppercase tracking-tighter leading-none max-w-[280px] mx-auto truncate">
-                              {participant.fullName} {participant.gender?.toLowerCase() === "female" ? "D/O" : "S/O"} {participant.fatherName}
+                              {participant.fullName} {participant.gender?.toLowerCase() === "female" ? (participant.maritalStatus?.toLowerCase() === "married" ? "W/O" : "D/O") : "S/O"} {participant.fatherName}
                             </h3>
 
                             <p className="text-white font-bold text-xl tracking-widest">

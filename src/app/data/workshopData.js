@@ -59,26 +59,7 @@ export const workshopData = [
     "status": "PAID",
     "participantId": "2503"
   },
-  {
-    "fullName": "aqeel anjum",
-    "fatherName": "abdul sattar",
-    "email": "shoaibattari83@gmail.com",
-    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
-    "mode": "Full Online",
-    "gender": "Male",
-    "cnic": "4220104206265",
-    "dateOfBirth": "10/25/79",
-    "education": "nope",
-    "profession": "nope",
-    "maritalStatus": "Married",
-    "community": "nope",
-    "whatsaapNumber": "03022350300",
-    "country": "pak",
-    "city": "khi",
-    "area": "-",
-    "status": "PAID",
-    "participantId": "2504"
-  },
+
   {
     "fullName": "Kiran Fawad",
     "fatherName": "Ahmed Baig",
@@ -676,7 +657,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "CARE OF IRFAN BHAI",
+    "status": "paid",
     "participantId": "2534"
   },
   {
@@ -1156,7 +1137,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Naya nazimabad",
-    "status": "1500 balance",
+    "status": "paid",
     "participantId": "2558"
   },
   {
@@ -1178,6 +1159,26 @@ export const workshopData = [
     "area": "Gulzar e Hijri | Mosmiyat | Gulistan e Johar | Work Society",
     "status": "PAID",
     "participantId": "2559"
+  },
+  {
+    "fullName": "Mehreen",
+    "fatherName": "Aqil",
+    "email": "fatimaaqil31@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Full Online",
+    "gender": "Female",
+    "cnic": "4.21011E+12",
+    "dateOfBirth": "11/19/95",
+    "education": "Matric",
+    "profession": "No",
+    "maritalStatus": "Married",
+    "community": "Okhai Memon",
+    "whatsaapNumber": "03705593843",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "area": "Hussainabad | Karimabad",
+    "status": "paid",
+    "participantId": "2560"
   },
   {
     "fullName": "Muhammad Ahmed",
@@ -1336,7 +1337,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Gulzar e Hijri | Mosmiyat | Gulistan e Johar | Work Society",
-    "status": "CARE OF IRFAN BHAI",
+    "status": "paid",
     "participantId": "2008"
   },
   {
@@ -1496,7 +1497,7 @@ export const workshopData = [
     "country": "Omj",
     "city": "Karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "feroz pasta",
+    "status": "paid",
     "participantId": "2016"
   },
   {
@@ -1856,7 +1857,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "4k North Karachi",
-    "status": "FIRST CLASS",
+    "status": "paid",
     "participantId": "2034"
   },
   {
@@ -2032,7 +2033,7 @@ export const workshopData = [
     "profession": "Nope",
     "maritalStatus": "Single",
     "community": "Nope",
-    "whatsaapNumber": "03130004762",
+    "whatsaapNumber": "03130004765",
     "country": "Pak",
     "city": "Khi",
     "area": "-",
@@ -2156,7 +2157,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "-",
-    "status": "CARE OF IRFAN BHAI",
+    "status": "paid",
     "participantId": "2049"
   },
   {
@@ -2236,7 +2237,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "CARE OF IRFAN BHAI",
+    "status": "paid",
     "participantId": "2053"
   },
   {
@@ -2456,7 +2457,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Gulshan e Iqbal",
-    "status": "??",
+    "status": "paid",
     "participantId": "2064"
   },
   {
@@ -2936,7 +2937,7 @@ export const workshopData = [
     "country": "pakistan",
     "city": "karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "CARE OF IRFAN BHAI",
+    "status": "paid",
     "participantId": "2088"
   },
   {
@@ -3296,7 +3297,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "1ST CLASS",
+    "status": "paid",
     "participantId": "2106"
   },
   {
@@ -4296,7 +4297,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "CARE OF IRFAN BHAI",
+    "status": "paid",
     "participantId": "2156"
   },
   {
@@ -4438,6 +4439,26 @@ export const workshopData = [
     "area": "Hussainabad | Karimabad",
     "status": "PAID",
     "participantId": "2163"
+  },
+  {
+    "fullName": "aqeel anjum",
+    "fatherName": "abdul sattar",
+    "email": "shoaibattari83@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Hybrid",
+    "gender": "Male",
+    "cnic": "4220104206265",
+    "dateOfBirth": "10/25/79",
+    "education": "nope",
+    "profession": "nope",
+    "maritalStatus": "Married",
+    "community": "nope",
+    "whatsaapNumber": "03022350300",
+    "country": "pak",
+    "city": "khi",
+    "area": "-",
+    "status": "PAID",
+    "participantId": "2164"
   },
   {
     "fullName": "Nadia",
@@ -4736,7 +4757,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "CARE OF IRFAN BHAI",
+    "status": "paid",
     "participantId": "4015"
   },
   {
@@ -4778,5 +4799,126 @@ export const workshopData = [
     "area": "Gulzar e Hijri | Mosmiyat | Gulistan e Johar | Work Society",
     "status": "PAID",
     "participantId": "4017"
+  },
+  {
+    "fullName": "Muhammed Maier Hashir",
+    "fatherName": "Jawwad Fahim",
+    "email": "maierhashir2001@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Full Online",
+    "gender": "Male",
+    "cnic": "4.21012E+12",
+    "dateOfBirth": "8/13/15",
+    "education": "Class 7",
+    "profession": "Student",
+    "maritalStatus": "Single",
+    "community": "Urdu Speaking",
+    "whatsaapNumber": "03068257083",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "area": "Kashmir Road",
+    "status": "PAID",
+    "participantId": "2504"
+  },
+  {
+    "fullName": "Humza munawar",
+    "fatherName": "Munawar ali",
+    "email": "humzamunawar4@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Hybrid",
+    "gender": "Male",
+    "cnic": "4.25017E+12",
+    "dateOfBirth": "9/16/01",
+    "education": "Intermediate",
+    "profession": "E-commerce",
+    "maritalStatus": "Married",
+    "community": "Other",
+    "whatsaapNumber": "03150241577",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "area": "Super Highway | Gulshan e Maymar | Hashambad",
+    "status": "PAID",
+    "participantId": "2165"
+  },
+  {
+    "fullName": "Noormah",
+    "fatherName": "Nadeem",
+    "email": "n714866@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Hybrid",
+    "gender": "Female",
+    "cnic": "4.22016E+12",
+    "dateOfBirth": "9/30/06",
+    "education": "Intermediate",
+    "profession": "Teaching",
+    "maritalStatus": "Single",
+    "community": "Memon",
+    "whatsaapNumber": "03492349276",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "area": "Gulshan e Iqbal",
+    "status": "PAID",
+    "participantId": "2166"
+  },
+  {
+    "fullName": "Rabiya",
+    "fatherName": "Rafiq",
+    "email": "rabiyarafiq28@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Hybrid",
+    "gender": "Female",
+    "cnic": "4.23018E+12",
+    "dateOfBirth": "6/28/09",
+    "education": "Matric",
+    "profession": "Nothing",
+    "maritalStatus": "Single",
+    "community": "Okhai Memon",
+    "whatsaapNumber": "3327336995",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "area": "Super Highway | Gulshan e Maymar | Hashambad",
+    "status": "PAID",
+    "participantId": "2167"
+  },
+  {
+    "fullName": "Maryam",
+    "fatherName": "Munir Hussain",
+    "email": "maryammunir980@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Full Online",
+    "gender": "Female",
+    "cnic": "4.23015E+12",
+    "dateOfBirth": "1/13/09",
+    "education": "Matric",
+    "profession": "None",
+    "maritalStatus": "Single",
+    "community": "Okhai Memon",
+    "whatsaapNumber": "3347772903",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "area": "Defence | Clifton",
+    "status": "PAID",
+    "participantId": "2560"
+  },
+  {
+    "fullName": "Anzila Ubaid Khosa",
+    "fatherName": "Muhammad Ubaid Khosa",
+    "email": "anzilaubaid@gmail.com",
+    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
+    "mode": "Full Online",
+    "gender": "Female",
+    "cnic": "4.23013E+12",
+    "dateOfBirth": "4/2/93",
+    "education": "Intermediate",
+    "profession": "Cooking",
+    "maritalStatus": "Married",
+    "community": "Okhai Memon",
+    "whatsaapNumber": "3312993875",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "area": "Gulshan e Iqbal",
+    "status": "PAID",
+    "participantId": "2561"
   }
+  ,
 ]
