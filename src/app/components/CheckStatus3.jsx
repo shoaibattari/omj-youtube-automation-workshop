@@ -279,7 +279,7 @@ export default function StatusPage() {
                     </div>
 
                     <span className="text-xs font-black text-slate-400 uppercase tracking-widest">
-                      OMJ-HSA-{person.participantId}
+                      OMJ-YT2-{person.participantId}
                     </span>
                   </button>
                 ))}
@@ -290,7 +290,7 @@ export default function StatusPage() {
 
         {participant && (
           <div className="space-y-12">
-            <div className="bg-white p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-6 border-l-8 border-[#ff1493]">
+            <div className="bg-white p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-6 border-l-8 border-[#FF0000]">
               <div>
                 <h2 className="text-xl font-black uppercase italic tracking-tight text-slate-800">
                   Welcome, {participant.fullName.split(" ")[0]}!
@@ -301,7 +301,7 @@ export default function StatusPage() {
                 </p>
               </div>
 
-              <label className="bg-[#0d0d2b] text-white px-8 py-4 rounded-2xl cursor-pointer hover:bg-[#ff1493] transition-all font-bold flex items-center gap-2 shadow-lg">
+              <label className="bg-[#0d0d2b] text-white px-8 py-4 rounded-2xl cursor-pointer hover:bg-[#FF0000] transition-all font-bold flex items-center gap-2 shadow-lg">
                 <FaUpload /> {userImage ? "Update Photo" : "Upload Photo"}
                 <input
                   type="file"
@@ -312,105 +312,129 @@ export default function StatusPage() {
               </label>
             </div>
 
+            <button
+              onClick={() =>
+                downloadImage(cardRef, `${participant.fullName}-Pass.png`)
+              }
+              className="w-full max-w-87.5 mx-auto bg-[#FF0000] text-white font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-[#cc0000] shadow-xl shadow-red-500/30 transition-all"
+            >
+              <FaDownload /> DOWNLOAD STUDENT CARD
+            </button>
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* ========== STUDENT CARD ========== */}
               <div className="flex flex-col items-center gap-6">
                 <div
                   ref={cardRef}
                   className="w-87.5 h-125 bg-gradient-to-b from-[#1a1a3e] via-[#0d0d2b] to-[#0a0a1a] rounded-[2.5rem] relative overflow-hidden text-white shadow-2xl"
                 >
-                  <div className="absolute top-0 left-0 w-full h-12 bg-gradient-to-r from-[#ff1493] to-[#ff69b4] -skew-y-6 origin-top-left"></div>
+                  {(() => {
+                    const isWebDev = participant?.course?.toLowerCase().includes("web development");
+                    const primaryColor = isWebDev ? "#0066FF" : "#FF0000";
+                    const secondaryColor = isWebDev ? "#0047cc" : "#cc0000";
+                    return (
+                      <>
+                        <div className="absolute top-0 left-0 w-full h-12 -skew-y-6 origin-top-left" style={{ background: `linear-gradient(to right, ${primaryColor}, ${secondaryColor})` }}></div>
 
-                  <div className="absolute top-20 right-0 w-32 h-32 bg-[#ff1493] rounded-full blur-3xl opacity-25"></div>
-                  <div className="absolute bottom-24 left-0 w-32 h-32 bg-[#ff69b4] rounded-full blur-3xl opacity-15"></div>
+                        <div className="absolute top-20 right-0 w-32 h-32 rounded-full blur-3xl opacity-25" style={{ backgroundColor: primaryColor }}></div>
+                        <div className="absolute bottom-24 left-0 w-32 h-32 rounded-full blur-3xl opacity-15" style={{ backgroundColor: secondaryColor }}></div>
 
-                  <div className="relative z-10 pt-12 text-center px-6">
-                    <p className="text-xl text-[#ff69b4] font-bold uppercase tracking-[0.2em] mb-2">
-                      THE OKHAI MEMON JAMAT
-                    </p>
+                        <div className="relative z-10 pt-12 text-center px-6">
+                          <p className="text-xl text-white font-bold uppercase tracking-[0.2em] mb-2">
+                            THE OKHAI MEMON JAMAT
+                          </p>
 
-                    <p className="text-[11px] font-bold uppercase tracking-[0.3em] text-white/50 mb-1">
-                      PRESENTS
-                    </p>
+                          <p className="text-[11px] font-bold uppercase tracking-[0.3em] text-white/50 mb-1">
+                            PRESENTS
+                          </p>
 
-                    <h2 className="text-3xl font-black leading-tight uppercase text-white">
-                      HUNAR SE
-                      <br />
-                      AMDANI TAK
-                    </h2>
+                          <h2 className="text-3xl font-black leading-tight uppercase text-white">
+                            {isWebDev ? (
+                              <>
+                                AI Web Development
+                              </>
+                            ) : (
+                              <>
+                                Fundamental of
+                                <br />
+                                YouTube Automation
+                              </>
+                            )}
+                          </h2>
 
-                    <p className="text-[11px] tracking-[0.15em] font-bold uppercase mt-1 text-white/90">
-                      Turn Your Skills into a Successful Business
-                    </p>
+                          <p className="text-[11px] tracking-[0.15em] font-bold uppercase mt-1 text-white/90">
+                            {isWebDev ? "Batch 4" : "Batch 2"}
+                          </p>
 
-                    <div className="mt-2 w-24 h-24 mx-auto rounded-full border-4 border-[#ff1493] overflow-hidden bg-[#0d0d2b] shadow-xl shadow-pink-500/30">
-                      <img
-                        src={userImage || "/avatar.png"}
-                        crossOrigin="anonymous"
-                        className="w-full h-full object-cover"
-                        alt="dp"
-                      />
-                    </div>
+                          <div className="mt-2 w-24 h-24 mx-auto rounded-full border-4 overflow-hidden bg-[#0d0d2b] shadow-xl" style={{ borderColor: primaryColor, boxShadow: `0 10px 15px -3px ${primaryColor}4D` }}>
+                            <img
+                              src={userImage || "/avatar.png"}
+                              crossOrigin="anonymous"
+                              className="w-full h-full object-cover"
+                              alt="dp"
+                            />
+                          </div>
 
-                    <div className="space-y-1">
-                      <h3 className="text-2xl mt-1 font-black uppercase tracking-tighter leading-none">
-                        {participant.fullName}
-                      </h3>
+                          <div className="space-y-1">
+                            <h3 className="text-2xl mt-1 font-black uppercase tracking-tighter leading-none max-w-[280px] mx-auto truncate">
+                              {participant.fullName} {participant.gender?.toLowerCase() === "female" ? "D/O" : "S/O"} {participant.fatherName}
+                            </h3>
 
-                      <p className="text-[#ff1493] font-bold text-xl tracking-widest">
-                        OMJ-HSA-{participant.participantId}
-                      </p>
+                            <p className="text-white font-bold text-xl tracking-widest">
+                              OMJ-YT2-{participant.participantId}
+                            </p>
 
-                      <h3 className="text-lg font-black text-white uppercase tracking-tighter leading-none">
-                        Event Entry Pass
-                      </h3>
-                    </div>
-                  </div>
-                  <div className="mt-1 flex justify-center">
-                    <span className="bg-[#ff1493]/15 border border-[#ff1493]/30 text-[#ff69b4] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg shadow-pink-500/20">
-                      ⭐ Special Workshop for Women
-                    </span>
-                  </div>
+                            <h3 className="text-lg font-black text-white uppercase tracking-tighter leading-none">
+                              Student Card
+                            </h3>
 
-                  <div className="absolute bottom-0 w-full bg-gradient-to-r from-[#ff1493] to-[#ff69b4] py-4 px-6 flex justify-between items-center text-white">
-                    <p className="text-[18px] font-black uppercase">
-                      OMJ Vocational Centre (Female)
-                    </p>
+                            <div className="mt-2">
+                              <span className={`inline-block backdrop-blur-sm text-white text-[11px] font-black uppercase tracking-[0.15em] px-4 py-1 rounded-full border ${participant.mode?.toLowerCase() === "hybrid"
+                                ? "bg-orange-500/30 border-orange-400/50"
+                                : "bg-emerald-500/30 border-emerald-400/50"
+                                }`}>
+                                {participant.mode || "-"}
+                              </span>
+                            </div>
+                          </div>
+                        </div>
 
-                    <div className="w-6 h-6 bg-[#0a0a1a] rounded"></div>
-                  </div>
+                        <div className="absolute bottom-0 w-full py-4 px-6 flex justify-between items-center text-white" style={{ background: `linear-gradient(to right, ${primaryColor}, ${secondaryColor})` }}>
+                          <p className="text-[18px] font-black uppercase">
+                            Social Welfare Committee
+                          </p>
+
+                          <div className="w-6 h-6 bg-[#0a0a1a] rounded"></div>
+                        </div>
+                      </>
+                    );
+                  })()}
                 </div>
 
-                <button
-                  onClick={() =>
-                    downloadImage(cardRef, `${participant.fullName}-Pass.png`)
-                  }
-                  className="w-full max-w-87.5 bg-[#ff1493] text-white font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-[#e0117f] shadow-xl shadow-pink-500/30 transition-all"
-                >
-                  <FaDownload /> DOWNLOAD ENTRY PASS
-                </button>
               </div>
 
+              {/* ========== WHATSAPP DP (COMMENTED OUT) ==========
               <div className="flex flex-col items-center gap-6">
                 <div
                   ref={dpRef}
                   className="w-87.5 h-87.5 bg-gradient-to-br from-[#1a1a3e] via-[#0d0d2b] to-[#0a0a1a] relative overflow-hidden flex flex-col items-center justify-center rounded-[3rem] shadow-2xl"
                 >
-                  <div className="absolute -top-10 -left-10 w-44 h-44 bg-[#ff1493] rounded-full blur-3xl opacity-30"></div>
-                  <div className="absolute -bottom-10 -right-10 w-44 h-44 bg-[#ff69b4] rounded-full blur-3xl opacity-25"></div>
-                  <div className="absolute inset-0 m-auto w-60 h-60 bg-[#ff1493] rounded-full blur-3xl opacity-10"></div>
+                  <div className="absolute -top-10 -left-10 w-44 h-44 bg-[#FF0000] rounded-full blur-3xl opacity-30"></div>
+                  <div className="absolute -bottom-10 -right-10 w-44 h-44 bg-[#cc0000] rounded-full blur-3xl opacity-25"></div>
+                  <div className="absolute inset-0 m-auto w-60 h-60 bg-[#FF0000] rounded-full blur-3xl opacity-10"></div>
 
                   <div className="relative z-10 flex flex-col items-center px-4">
-                    <p className="text-xl text-[#ff69b4] font-bold uppercase tracking-[0.25em] mb-1">
+                    <p className="text-xl text-white font-bold uppercase tracking-[0.25em] mb-1">
                       THE OKHAI MEMON JAMAT
                     </p>
 
-                    <div className="bg-gradient-to-r from-[#ff1493] to-[#ff69b4] px-4 py-1 rounded-full mb-2 shadow-lg shadow-pink-500/30">
+                    <div className="bg-gradient-to-r from-[#FF0000] to-[#cc0000] px-4 py-1 rounded-full mb-2 shadow-lg shadow-red-500/30">
                       <p className="text-white text-[11px] font-black uppercase tracking-[0.15em]">
                         I&apos;M ATTENDING
                       </p>
                     </div>
 
-                    <div className="relative p-1.5 bg-gradient-to-tr from-[#ff1493] to-[#ff69b4] rounded-full shadow-xl shadow-pink-500/30">
+                    <div className="relative p-1.5 bg-gradient-to-tr from-[#FF0000] to-[#cc0000] rounded-full shadow-xl shadow-red-500/30">
                       <div className="w-28 h-28 rounded-full border-4 border-[#0d0d2b] overflow-hidden">
                         <img
                           src={userImage || "/avatar.png"}
@@ -426,12 +450,12 @@ export default function StatusPage() {
                         {participant.fullName}
                       </h4>
 
-                      <h3 className="text-[15px] font-black text-[#ff1493] uppercase leading-tight mt-0.5">
-                        HUNAR SE AMDANI TAK
+                      <h3 className="text-[15px] font-black text-white uppercase leading-tight mt-0.5">
+                        Fundamental of YouTube Automation
                       </h3>
 
                       <p className="text-[10px] font-bold text-white/90 uppercase tracking-[0.15em] mt-1">
-                        Turn Your Skills into a Successful Business
+                        Batch 2
                       </p>
 
                       <div className="flex items-center justify-center gap-2 mt-1">
@@ -446,8 +470,8 @@ export default function StatusPage() {
                   </div>
 
                   <div className="absolute bottom-3 w-full text-center px-4">
-                    <p className="text-[10px] text-[#ff69b4] font-extrabold uppercase tracking-[0.2em]">
-                      OMJ Vocational Centre (Female)
+                    <p className="text-[10px] text-white font-extrabold uppercase tracking-[0.2em]">
+                      Social Welfare Committee
                     </p>
                   </div>
                 </div>
@@ -456,11 +480,12 @@ export default function StatusPage() {
                   onClick={() =>
                     downloadImage(dpRef, `${participant.fullName}-DP.png`, true)
                   }
-                  className="w-full max-w-87.5 bg-white border-2 border-[#ff1493] text-[#ff1493] font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-pink-50 shadow-xl transition-all"
+                  className="w-full max-w-87.5 bg-white border-2 border-[#FF0000] text-[#FF0000] font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-red-50 shadow-xl transition-all"
                 >
                   <FaDownload /> DOWNLOAD WHATSAPP DP
                 </button>
               </div>
+              ========== END WHATSAPP DP ========== */}
             </div>
           </div>
         )}

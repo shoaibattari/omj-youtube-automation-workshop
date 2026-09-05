@@ -43,7 +43,7 @@ export default function Navbar() {
             href="/"
             className="flex items-center gap-2 group cursor-pointer"
           >
-            <div className="bg-[#ff1493] p-1.5 rounded-lg shadow-lg group-hover:scale-110 transition-transform">
+            <div className="bg-[#FF0000] p-1.5 rounded-lg shadow-lg group-hover:scale-110 transition-transform">
               <FaYoutube className="text-white text-xl" />
             </div>
             <div
@@ -53,13 +53,13 @@ export default function Navbar() {
                 }`}
             >
               OMJ{" "}
-              <span className="text-[#ff1493] uppercase">
-                HUNAR SE AMDANI TAK
+              <span className="text-[#FF0000] uppercase">
+                YOUTUBE AUTOMATION
               </span>
             </div>
           </Link>
 
-          {/* Desktop Nav - Content Updated per Poster */}
+          {/* ========== DESKTOP NAV LINKS (COMMENTED OUT) ==========
           <div className="hidden lg:flex space-x-8 items-center">
             {
               <NavLink
@@ -89,13 +89,14 @@ export default function Navbar() {
             />
             <Link
               href="/status"
-              className="bg-[#ff1493] text-white px-6 py-2.5 rounded-xl font-black hover:bg-slate-900 transition-all flex items-center gap-2 shadow-lg hover:shadow-pink-200 uppercase text-xs tracking-widest"
+              className="bg-[#FF0000] text-white px-6 py-2.5 rounded-xl font-black hover:bg-slate-900 transition-all flex items-center gap-2 shadow-lg hover:shadow-red-200 uppercase text-xs tracking-widest"
             >
               <FaIdCard /> Student Portal
             </Link>
           </div>
+          ========== END DESKTOP NAV LINKS ========== */}
 
-          {/* Mobile Toggle */}
+          {/* ========== MOBILE TOGGLE (COMMENTED OUT) ==========
           <button
             className={`lg:hidden p-2 rounded-lg transition-colors ${scrolled || isOpen ? "text-slate-900" : "text-white"
               }`}
@@ -103,9 +104,10 @@ export default function Navbar() {
           >
             {isOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
           </button>
+          ========== END MOBILE TOGGLE ========== */}
         </div>
 
-        {/* Mobile Full-Screen Overlay */}
+        {/* ========== MOBILE OVERLAY (COMMENTED OUT) ==========
         <div
           className={`lg:hidden fixed inset-0 bg-white transition-all duration-500 ease-in-out ${isOpen
             ? "translate-y-0 opacity-100"
@@ -143,7 +145,7 @@ export default function Navbar() {
             <div className="mt-auto space-y-4">
               <Link
                 href="/status"
-                className="flex items-center justify-center bg-[#ff1493] text-white p-5 rounded-2xl font-black text-lg shadow-xl active:scale-95 transition-transform uppercase italic tracking-tighter"
+                className="flex items-center justify-center bg-[#FF0000] text-white p-5 rounded-2xl font-black text-lg shadow-xl active:scale-95 transition-transform uppercase italic tracking-tighter"
                 onClick={() => setIsOpen(false)}
               >
                 <FaIdCard className="mr-3 text-2xl" /> Access Student ID
@@ -154,6 +156,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+        ========== END MOBILE OVERLAY ========== */}
       </div>
     </nav>
   );
@@ -163,10 +166,10 @@ function NavLink({ href, icon, label, scrolled }) {
   return (
     <Link
       href={href}
-      className={`flex items-center gap-1.5 font-black text-[11px] tracking-widest transition-all hover:text-[#ff1493] uppercase ${scrolled ? "text-slate-700" : "text-[#ff69b4] drop-shadow-md"
+      className={`flex items-center gap-1.5 font-black text-[11px] tracking-widest transition-all hover:text-[#FF0000] uppercase ${scrolled ? "text-slate-700" : "text-[#ff6666] drop-shadow-md"
         }`}
     >
-      <span className="text-lg text-[#ff1493]">{icon}</span>
+      <span className="text-lg text-[#FF0000]">{icon}</span>
       {label}
     </Link>
   );
@@ -177,9 +180,9 @@ function MobileNavLink({ href, icon, label, onClick }) {
     <Link
       href={href}
       onClick={onClick}
-      className="flex items-center gap-5 p-5 text-slate-900 border-b border-slate-50 font-black text-xl active:bg-pink-50 transition-colors uppercase italic tracking-tighter"
+      className="flex items-center gap-5 p-5 text-slate-900 border-b border-slate-50 font-black text-xl active:bg-red-50 transition-colors uppercase italic tracking-tighter"
     >
-      <span className="text-[#ff1493] text-2xl">{icon}</span>
+      <span className="text-[#FF0000] text-2xl">{icon}</span>
       {label}
     </Link>
   );
