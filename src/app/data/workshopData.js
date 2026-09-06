@@ -1857,7 +1857,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "4k North Karachi",
-    "status": "paid",
+    "status": "PENDING",
     "participantId": "2034"
   },
   {
@@ -2457,7 +2457,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Gulshan e Iqbal",
-    "status": "paid",
+    "status": "PENDING",
     "participantId": "2064"
   },
   {
@@ -3017,7 +3017,7 @@ export const workshopData = [
     "country": "Pakistan",
     "city": "Karachi",
     "area": "Hussainabad | Karimabad",
-    "status": "paid",
+    "status": "PENDING",
     "participantId": "2092"
   },
   {
@@ -4420,26 +4420,7 @@ export const workshopData = [
     "status": "PAID",
     "participantId": "2162"
   },
-  {
-    "fullName": "Umer farooq",
-    "fatherName": "Muhammad Ali",
-    "email": "ummifarooq666@gmail.com",
-    "course": "Fundamentals of YouTube Automation – Batch 2 (1a-online, 1b- hybird))",
-    "mode": "Hybrid",
-    "gender": "Male",
-    "cnic": "4230170720915",
-    "dateOfBirth": "11/14/05",
-    "education": "Matric",
-    "profession": "Mobile repairing",
-    "maritalStatus": "Single",
-    "community": "Memon",
-    "whatsaapNumber": "03705706322",
-    "country": "Pakistan",
-    "city": "Karachi",
-    "area": "Hussainabad | Karimabad",
-    "status": "PAID",
-    "participantId": "2163"
-  },
+
   {
     "fullName": "aqeel anjum",
     "fatherName": "abdul sattar",
