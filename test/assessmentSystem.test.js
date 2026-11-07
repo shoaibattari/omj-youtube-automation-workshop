@@ -1,6 +1,10 @@
 import assert from "assert";
 import fs from "fs";
+import path from "path";
 import { INITIAL_EXAM_SETS, INITIAL_EXAM_TOPICS } from "../src/lib/exam/initialTopicBank.js";
+
+// Use isolated test directory to prevent tests from wiping production/runtime student assignments
+process.env.EXAM_DATA_DIR = path.resolve("test/.test-storage");
 import {
   findStudentInDatabase,
   normalizePakistaniPhone,
@@ -25,7 +29,7 @@ import { generateTestPaperPdf } from "../src/lib/exam/pdfGenerator.js";
 import { PDFDocument } from "pdf-lib";
 
 function resetStorage() {
-  const dir = "src/app/data/exam-storage";
+  const dir = path.resolve("test/.test-storage");
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(dir + "/sets.json", JSON.stringify(INITIAL_EXAM_SETS, null, 2), "utf8");
   fs.writeFileSync(dir + "/topics.json", JSON.stringify(INITIAL_EXAM_TOPICS, null, 2), "utf8");

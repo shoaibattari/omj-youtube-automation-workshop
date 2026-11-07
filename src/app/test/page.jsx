@@ -60,6 +60,15 @@ export default function ExamTestPage() {
       }
 
       setAuthenticatedStudent(data.student);
+
+      // If already assigned before: NEVER re-assign! Directly display the existing paper!
+      if (data.assignment) {
+        setAssignment(data.assignment);
+        setViewState("ready");
+        return;
+      }
+
+      // Only if first-time user without existing assignment: run generator workflow
       setViewState("generating");
     } catch (err) {
       setErrorMessage(err.message);

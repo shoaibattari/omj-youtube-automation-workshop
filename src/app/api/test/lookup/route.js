@@ -49,7 +49,10 @@ export async function POST(request) {
     }
 
     const rollNumber = String(student.participantId || "").trim();
-    const existingAssignment = await getStudentAssignment(rollNumber);
+    const phone = String(student.whatsaapNumber || "").trim();
+    const existingAssignment =
+      (await getStudentAssignment(rollNumber)) ||
+      (await getStudentAssignment(phone));
 
     // Direct frictionless authentication - no OTP required!
     const sessionToken = createExamSessionToken(student);
@@ -66,6 +69,18 @@ export async function POST(request) {
       success: true,
       student: studentData,
       hasExistingAssignment: Boolean(existingAssignment),
+      assignment: existingAssignment
+        ? {
+            id: existingAssignment.id,
+            rollNumber: existingAssignment.studentRollNumber || rollNumber,
+            studentName: existingAssignment.studentName || student.fullName,
+            courseMode: existingAssignment.studentMode || student.mode || "Hybrid",
+            setCode: existingAssignment.setCode,
+            nicheName: existingAssignment.nicheName,
+            topicTitle: existingAssignment.topicTitle,
+            assignedAt: existingAssignment.assignedAt,
+          }
+        : null,
     });
 
     // Set secure HttpOnly session cookie

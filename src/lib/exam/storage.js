@@ -3,6 +3,7 @@ import path from "path";
 import { INITIAL_EXAM_SETS, INITIAL_EXAM_TOPICS } from "./initialTopicBank.js";
 import { PRE_ASSIGNED_STUDENTS } from "../../app/data/exam-storage/preAssignedStudents.js";
 import { workshopData } from "../../app/data/workshopData.js";
+import { normalizePakistaniPhone } from "./auth.js";
 
 // Storage directory determination
 function getStorageDir() {
@@ -134,20 +135,42 @@ export async function getAssignments() {
 }
 
 // Get an existing assignment for a student
-export async function getStudentAssignment(participantId) {
-  if (!participantId) return null;
+export async function getStudentAssignment(identifier) {
+  if (!identifier) return null;
+
+  let roll = "";
+  let phone = "";
+
+  if (typeof identifier === "object") {
+    roll = String(identifier.participantId || identifier.rollNumber || "").trim();
+    phone = String(identifier.whatsaapNumber || identifier.phone || "").trim();
+  } else {
+    roll = String(identifier).trim();
+    phone = String(identifier).trim();
+  }
+
+  const cleanPhone = normalizePakistaniPhone(phone);
   const assignments = await getAssignments();
-  const normalizedId = String(participantId).trim();
-  const found = assignments.find(
-    (a) => String(a.studentId).trim() === normalizedId || String(a.studentRollNumber).trim() === normalizedId
-  );
+
+  // 1. Search in current/disk assignments
+  const found = assignments.find((a) => {
+    const aRoll = String(a.studentRollNumber || a.studentId || "").trim();
+    const aPhone = normalizePakistaniPhone(a.studentPhone || "");
+    if (roll && aRoll.toLowerCase() === roll.toLowerCase()) return true;
+    if (cleanPhone && aPhone && aPhone === cleanPhone) return true;
+    return false;
+  });
   if (found) return found;
 
-  // Fallback to pre-assigned dataset
+  // 2. Fallback to pre-assigned dataset
   if (Array.isArray(PRE_ASSIGNED_STUDENTS)) {
-    const pre = PRE_ASSIGNED_STUDENTS.find(
-      (a) => String(a.studentId).trim() === normalizedId || String(a.studentRollNumber).trim() === normalizedId
-    );
+    const pre = PRE_ASSIGNED_STUDENTS.find((a) => {
+      const aRoll = String(a.studentRollNumber || a.studentId || "").trim();
+      const aPhone = normalizePakistaniPhone(a.studentPhone || "");
+      if (roll && aRoll.toLowerCase() === roll.toLowerCase()) return true;
+      if (cleanPhone && aPhone && aPhone === cleanPhone) return true;
+      return false;
+    });
     if (pre) return pre;
   }
   return null;
@@ -156,32 +179,51 @@ export async function getStudentAssignment(participantId) {
 /**
  * Assign a niche and topic to a student.
  * Guaranteed idempotent and thread-safe via mutex locking.
+ * If student already generated/assigned once, ALWAYS returns that existing assignment.
  */
 export async function assignTopicToStudent(student) {
-  if (!student || !student.participantId) {
+  if (!student) {
     throw new Error("Invalid student data for topic assignment.");
   }
 
-  const roll = String(student.participantId).trim();
+  const roll = String(student.participantId || student.rollNumber || "").trim();
+  const phone = String(student.whatsaapNumber || student.phone || "").trim();
+  const cleanPhone = normalizePakistaniPhone(phone);
 
   return await withLock(async () => {
-    // 1. Double-check if already assigned in active assignments
+    // 1. Double-check if already assigned in active assignments - NEVER RE-ASSIGN!
     const currentAssignments = await getAssignments();
-    const existing = currentAssignments.find(
-      (a) => String(a.studentId).trim() === roll || String(a.studentRollNumber).trim() === roll
-    );
+    const existing = currentAssignments.find((a) => {
+      const aRoll = String(a.studentRollNumber || a.studentId || "").trim();
+      const aPhone = normalizePakistaniPhone(a.studentPhone || "");
+      if (roll && aRoll.toLowerCase() === roll.toLowerCase()) return true;
+      if (cleanPhone && aPhone && aPhone === cleanPhone) return true;
+      return false;
+    });
+
     if (existing) {
+      // LAST/EXISTING ASSIGNMENT FOUND - RETURN DIRECTLY!
       return existing;
     }
 
     // 2. Check if student has a pre-assigned topic in the bundled dataset
     if (Array.isArray(PRE_ASSIGNED_STUDENTS)) {
-      const pre = PRE_ASSIGNED_STUDENTS.find(
-        (a) => String(a.studentId).trim() === roll || String(a.studentRollNumber).trim() === roll
-      );
+      const pre = PRE_ASSIGNED_STUDENTS.find((a) => {
+        const aRoll = String(a.studentRollNumber || a.studentId || "").trim();
+        const aPhone = normalizePakistaniPhone(a.studentPhone || "");
+        if (roll && aRoll.toLowerCase() === roll.toLowerCase()) return true;
+        if (cleanPhone && aPhone && aPhone === cleanPhone) return true;
+        return false;
+      });
+
       if (pre) {
-        memStore.assignments.push(pre);
-        writeJsonFile("assignments.json", memStore.assignments);
+        const alreadyInMem = memStore.assignments.some(
+          (m) => String(m.studentRollNumber || m.studentId).trim() === roll
+        );
+        if (!alreadyInMem) {
+          memStore.assignments.push(pre);
+          writeJsonFile("assignments.json", memStore.assignments);
+        }
         return pre;
       }
     }
