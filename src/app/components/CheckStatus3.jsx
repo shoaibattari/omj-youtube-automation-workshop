@@ -220,14 +220,6 @@ export default function StatusPage() {
               <p className="font-medium my-2">
                 No registration found against this number, name, or ID.
               </p>
-
-              {/* <a
-                href="https://forms.gle/BYpufBDAt7hQ58kg6"
-                target="_blank"
-                className="rounded-2xl bg-green-600 px-4 py-2 text-center text-white uppercase shadow-lg shadow-red-600/30 hover:bg-red-500 transition"
-              >
-                Register Now
-              </a> */}
             </div>
           )}
 
@@ -329,9 +321,13 @@ export default function StatusPage() {
                   className="w-87.5 h-125 bg-gradient-to-b from-[#1a1a3e] via-[#0d0d2b] to-[#0a0a1a] rounded-[2.5rem] relative overflow-hidden text-white shadow-2xl"
                 >
                   {(() => {
-                    const isWebDev = participant?.course?.toLowerCase().includes("web development");
-                    const primaryColor = isWebDev ? "#0066FF" : "#FF0000";
-                    const secondaryColor = isWebDev ? "#0047cc" : "#cc0000";
+                    const courseLower = participant?.course?.toLowerCase() || "";
+                    const isWebDev = courseLower.includes("web development");
+                    const isAdvanceTactics = courseLower.includes("advance tectics");
+
+                    const primaryColor = isWebDev ? "#0066FF" : isAdvanceTactics ? "#9333ea" : "#FF0000";
+                    const secondaryColor = isWebDev ? "#0047cc" : isAdvanceTactics ? "#7e22ce" : "#cc0000";
+
                     return (
                       <>
                         <div className="absolute top-0 left-0 w-full h-12 -skew-y-6 origin-top-left" style={{ background: `linear-gradient(to right, ${primaryColor}, ${secondaryColor})` }}></div>
@@ -353,6 +349,12 @@ export default function StatusPage() {
                               <>
                                 AI Web Development
                               </>
+                            ) : isAdvanceTactics ? (
+                              <>
+                                Advance Tactics of
+                                <br />
+                                YouTube Automation
+                              </>
                             ) : (
                               <>
                                 Fundamental of
@@ -363,7 +365,7 @@ export default function StatusPage() {
                           </h2>
 
                           <p className="text-[11px] tracking-[0.15em] font-bold uppercase mt-1 text-white/90">
-                            {isWebDev ? "Batch 4" : "Batch 2"}
+                            {isWebDev ? "Batch 4" : isAdvanceTactics ? "Batch 1" : "Batch 2"}
                           </p>
 
                           <div className="mt-2 w-24 h-24 mx-auto rounded-full border-4 overflow-hidden bg-[#0d0d2b] shadow-xl" style={{ borderColor: primaryColor, boxShadow: `0 10px 15px -3px ${primaryColor}4D` }}>
@@ -381,7 +383,7 @@ export default function StatusPage() {
                             </h3>
 
                             <p className="text-white font-bold text-xl tracking-widest">
-                              OMJ-YT2-{participant.participantId}
+                              {isWebDev ? "OMJ-YT4" : isAdvanceTactics ? "OMJ-YT1" : "OMJ-YT2"}-{participant.participantId}
                             </p>
 
                             <h3 className="text-lg font-black text-white uppercase tracking-tighter leading-none">
@@ -389,7 +391,7 @@ export default function StatusPage() {
                             </h3>
 
                             <div className="mt-2">
-                              <span className={`inline-block backdrop-blur-sm text-white text-[11px] font-black uppercase tracking-[0.15em] px-4 py-1 rounded-full border ${participant.mode?.toLowerCase() === "hybrid"
+                              <span className={`inline-block backdrop-blur-sm text-white text-[11px] font-black uppercase tracking-[0.15em] px-4 py-1 rounded-full border ${participant.mode?.toLowerCase() === "hybrid" || participant.mode?.toLowerCase() === "hybird"
                                 ? "bg-orange-500/30 border-orange-400/50"
                                 : "bg-emerald-500/30 border-emerald-400/50"
                                 }`}>
@@ -412,80 +414,6 @@ export default function StatusPage() {
                 </div>
 
               </div>
-
-              {/* ========== WHATSAPP DP (COMMENTED OUT) ==========
-              <div className="flex flex-col items-center gap-6">
-                <div
-                  ref={dpRef}
-                  className="w-87.5 h-87.5 bg-gradient-to-br from-[#1a1a3e] via-[#0d0d2b] to-[#0a0a1a] relative overflow-hidden flex flex-col items-center justify-center rounded-[3rem] shadow-2xl"
-                >
-                  <div className="absolute -top-10 -left-10 w-44 h-44 bg-[#FF0000] rounded-full blur-3xl opacity-30"></div>
-                  <div className="absolute -bottom-10 -right-10 w-44 h-44 bg-[#cc0000] rounded-full blur-3xl opacity-25"></div>
-                  <div className="absolute inset-0 m-auto w-60 h-60 bg-[#FF0000] rounded-full blur-3xl opacity-10"></div>
-
-                  <div className="relative z-10 flex flex-col items-center px-4">
-                    <p className="text-xl text-white font-bold uppercase tracking-[0.25em] mb-1">
-                      THE OKHAI MEMON JAMAT
-                    </p>
-
-                    <div className="bg-gradient-to-r from-[#FF0000] to-[#cc0000] px-4 py-1 rounded-full mb-2 shadow-lg shadow-red-500/30">
-                      <p className="text-white text-[11px] font-black uppercase tracking-[0.15em]">
-                        I&apos;M ATTENDING
-                      </p>
-                    </div>
-
-                    <div className="relative p-1.5 bg-gradient-to-tr from-[#FF0000] to-[#cc0000] rounded-full shadow-xl shadow-red-500/30">
-                      <div className="w-28 h-28 rounded-full border-4 border-[#0d0d2b] overflow-hidden">
-                        <img
-                          src={userImage || "/avatar.png"}
-                          crossOrigin="anonymous"
-                          className="w-full h-full object-cover"
-                          alt="dp"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="mt-2 text-center">
-                      <h4 className="text-lg font-black text-white uppercase tracking-tight">
-                        {participant.fullName}
-                      </h4>
-
-                      <h3 className="text-[15px] font-black text-white uppercase leading-tight mt-0.5">
-                        Fundamental of YouTube Automation
-                      </h3>
-
-                      <p className="text-[10px] font-bold text-white/90 uppercase tracking-[0.15em] mt-1">
-                        Batch 2
-                      </p>
-
-                      <div className="flex items-center justify-center gap-2 mt-1">
-                        <span className="bg-white/10 text-white/80 px-3 py-0.5 rounded-full text-[11px] font-bold uppercase tracking-wider">
-                          5th Aug
-                        </span>
-                        <span className="bg-white/10 text-white/80 px-3 py-0.5 rounded-full text-[11px] font-bold uppercase tracking-wider">
-                          4:00 PM
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="absolute bottom-3 w-full text-center px-4">
-                    <p className="text-[10px] text-white font-extrabold uppercase tracking-[0.2em]">
-                      Social Welfare Committee
-                    </p>
-                  </div>
-                </div>
-
-                <button
-                  onClick={() =>
-                    downloadImage(dpRef, `${participant.fullName}-DP.png`, true)
-                  }
-                  className="w-full max-w-87.5 bg-white border-2 border-[#FF0000] text-[#FF0000] font-black py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-red-50 shadow-xl transition-all"
-                >
-                  <FaDownload /> DOWNLOAD WHATSAPP DP
-                </button>
-              </div>
-              ========== END WHATSAPP DP ========== */}
             </div>
           </div>
         )}
