@@ -332,6 +332,19 @@ export async function toggleExamSet(setId, isActive) {
   });
 }
 
+// Admin function: Delete a set
+export async function deleteExamSet(setId) {
+  return await withLock(async () => {
+    const sets = await getExamSets();
+    const index = sets.findIndex((s) => s.id === setId);
+    if (index === -1) throw new Error("Set not found.");
+    const removed = sets.splice(index, 1)[0];
+    memStore.sets = sets;
+    writeJsonFile("sets.json", memStore.sets);
+    return removed;
+  });
+}
+
 // Admin function: Add a single topic to a set
 export async function addExamTopic({ setId, title, isActive = true }) {
   if (!setId || !title) throw new Error("Set ID and Topic Title are required.");
@@ -463,4 +476,16 @@ export async function getExamDashboardStats() {
     setsOverview,
     recentAssignments: assignments.slice(-20).reverse(),
   };
+}
+
+// Reset all test assignments (cleans test data before live rollout)
+export async function resetExamAssignments() {
+  return await withLock(async () => {
+    memStore.assignments = [];
+    writeJsonFile("assignments.json", []);
+    return {
+      success: true,
+      message: "Exam test assignments successfully cleared.",
+    };
+  });
 }

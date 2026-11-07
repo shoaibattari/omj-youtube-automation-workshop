@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { verifyAdminAccessKey } from "@/lib/exam/auth";
-import { getExamSets, addExamSet, toggleExamSet } from "@/lib/exam/storage";
+import { getExamSets, addExamSet, toggleExamSet, deleteExamSet } from "@/lib/exam/storage";
 
 function checkAuth(request) {
   const adminKey =
@@ -40,6 +40,20 @@ export async function PATCH(request) {
     const { setId, isActive } = body;
     const updated = await toggleExamSet(setId, isActive);
     return NextResponse.json({ success: true, set: updated });
+  } catch (err) {
+    return NextResponse.json({ error: err.message }, { status: 400 });
+  }
+}
+
+export async function DELETE(request) {
+  if (!checkAuth(request)) {
+    return NextResponse.json({ error: "Unauthorized." }, { status: 401 });
+  }
+  try {
+    const body = await request.json().catch(() => ({}));
+    const { setId } = body;
+    const removed = await deleteExamSet(setId);
+    return NextResponse.json({ success: true, removed });
   } catch (err) {
     return NextResponse.json({ error: err.message }, { status: 400 });
   }

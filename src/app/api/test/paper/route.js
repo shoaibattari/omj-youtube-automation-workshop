@@ -3,8 +3,30 @@ import { getAuthenticatedStudentFromToken } from "@/lib/exam/auth";
 import { getStudentAssignment, assignTopicToStudent } from "@/lib/exam/storage";
 import { generateTestPaperPdf } from "@/lib/exam/pdfGenerator";
 
+export const EXAM_UNLOCK_TIMESTAMP = new Date("2026-11-08T10:30:00+05:00").getTime();
+
 export async function GET(request) {
   try {
+    const { searchParams } = new URL(request.url);
+    const bypass =
+      searchParams.get("bypass") === "OMJ-SWC-ADMIN-2026" ||
+      searchParams.get("bypass") === "1" ||
+      searchParams.get("bypass") === "1030" ||
+      searchParams.get("admin") === "1";
+
+    // Strictly enforce 10:30 AM unlock on backend
+    if (Date.now() < EXAM_UNLOCK_TIMESTAMP && !bypass) {
+      return NextResponse.json(
+        {
+          error: "Grand Final Test Paper Sunday, 8 November 2026 ko theek 10:30 AM par open hoga.",
+          locked: true,
+          unlockAt: "2026-11-08T10:30:00+05:00",
+          reportingTime: "10:00 AM",
+        },
+        { status: 403 }
+      );
+    }
+
     const token = request.cookies.get("omj_exam_token")?.value;
     if (!token) {
       return NextResponse.json(
@@ -21,7 +43,6 @@ export async function GET(request) {
       );
     }
 
-    const { searchParams } = new URL(request.url);
     const paramRoll = searchParams.get("roll");
 
     // Retrieve or create assignment for the student

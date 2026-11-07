@@ -19,7 +19,7 @@ import {
   FaChargingStation,
 } from "react-icons/fa";
 
-export default function ExamPaperPreview({ student, assignment, onReset }) {
+export default function ExamPaperPreview({ student, assignment, onReset, bypass = false }) {
   const [downloading, setDownloading] = useState(false);
   const iframeRef = useRef(null);
 
@@ -38,8 +38,9 @@ export default function ExamPaperPreview({ student, assignment, onReset }) {
     .replace(/_+/g, "_");
   const fileName = `${safeStudentName}_${rollNumber}_Batch_2_Final_Test_Paper.pdf`;
 
-  const pdfUrl = `/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}&t=${Date.now()}`;
-  const downloadUrl = `/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}&download=1&t=${Date.now()}`;
+  const bypassParam = bypass ? "&bypass=1" : "";
+  const pdfUrl = `/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}${bypassParam}&t=${Date.now()}`;
+  const downloadUrl = `/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}&download=1${bypassParam}&t=${Date.now()}`;
 
   const handleDownload = async () => {
     setDownloading(true);
@@ -153,7 +154,7 @@ export default function ExamPaperPreview({ student, assignment, onReset }) {
               <FaAward /> Assigned Topic / Question
             </span>
             <span className="text-[11px] text-amber-300 font-mono font-bold">
-              Sunday, 8 Nov 2026 • Reporting: 10:00 AM • Test Publish: 10:30 AM
+              Sunday, 8 Nov 2026 • Reporting: 10:00 AM • Paper Unlocks: 10:30 AM
             </span>
           </div>
           <p className="text-xl md:text-2xl font-black text-white leading-snug">
@@ -172,7 +173,7 @@ export default function ExamPaperPreview({ student, assignment, onReset }) {
                 <FaClock /> Reporting: 10:00 AM
               </span>
               <span className="bg-red-600/20 text-red-400 border border-red-500/30 px-2.5 py-0.5 rounded-lg flex items-center gap-1">
-                <FaClock /> Test Publish: 10:30 AM
+                <FaClock /> Paper Unlocks: 10:30 AM
               </span>
             </div>
           </div>

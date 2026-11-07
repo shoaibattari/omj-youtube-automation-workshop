@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import ExamLookupForm from "./components/ExamLookupForm";
 import ExamGeneratorAnimation from "./components/ExamGeneratorAnimation";
 import ExamPaperPreview from "./components/ExamPaperPreview";
+import ExamPaperLockedCard, { EXAM_UNLOCK_TIMESTAMP } from "./components/ExamPaperLockedCard";
 import ExamAdminDashboard from "./components/ExamAdminDashboard";
 import { FaCog } from "react-icons/fa";
 
@@ -20,6 +21,7 @@ export default function ExamTestPage() {
   const [assignment, setAssignment] = useState(null);
   const [showAdmin, setShowAdmin] = useState(false);
   const [lookupKey, setLookupKey] = useState(0);
+  const [adminUnlocked, setAdminUnlocked] = useState(false);
 
   // Smoothly scroll to top on page mount and on every view state change
   useEffect(() => {
@@ -92,6 +94,7 @@ export default function ExamTestPage() {
     setAuthenticatedStudent(null);
     setAssignment(null);
     setErrorMessage(null);
+    setAdminUnlocked(false);
     setLookupKey((prev) => prev + 1);
     setViewState("lookup");
     if (typeof window !== "undefined") {
@@ -130,11 +133,21 @@ export default function ExamTestPage() {
           )}
 
           {viewState === "ready" && assignment && (
-            <ExamPaperPreview
-              student={authenticatedStudent}
-              assignment={assignment}
-              onReset={handleReset}
-            />
+            Date.now() < EXAM_UNLOCK_TIMESTAMP && !adminUnlocked ? (
+              <ExamPaperLockedCard
+                student={authenticatedStudent}
+                assignment={assignment}
+                onReset={handleReset}
+                onAdminUnlock={() => setAdminUnlocked(true)}
+              />
+            ) : (
+              <ExamPaperPreview
+                student={authenticatedStudent}
+                assignment={assignment}
+                onReset={handleReset}
+                bypass={adminUnlocked}
+              />
+            )
           )}
         </div>
 

@@ -214,9 +214,9 @@ export default function Home() {
                     <FaClock className="text-base sm:text-lg" />
                   </div>
                   <div>
-                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Test Publish</span>
+                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Paper Unlocks</span>
                     <span className="text-xs sm:text-sm font-black text-white">10:30 AM</span>
-                    <span className="text-[10px] text-red-300 font-medium block">Test Starts</span>
+                    <span className="text-[10px] text-red-300 font-medium block">PKT (Sharply)</span>
                   </div>
                 </div>
 
@@ -250,7 +250,7 @@ export default function Home() {
                   className="rounded-2xl border border-slate-700 bg-slate-900/90 px-6 py-3.5 text-center font-bold text-sm uppercase text-slate-200 hover:bg-slate-800 transition flex items-center justify-center gap-2 shadow-lg"
                 >
                   <FaIdCard className="text-red-500" />
-                  <span>Check Student Status</span>
+                  <span>Check Student Roll Number</span>
                 </Link>
 
                 <a
@@ -332,7 +332,7 @@ export default function Home() {
                         Students Reporting: 10:00 AM
                       </span>
                       <span className="bg-red-500/20 text-red-300 font-bold px-2.5 py-1 rounded-lg border border-red-500/30">
-                        Test Publish: 10:30 AM
+                        Paper Unlocks: 10:30 AM
                       </span>
                     </div>
                   </div>
@@ -468,7 +468,7 @@ export default function Home() {
                 </span>
                 <span className="text-slate-600">•</span>
                 <span className="flex items-center gap-1.5 text-red-400 font-bold">
-                  <FaClock /> Test Publish: 10:30 AM
+                  <FaClock /> Paper Unlocks: 10:30 AM
                 </span>
                 <span className="text-slate-600">•</span>
                 <span className="text-emerald-400 font-medium">Sunday, 8 Nov 2026</span>

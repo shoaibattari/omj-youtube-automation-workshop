@@ -76,7 +76,7 @@ export default function ExamLookupForm({ onLookupSuccess, loading, errorMessage,
           </span>
           <span className="text-slate-600">•</span>
           <span className="flex items-center gap-1 text-red-400 font-bold">
-            <FaClock /> Test Publish: 10:30 AM
+            <FaClock /> Paper Unlocks: 10:30 AM
           </span>
           <span className="text-slate-600">•</span>
           <span className="text-emerald-400 font-medium">150 Total Marks</span>
@@ -166,7 +166,7 @@ export default function ExamLookupForm({ onLookupSuccess, loading, errorMessage,
             <FaTools /> Required Gadgets for Final Test (Physical Session)
           </div>
           <span className="text-[11px] bg-red-600/20 text-red-400 border border-red-500/30 font-bold px-2.5 py-1 rounded-full inline-flex items-center gap-1.5 w-fit">
-            <FaClock /> Reporting: 10:00 AM • Test Publish: 10:30 AM
+            <FaClock /> Reporting: 10:00 AM • Paper Unlocks: 10:30 AM
           </span>
         </div>
 

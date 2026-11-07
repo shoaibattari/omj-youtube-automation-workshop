@@ -13,6 +13,7 @@ import {
   FaList,
   FaLayerGroup,
   FaBookOpen,
+  FaTrashAlt,
 } from "react-icons/fa";
 
 export default function ExamAdminDashboard({ onClose }) {
@@ -109,6 +110,28 @@ export default function ExamAdminDashboard({ onClose }) {
     }
   };
 
+  const handleDeleteSet = async (setId, nicheName) => {
+    const confirmed = window.confirm(`Are you sure you want to delete set "${nicheName}"?`);
+    if (!confirmed) return;
+    try {
+      const res = await fetch("/api/test/admin/sets", {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+          "x-admin-key": adminKey,
+        },
+        body: JSON.stringify({ setId }),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Failed to delete set.");
+      }
+      loadStats(adminKey);
+    } catch (err) {
+      alert(err.message);
+    }
+  };
+
   const handleAddTopic = async (e) => {
     e.preventDefault();
     if (!selectedSetId) return;
@@ -182,6 +205,33 @@ export default function ExamAdminDashboard({ onClose }) {
       loadStats(adminKey);
     } catch (err) {
       alert(err.message);
+    }
+  };
+
+  const [resetting, setResetting] = useState(false);
+  const handleResetAssignments = async () => {
+    const confirmed = window.confirm(
+      "Are you sure you want to reset all test student assignments? All testing data will be wiped so students can get fresh assignments."
+    );
+    if (!confirmed) return;
+
+    setResetting(true);
+    try {
+      const res = await fetch("/api/test/admin/reset", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-admin-key": adminKey,
+        },
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Failed to reset assignments.");
+      alert("Testing assignments have been reset successfully!");
+      loadStats(adminKey);
+    } catch (err) {
+      alert(err.message);
+    } finally {
+      setResetting(false);
     }
   };
 
@@ -281,6 +331,15 @@ export default function ExamAdminDashboard({ onClose }) {
               </div>
 
               <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={handleResetAssignments}
+                  disabled={resetting}
+                  className="bg-red-950/80 hover:bg-red-900 border border-red-700/60 text-red-300 text-xs font-bold px-3 py-2 rounded-xl flex items-center gap-1.5 transition-colors cursor-pointer disabled:opacity-50"
+                  title="Wipe test assignments before live exam"
+                >
+                  <FaTrashAlt /> {resetting ? "Resetting..." : "Reset Test Data"}
+                </button>
                 <a
                   href={`/api/test/admin/export?adminKey=${encodeURIComponent(adminKey)}`}
                   className="bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3 py-2 rounded-xl flex items-center gap-1.5 transition-colors"
@@ -453,17 +512,28 @@ export default function ExamAdminDashboard({ onClose }) {
                           </div>
                         </div>
 
-                        <button
-                          onClick={() => handleToggleSet(s.id, s.isActive)}
-                          className={`flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-lg border transition-colors cursor-pointer ${
-                            s.isActive
-                              ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/30"
-                              : "bg-red-500/10 text-red-400 border-red-500/30"
-                          }`}
-                        >
-                          {s.isActive ? <FaToggleOn className="text-base" /> : <FaToggleOff className="text-base" />}
-                          {s.isActive ? "Active" : "Disabled"}
-                        </button>
+                        <div className="flex items-center gap-2">
+                          <button
+                            type="button"
+                            onClick={() => handleToggleSet(s.id, s.isActive)}
+                            className={`flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-lg border transition-colors cursor-pointer ${
+                              s.isActive
+                                ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/30"
+                                : "bg-red-500/10 text-red-400 border-red-500/30"
+                            }`}
+                          >
+                            {s.isActive ? <FaToggleOn className="text-base" /> : <FaToggleOff className="text-base" />}
+                            {s.isActive ? "Active" : "Disabled"}
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => handleDeleteSet(s.id, s.nicheName)}
+                            className="text-xs text-red-400 hover:text-white p-2 rounded-lg border border-red-900/60 bg-red-950/40 hover:bg-red-900 transition-colors cursor-pointer"
+                            title={`Delete Set ${s.code}`}
+                          >
+                            <FaTrashAlt />
+                          </button>
+                        </div>
                       </div>
                     ))}
                   </div>
