@@ -1,0 +1,37 @@
+[
+  {
+    "id": "set-a",
+    "code": "A",
+    "nicheName": "AI & Technology",
+    "isActive": true,
+    "createdAt": "2026-11-01T00:00:00.000Z"
+  },
+  {
+    "id": "set-b",
+    "code": "B",
+    "nicheName": "Finance & Wealth",
+    "isActive": true,
+    "createdAt": "2026-11-01T00:00:00.000Z"
+  },
+  {
+    "id": "set-c",
+    "code": "C",
+    "nicheName": "Business & Luxury Brands",
+    "isActive": true,
+    "createdAt": "2026-11-01T00:00:00.000Z"
+  },
+  {
+    "id": "set-d",
+    "code": "D",
+    "nicheName": "Science & Knowledge",
+    "isActive": true,
+    "createdAt": "2026-11-01T00:00:00.000Z"
+  },
+  {
+    "id": "set-e",
+    "code": "E",
+    "nicheName": "Productivity & Self-Improvement",
+    "isActive": true,
+    "createdAt": "2026-11-01T00:00:00.000Z"
+  }
+]

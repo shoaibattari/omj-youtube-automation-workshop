@@ -59,6 +59,17 @@ export default function Navbar() {
             </div>
           </Link>
 
+          {/* Quick link to Final Assessment */}
+          <div className="flex items-center gap-3">
+            <Link
+              href="/test"
+              className="bg-gradient-to-r from-red-600 to-amber-500 hover:from-red-500 hover:to-amber-400 text-white px-3.5 py-2 md:px-5 md:py-2.5 rounded-xl font-black text-xs uppercase tracking-wider flex items-center gap-2 shadow-lg transition-all duration-200 active:scale-95"
+            >
+              <FaGraduationCap className="text-sm" />
+              <span>Final Test Paper</span>
+            </Link>
+          </div>
+
           {/* ========== DESKTOP NAV LINKS (COMMENTED OUT) ==========
           <div className="hidden lg:flex space-x-8 items-center">
             {
