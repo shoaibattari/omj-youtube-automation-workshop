@@ -21,8 +21,15 @@ export async function GET(request) {
       );
     }
 
-    // Retrieve or create assignment
-    let assignment = await getStudentAssignment(student.participantId);
+    const { searchParams } = new URL(request.url);
+    const paramRoll = searchParams.get("roll");
+
+    // Retrieve or create assignment for the student
+    const targetRoll = paramRoll || student.participantId;
+    let assignment = await getStudentAssignment(targetRoll);
+    if (!assignment) {
+      assignment = await getStudentAssignment(student.participantId);
+    }
     if (!assignment) {
       assignment = await assignTopicToStudent(student);
     }
@@ -37,7 +44,6 @@ export async function GET(request) {
       topicTitle: assignment.topicTitle,
     });
 
-    const { searchParams } = new URL(request.url);
     const isDownload = searchParams.get("download") === "1";
     const dispositionType = isDownload ? "attachment" : "inline";
 

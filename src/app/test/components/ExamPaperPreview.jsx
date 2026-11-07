@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
   FaDownload,
   FaPrint,
@@ -23,6 +23,13 @@ export default function ExamPaperPreview({ student, assignment, onReset }) {
   const [downloading, setDownloading] = useState(false);
   const iframeRef = useRef(null);
 
+  // Smooth scroll to top when preview opens
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, []);
+
   const rollNumber = assignment?.rollNumber || student?.rollNumber || student?.participantId;
   const studentName = assignment?.studentName || student?.fullName || "Student";
   const safeStudentName = studentName
@@ -31,8 +38,8 @@ export default function ExamPaperPreview({ student, assignment, onReset }) {
     .replace(/_+/g, "_");
   const fileName = `${safeStudentName}_${rollNumber}_Batch_2_Final_Test_Paper.pdf`;
 
-  const pdfUrl = `/api/test/paper?t=${Date.now()}`;
-  const downloadUrl = `/api/test/paper?download=1`;
+  const pdfUrl = `/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}&t=${Date.now()}`;
+  const downloadUrl = `/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}&download=1&t=${Date.now()}`;
 
   const handleDownload = async () => {
     setDownloading(true);
@@ -60,7 +67,7 @@ export default function ExamPaperPreview({ student, assignment, onReset }) {
         // Fallback to direct print window
       }
     }
-    const printWindow = window.open(`/api/test/paper`, "_blank");
+    const printWindow = window.open(`/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}`, "_blank");
     if (printWindow) {
       printWindow.addEventListener("load", () => {
         printWindow.print();

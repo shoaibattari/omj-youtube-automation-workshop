@@ -29,6 +29,12 @@ export default function ExamGeneratorAnimation({ onGenerationComplete, onError }
   const hasTriggeredRef = useRef(false);
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, []);
+
+  useEffect(() => {
     if (hasTriggeredRef.current) return;
     hasTriggeredRef.current = true;
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ExamLookupForm from "./components/ExamLookupForm";
@@ -19,32 +19,22 @@ export default function ExamTestPage() {
   const [authenticatedStudent, setAuthenticatedStudent] = useState(null);
   const [assignment, setAssignment] = useState(null);
   const [showAdmin, setShowAdmin] = useState(false);
+  const [lookupKey, setLookupKey] = useState(0);
 
-  // Check if there is an active authenticated session on mount
-  const checkExistingSession = useCallback(async () => {
-    try {
-      const res = await fetch("/api/test/assignment");
-      const data = await res.json();
-      if (data.authenticated && data.student) {
-        setAuthenticatedStudent(data.student);
-        if (data.assignment) {
-          setAssignment(data.assignment);
-          setViewState("ready");
-        }
-      }
-    } catch {
-      // Ignore initial session check error
-    }
-  }, []);
-
+  // Smoothly scroll to top on page mount and on every view state change
   useEffect(() => {
-    checkExistingSession();
-  }, [checkExistingSession]);
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [viewState]);
 
   // Handle student lookup - instant direct authentication (No OTP required)
   const handleLookup = async (identifier) => {
     setLoading(true);
     setErrorMessage(null);
+    // Explicitly wipe out previous student data to prevent any data overlap
+    setAuthenticatedStudent(null);
+    setAssignment(null);
 
     try {
       const res = await fetch("/api/test/lookup", {
@@ -65,11 +55,17 @@ export default function ExamTestPage() {
       if (data.assignment) {
         setAssignment(data.assignment);
         setViewState("ready");
+        if (typeof window !== "undefined") {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
         return;
       }
 
       // Only if first-time user without existing assignment: run generator workflow
       setViewState("generating");
+      if (typeof window !== "undefined") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
     } catch (err) {
       setErrorMessage(err.message);
     } finally {
@@ -81,19 +77,26 @@ export default function ExamTestPage() {
   const handleGenerationComplete = (newAssignment) => {
     setAssignment(newAssignment);
     setViewState("ready");
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
 
-  // Handle reset / verify another student
+  // Handle reset / verify another student - completely clears previous student data
   const handleReset = async () => {
     try {
       await fetch("/api/test/logout", { method: "POST" });
     } catch {
       // ignore
     }
-    setViewState("lookup");
     setAuthenticatedStudent(null);
     setAssignment(null);
     setErrorMessage(null);
+    setLookupKey((prev) => prev + 1);
+    setViewState("lookup");
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   };
 
   return (
@@ -108,6 +111,7 @@ export default function ExamTestPage() {
         <div className="relative z-10 w-full">
           {viewState === "lookup" && (
             <ExamLookupForm
+              key={lookupKey}
               onLookupSuccess={handleLookup}
               loading={loading}
               errorMessage={errorMessage}
