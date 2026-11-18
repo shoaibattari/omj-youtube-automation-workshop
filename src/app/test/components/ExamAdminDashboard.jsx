@@ -705,7 +705,7 @@ export default function ExamAdminDashboard({ onClose }) {
                             <td className="py-2.5 px-3 text-slate-400">{a.studentMode}</td>
                             <td className="py-2.5 px-3">
                               <span className="px-2 py-0.5 rounded bg-slate-800 border border-slate-700 text-amber-300 font-bold">
-                                Set {a.setCode}
+                                Set {a.setCode} ({a.characterName || `Char ${a.setCode}`})
                               </span>
                             </td>
                             <td className="py-2.5 px-3 font-medium text-slate-200">

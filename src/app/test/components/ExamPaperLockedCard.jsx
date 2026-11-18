@@ -195,14 +195,23 @@ export default function ExamPaperLockedCard({
           </div>
 
           <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800">
-            <span className="text-slate-500 block uppercase font-bold text-[10px]">Official Course</span>
-            <span className="text-white font-bold text-sm block mt-1">YouTube Automation Batch 2</span>
+            <span className="text-slate-500 block uppercase font-bold text-[10px]">Assigned Character & Niche</span>
+            <span className="text-amber-400 font-bold text-sm block mt-1 truncate">
+              {assignment?.characterName || `Character ${assignment?.setCode || "A"}`} • {assignment?.nicheName}
+            </span>
           </div>
 
           <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800">
             <span className="text-slate-500 block uppercase font-bold text-[10px]">Assessment Marks</span>
             <span className="text-emerald-400 font-bold text-sm block mt-1">150 Total Marks</span>
           </div>
+        </div>
+
+        <div className="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+          <span className="flex items-center gap-1.5 text-emerald-400 font-medium">
+            <FaCheckCircle className="text-emerald-500" /> Character Assets Pack & Official Test Paper ready to unlock
+          </span>
+          <span className="font-mono text-amber-300 text-[11px]">Unlocks @ 10:30 AM</span>
         </div>
       </div>
 
@@ -299,13 +308,13 @@ export default function ExamPaperLockedCard({
 
         <div className="flex flex-wrap items-center gap-3 w-full sm:w-auto">
           <a
-            href="https://chat.whatsapp.com/JCX5PQRS11iK5tbmUZggNv"
+            href="https://chat.whatsapp.com/CNQBYrCw3CC8lZ3aJ95pxq"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 sm:flex-initial rounded-xl border border-emerald-500/30 bg-emerald-950/50 hover:bg-emerald-900/60 px-5 py-3 text-center font-bold text-xs uppercase text-emerald-300 transition flex items-center justify-center gap-2 shadow-lg"
           >
             <FaWhatsapp className="text-base text-emerald-400" />
-            <span>Discussion Group</span>
+            <span>YouTube Session Community</span>
           </a>
 
           {/* Admin Preview Unlock Button */}

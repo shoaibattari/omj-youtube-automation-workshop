@@ -1,833 +1,7 @@
-// Auto-generated permanent pre-assignments for Batch 2 students
-// This allows 100% stateless execution on Vercel Serverless without requiring an external database!
-
+// Official Trainer Pre-assignments for YouTube Automation Batch 2
+// Updated without 1001-1032, exactly 240 confirmed students.
+// Roll 2176 (Irfan Nisar Gaba) strictly locked to topic-b-12 (Set B, Character B).
 export const PRE_ASSIGNED_STUDENTS = [
-  {
-    "id": "asgn_b2_2501_03213801242",
-    "studentId": "2501",
-    "studentRollNumber": "2501",
-    "studentName": "Shahneel",
-    "studentPhone": "03213801242",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-2",
-    "topicTitle": "How AI Creates Images",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2502_03343443279",
-    "studentId": "2502",
-    "studentRollNumber": "2502",
-    "studentName": "M.fahim",
-    "studentPhone": "03343443279",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-16",
-    "topicTitle": "Small Savings Big Results",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2503_03422285546",
-    "studentId": "2503",
-    "studentRollNumber": "2503",
-    "studentName": "M.Sameer",
-    "studentPhone": "03422285546",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-10",
-    "topicTitle": "How Satellites Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2505_03353079781",
-    "studentId": "2505",
-    "studentRollNumber": "2505",
-    "studentName": "Kiran Fawad",
-    "studentPhone": "03353079781",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-6",
-    "topicTitle": "AI in Healthcare",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2506_03327922468",
-    "studentId": "2506",
-    "studentRollNumber": "2506",
-    "studentName": "Sumaira Zeeshan",
-    "studentPhone": "03327922468",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-2",
-    "topicTitle": "How Rolex Became Famous",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2507_03131033917",
-    "studentId": "2507",
-    "studentRollNumber": "2507",
-    "studentName": "ameen",
-    "studentPhone": "03131033917",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-18",
-    "topicTitle": "What If Earth Stopped Spinning?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2508_03218947373",
-    "studentId": "2508",
-    "studentRollNumber": "2508",
-    "studentName": "Aisha",
-    "studentPhone": "03218947373",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-15",
-    "topicTitle": "AI and Productivity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2509_03362105330",
-    "studentId": "2509",
-    "studentRollNumber": "2509",
-    "studentName": "Madiha Suleman",
-    "studentPhone": "03362105330",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-13",
-    "topicTitle": "Why Some Products Go Viral",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2510_03132976678",
-    "studentId": "2510",
-    "studentRollNumber": "2510",
-    "studentName": "Saira",
-    "studentPhone": "03132976678",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-11",
-    "topicTitle": "Managing Stress Effectively",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2511_03352083017",
-    "studentId": "2511",
-    "studentRollNumber": "2511",
-    "studentName": "MUHAMMAD SHAYAN",
-    "studentPhone": "03352083017",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-10",
-    "topicTitle": "Needs vs Wants",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2512_03452525992",
-    "studentId": "2512",
-    "studentRollNumber": "2512",
-    "studentName": "Muhammad wajid",
-    "studentPhone": "03452525992",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-11",
-    "topicTitle": "Mysteries of the Universe",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2513_03209280948",
-    "studentId": "2513",
-    "studentRollNumber": "2513",
-    "studentName": "Bushra",
-    "studentPhone": "03209280948",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-12",
-    "topicTitle": "AI and Cybersecurity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2514_03255314468",
-    "studentId": "2514",
-    "studentRollNumber": "2514",
-    "studentName": "Esha",
-    "studentPhone": "03255314468",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-15",
-    "topicTitle": "Story of a Startup Success",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2515_03113262454",
-    "studentId": "2515",
-    "studentRollNumber": "2515",
-    "studentName": "M sahal",
-    "studentPhone": "03113262454",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-17",
-    "topicTitle": "Productivity Myths",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2516_03233113602",
-    "studentId": "2516",
-    "studentRollNumber": "2516",
-    "studentName": "M.Hamza",
-    "studentPhone": "03233113602",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-1",
-    "topicTitle": "Why Luxury Brands Cost More",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2517_03242183323",
-    "studentId": "2517",
-    "studentRollNumber": "2517",
-    "studentName": "Muhammad Bin Furqan",
-    "studentPhone": "03242183323",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-6",
-    "topicTitle": "Building Discipline",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2518_03323868036",
-    "studentId": "2518",
-    "studentRollNumber": "2518",
-    "studentName": "Zaitoon",
-    "studentPhone": "03323868036",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-12",
-    "topicTitle": "Budgeting for Students",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2519_03102889154",
-    "studentId": "2519",
-    "studentRollNumber": "2519",
-    "studentName": "Umm e hani",
-    "studentPhone": "03102889154",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-20",
-    "topicTitle": "How Tsunamis Happen",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2520_03233372728",
-    "studentId": "2520",
-    "studentRollNumber": "2520",
-    "studentName": "Saim Ahmed sheikh",
-    "studentPhone": "03233372728",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-7",
-    "topicTitle": "Passive Income Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2521_03352450777",
-    "studentId": "2521",
-    "studentRollNumber": "2521",
-    "studentName": "Adnan Memon",
-    "studentPhone": "03352450777",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-17",
-    "topicTitle": "Strongest Forces in Nature",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2522_03073461872",
-    "studentId": "2522",
-    "studentRollNumber": "2522",
-    "studentName": "Aisha Nadeem",
-    "studentPhone": "03073461872",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-8",
-    "topicTitle": "Investing for Beginners",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2523_03062242424",
-    "studentId": "2523",
-    "studentRollNumber": "2523",
-    "studentName": "Mehwish Waqas",
-    "studentPhone": "03062242424",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-2",
-    "topicTitle": "Power of Daily Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2524_03352876583",
-    "studentId": "2524",
-    "studentRollNumber": "2524",
-    "studentName": "Eshaal Rao C/O Hussain Markatiya",
-    "studentPhone": "03352876583",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-15",
-    "topicTitle": "Credit Scores Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2525_03323246799",
-    "studentId": "2525",
-    "studentRollNumber": "2525",
-    "studentName": "M.Saim",
-    "studentPhone": "03323246799",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-10",
-    "topicTitle": "Importance of Consistency",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2526_03212785115",
-    "studentId": "2526",
-    "studentRollNumber": "2526",
-    "studentName": "Aamna",
-    "studentPhone": "03212785115",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-7",
-    "topicTitle": "Why Premium Products Sell",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2527_03343607256",
-    "studentId": "2527",
-    "studentRollNumber": "2527",
-    "studentName": "Sumaiya",
-    "studentPhone": "03343607256",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-4",
-    "topicTitle": "AI in Everyday Life",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2528_03362263561",
-    "studentId": "2528",
-    "studentRollNumber": "2528",
-    "studentName": "Ali Rehman",
-    "studentPhone": "03362263561",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-3",
-    "topicTitle": "What Causes Earthquakes?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2529_03038076296",
-    "studentId": "2529",
-    "studentRollNumber": "2529",
-    "studentName": "Warda",
-    "studentPhone": "03038076296",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-3",
-    "topicTitle": "Emergency Funds Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2530_03243386129",
-    "studentId": "2530",
-    "studentRollNumber": "2530",
-    "studentName": "Summaiya",
-    "studentPhone": "03243386129",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-8",
-    "topicTitle": "Goal Setting Techniques",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2531_03312358886",
-    "studentId": "2531",
-    "studentRollNumber": "2531",
-    "studentName": "Ahmed raza",
-    "studentPhone": "03312358886",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-12",
-    "topicTitle": "Secrets of Successful Brands",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2532_03347362637",
-    "studentId": "2532",
-    "studentRollNumber": "2532",
-    "studentName": "Ayesha",
-    "studentPhone": "03347362637",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-18",
-    "topicTitle": "AI in Agriculture",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2533_03332220762",
-    "studentId": "2533",
-    "studentRollNumber": "2533",
-    "studentName": "Sidrah",
-    "studentPhone": "03332220762",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-7",
-    "topicTitle": "Morning Habits of Successful People",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2534_03708875228",
-    "studentId": "2534",
-    "studentRollNumber": "2534",
-    "studentName": "Sana Sanober",
-    "studentPhone": "03708875228",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-18",
-    "topicTitle": "Future of Luxury Products",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2535_03043311362",
-    "studentId": "2535",
-    "studentRollNumber": "2535",
-    "studentName": "Emaan Asmat Ahmed",
-    "studentPhone": "03043311362",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-9",
-    "topicTitle": "How Inflation Affects Savings",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2536_03002734966",
-    "studentId": "2536",
-    "studentRollNumber": "2536",
-    "studentName": "SARFARAZ HASAN SIDDIQUI",
-    "studentPhone": "03002734966",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-5",
-    "topicTitle": "Future of Smart Homes",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2537_03213873368",
-    "studentId": "2537",
-    "studentRollNumber": "2537",
-    "studentName": "Tooba",
-    "studentPhone": "03213873368",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-1",
-    "topicTitle": "How to Stop Procrastinating",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2538_03211332415",
-    "studentId": "2538",
-    "studentRollNumber": "2538",
-    "studentName": "Mariam",
-    "studentPhone": "03211332415",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-1",
-    "topicTitle": "Why the Sky Is Blue",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2539_03313652530",
-    "studentId": "2539",
-    "studentRollNumber": "2539",
-    "studentName": "Sidra Ghaziani",
-    "studentPhone": "03313652530",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-4",
-    "topicTitle": "Psychology of Luxury Products",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2540_03002602244",
-    "studentId": "2540",
-    "studentRollNumber": "2540",
-    "studentName": "Samina",
-    "studentPhone": "03002602244",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-5",
-    "topicTitle": "Common Money Mistakes",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2541_03133121103",
-    "studentId": "2541",
-    "studentRollNumber": "2541",
-    "studentName": "Hafsa",
-    "studentPhone": "03133121103",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-14",
-    "topicTitle": "What Is Generative AI?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2542_03283570185",
-    "studentId": "2542",
-    "studentRollNumber": "2542",
-    "studentName": "Husnan",
-    "studentPhone": "03283570185",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-7",
-    "topicTitle": "Can AI Replace Teachers?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2543_03333737586",
-    "studentId": "2543",
-    "studentRollNumber": "2543",
-    "studentName": "Mrs.Misbah Shahjahan",
-    "studentPhone": "03333737586",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-19",
-    "topicTitle": "Small Habits That Change Lives",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2544_03202093451",
-    "studentId": "2544",
-    "studentRollNumber": "2544",
-    "studentName": "Mehak Abdul Rasheed",
-    "studentPhone": "03202093451",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-15",
-    "topicTitle": "Digital Distractions",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2545_03202234176",
-    "studentId": "2545",
-    "studentRollNumber": "2545",
-    "studentName": "Zunaira Abdul Rasheed",
-    "studentPhone": "03202234176",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-14",
-    "topicTitle": "Growth Mindset Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2546_03143590898",
-    "studentId": "2546",
-    "studentRollNumber": "2546",
-    "studentName": "Zobia",
-    "studentPhone": "03143590898",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-18",
-    "topicTitle": "How Successful People Learn",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2547_03108825092",
-    "studentId": "2547",
-    "studentRollNumber": "2547",
-    "studentName": "Sehar",
-    "studentPhone": "03108825092",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-8",
-    "topicTitle": "Self-Driving Cars Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2548_03092347328",
-    "studentId": "2548",
-    "studentRollNumber": "2548",
-    "studentName": "Iqra hamza",
-    "studentPhone": "03092347328",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-19",
-    "topicTitle": "AI and Climate Solutions",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2549_03222644606",
-    "studentId": "2549",
-    "studentRollNumber": "2549",
-    "studentName": "HAMNA SHAHID",
-    "studentPhone": "03222644606",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-17",
-    "topicTitle": "Long-Term Investing",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2550_03242936266",
-    "studentId": "2550",
-    "studentRollNumber": "2550",
-    "studentName": "Azaan",
-    "studentPhone": "03242936266",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-14",
-    "topicTitle": "Value of Reputation",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2551_03343091832",
-    "studentId": "2551",
-    "studentRollNumber": "2551",
-    "studentName": "Sakina Imran Dawra A",
-    "studentPhone": "03343091832",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-13",
-    "topicTitle": "Secrets of the Human Brain",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2552_03362046672",
-    "studentId": "2552",
-    "studentRollNumber": "2552",
-    "studentName": "Muhammad ishaq",
-    "studentPhone": "03362046672",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-9",
-    "topicTitle": "How Voice Assistants Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2553_03121219608",
-    "studentId": "2553",
-    "studentRollNumber": "2553",
-    "studentName": "Mrs Saba Adil Vayani",
-    "studentPhone": "03121219608",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-5",
-    "topicTitle": "Importance of Branding",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2554_03212209029",
-    "studentId": "2554",
-    "studentRollNumber": "2554",
-    "studentName": "Amna",
-    "studentPhone": "03212209029",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-16",
-    "topicTitle": "Can Humans Live on Other Planets?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2555_03302883555",
-    "studentId": "2555",
-    "studentRollNumber": "2555",
-    "studentName": "Uroosa Naz",
-    "studentPhone": "03302883555",
-    "studentMode": "Full Online",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-11",
-    "topicTitle": "Financial Habits of Successful People",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2556_03212538781",
-    "studentId": "2556",
-    "studentRollNumber": "2556",
-    "studentName": "Asma",
-    "studentPhone": "03212538781",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-15",
-    "topicTitle": "How DNA Works",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2557_03102880084",
-    "studentId": "2557",
-    "studentRollNumber": "2557",
-    "studentName": "Muhammad Affan",
-    "studentPhone": "03102880084",
-    "studentMode": "Full Online",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-3",
-    "topicTitle": "Why Apple Has Loyal Customers",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2558_03357369017",
-    "studentId": "2558",
-    "studentRollNumber": "2558",
-    "studentName": "Maryam Muhammad Salman",
-    "studentPhone": "03357369017",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-10",
-    "topicTitle": "Future of Robotics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2559_03232426312",
-    "studentId": "2559",
-    "studentRollNumber": "2559",
-    "studentName": "Amna",
-    "studentPhone": "03232426312",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-19",
-    "topicTitle": "Future Space Exploration",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2560_03705593843",
-    "studentId": "2560",
-    "studentRollNumber": "2560",
-    "studentName": "Mehreen",
-    "studentPhone": "03705593843",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-4",
-    "topicTitle": "Why We Dream",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
   {
     "id": "asgn_b2_2001_03222750479",
     "studentId": "2001",
@@ -835,12 +9,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Ahmed",
     "studentPhone": "03222750479",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-9",
-    "topicTitle": "Learning Faster Methods",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-1",
+    "topicTitle": "Zombie Outbreak: 30 Days Trapped in an Apartment",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2002_03212585950",
@@ -849,12 +30,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "MUHAMMAD FAISAL GABA",
     "studentPhone": "03212585950",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-17",
-    "topicTitle": "Power of Word-of-Mouth Marketing",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-1",
+    "topicTitle": "What If Your Reaction Time Was 10x Faster?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2003_03342275058",
@@ -863,12 +51,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mariam abdul wahab",
     "studentPhone": "03342275058",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-14",
-    "topicTitle": "How Banks Make Money",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-1",
+    "topicTitle": "How to Become Dangerously Self-Educated — Explained by a Monkey",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2004_03151201232",
@@ -877,12 +72,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M. Waseem",
     "studentPhone": "03151201232",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-20",
-    "topicTitle": "What Will AI Look Like in 2035?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-1",
+    "topicTitle": "Craziest Things Alexander the Great Did",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2005_03363864389",
@@ -893,10 +95,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-16",
-    "topicTitle": "Future Jobs Created by AI",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-2",
+    "topicTitle": "Zombie Outbreak: Surviving on a Rooftop with Almost No Food",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2006_03132069603",
@@ -907,10 +116,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
     "topicId": "topic-b-2",
-    "topicTitle": "Why Saving Money Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "topicTitle": "What If You Had 500 IQ?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2007_03139299433",
@@ -921,10 +137,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-6",
-    "topicTitle": "Customer Loyalty Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-2",
+    "topicTitle": "Studying Is Hard Until You Build Systems Like These",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2008_03213895757",
@@ -935,10 +158,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-7",
-    "topicTitle": "Deepest Place in the Ocean",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-2",
+    "topicTitle": "The Most Legendary Battles in History",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2009_03320302530",
@@ -949,10 +179,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-13",
-    "topicTitle": "AI in Education",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-3",
+    "topicTitle": "Zombie Outbreak: Escaping a Building — 30 Floors Down",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2010_03327337995",
@@ -961,12 +198,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Rabiya",
     "studentPhone": "03327337995",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-9",
-    "topicTitle": "What Is Dark Matter?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-3",
+    "topicTitle": "What If One Second Felt Like Ten?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2011_03003781129",
@@ -977,10 +221,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-11",
-    "topicTitle": "How Franchises Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-3",
+    "topicTitle": "How to Learn More in 2 Hours Than Most People Do All Day",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2012_03092340437",
@@ -989,12 +240,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Bisma Shahid Kath",
     "studentPhone": "03092340437",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-9",
-    "topicTitle": "Marketing vs Advertising",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-3",
+    "topicTitle": "Historical Myths That Turned Out to Be Real",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2013_03150249839",
@@ -1003,12 +261,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hina Arshad",
     "studentPhone": "03150249839",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-2",
-    "topicTitle": "How Black Holes Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-4",
+    "topicTitle": "Zombie Outbreak: Trapped in a Flooding Basement with a Broken Key",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2014_03150249839",
@@ -1017,12 +282,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "SAKINA ARSHAD",
     "studentPhone": "03150249839",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-16",
-    "topicTitle": "Lifelong Learning Benefits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-4",
+    "topicTitle": "What If One Second Felt Like Forever?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2015_03368313967",
@@ -1033,10 +305,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-20",
-    "topicTitle": "What Makes a Brand Memorable",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-4",
+    "topicTitle": "How Monkey Got Addicted to Studying",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2016_03341314340",
@@ -1045,12 +324,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Feroozpasta",
     "studentPhone": "03341314340",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-10",
-    "topicTitle": "Building a Brand Identity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-4",
+    "topicTitle": "Ancient Myths That Turned Out to Be True",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2017_03233215921",
@@ -1059,12 +345,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "MUHAMMAD MUSAB KATH",
     "studentPhone": "03233215921",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-12",
-    "topicTitle": "How Human Memory Works",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-5",
+    "topicTitle": "Zombie Outbreak: 12 Days Trapped in a Stadium",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2018_03142080708",
@@ -1075,10 +368,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-6",
-    "topicTitle": "Smart Spending Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-5",
+    "topicTitle": "What If You Were Trapped in a Time Loop?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2019_03111891889",
@@ -1087,12 +387,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Adnan Naseem",
     "studentPhone": "03111891889",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-4",
-    "topicTitle": "The 50/30/20 Budget Rule",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-5",
+    "topicTitle": "Don’t Delete Social Media — Do This Instead",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2020_03342495526",
@@ -1103,10 +410,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-8",
-    "topicTitle": "Life on Mars",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-5",
+    "topicTitle": "Urban Legends That Turned Out to Be True",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2021_03328261146",
@@ -1115,12 +429,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M. Dawood",
     "studentPhone": "03328261146",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-5",
-    "topicTitle": "Science of Sleep",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-6",
+    "topicTitle": "Zombie Outbreak: 100 Days Inside a Surrounded Barn",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2022_03002377800",
@@ -1129,12 +450,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Umair Murad",
     "studentPhone": "03002377800",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-11",
-    "topicTitle": "AI in Business",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-6",
+    "topicTitle": "What If You Could Rewind 10 Seconds?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2023_03350378966",
@@ -1143,12 +471,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Malaika",
     "studentPhone": "03350378966",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-19",
-    "topicTitle": "Financial Literacy Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-6",
+    "topicTitle": "You’re Probably Wasting Your Youth",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2024_03332206039",
@@ -1157,12 +492,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul Saboor",
     "studentPhone": "03332206039",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-20",
-    "topicTitle": "Wealth Building Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-6",
+    "topicTitle": "How History’s Greatest Warriors Died",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2025_03133193530",
@@ -1171,12 +513,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "urooj naz w/o",
     "studentPhone": "03133193530",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-18",
-    "topicTitle": "Money and Psychology",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-7",
+    "topicTitle": "Zombie Outbreak: 72 Hours Trapped in a Hospital",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2026_03212130591",
@@ -1185,12 +534,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M.Adnan Khosa",
     "studentPhone": "03212130591",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-16",
-    "topicTitle": "Customer Experience Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-7",
+    "topicTitle": "What If You Were Reborn with All Your Memories?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2027_03242993036",
@@ -1199,12 +555,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M. Waqas",
     "studentPhone": "03242993036",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-12",
-    "topicTitle": "Building Confidence",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-7",
+    "topicTitle": "30 Small Habits That Quietly Change a Monkey’s Life",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2028_03226175084",
@@ -1213,12 +576,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul Wahid",
     "studentPhone": "03226175084",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-13",
-    "topicTitle": "Deep Work Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-7",
+    "topicTitle": "Completely Wrong History “Facts” You Probably Believe",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2029_03009289026",
@@ -1227,12 +597,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Anshara",
     "studentPhone": "03009289026",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-20",
-    "topicTitle": "Reading and Personal Growth",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-8",
+    "topicTitle": "Zombie Outbreak: 14 Days Trapped in a Shopping Mall",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2030_03222294897",
@@ -1241,12 +618,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M. Hanzala Vayanai",
     "studentPhone": "03222294897",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-19",
-    "topicTitle": "How Companies Create Demand",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-8",
+    "topicTitle": "What If You Stopped Aging at 18?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2031_03232282207",
@@ -1255,12 +639,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Sumaika Ali",
     "studentPhone": "03232282207",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-1",
-    "topicTitle": "Power of Compound Interest",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-8",
+    "topicTitle": "How to Train Your Monkey Brain to Enjoy Doing Hard Things",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2032_03232282207",
@@ -1269,12 +660,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Huzaifa",
     "studentPhone": "03232282207",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-17",
-    "topicTitle": "How Recommendation Algorithms Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-8",
+    "topicTitle": "History’s Biggest Lies",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2033_03313968861",
@@ -1283,12 +681,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul Karim",
     "studentPhone": "03313968861",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-3",
-    "topicTitle": "Time Management Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-9",
+    "topicTitle": "Zombie Outbreak: 14 Days Surviving in an Abandoned City",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2034_03339259270",
@@ -1297,12 +702,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Waqas Dawood",
     "studentPhone": "03339259270",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-4",
-    "topicTitle": "Science of Motivation",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-9",
+    "topicTitle": "What If You Aged Backwards?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2035_03232523258",
@@ -1311,12 +723,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M.bilal Panjwani",
     "studentPhone": "03232523258",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-14",
-    "topicTitle": "Why Time Feels Fast",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-9",
+    "topicTitle": "The Night Routine That Ruins Every Morning",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2036_03159225267",
@@ -1325,12 +744,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "ahsan ali",
     "studentPhone": "03159225267",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-1",
-    "topicTitle": "5 Free AI Tools Every Student Should Know",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-9",
+    "topicTitle": "Facts That Sound Fake but Are Actually Real",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2037_03219225267",
@@ -1339,12 +765,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hammad",
     "studentPhone": "03219225267",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-8",
-    "topicTitle": "How Companies Build Trust",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-10",
+    "topicTitle": "Zombie Outbreak: 100 Days Trapped on a Cruise Ship",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2038_03312934264",
@@ -1353,12 +786,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad wasil",
     "studentPhone": "03312934264",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-6",
-    "topicTitle": "How Volcanoes Form",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-10",
+    "topicTitle": "What If You Were the Last Human on Earth?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2039_03000563905",
@@ -1367,12 +807,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Farooq",
     "studentPhone": "03000563905",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-3",
-    "topicTitle": "How Chatbots Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-10",
+    "topicTitle": "Why You’re Always Tired Even When You Do Nothing",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2040_03208399172",
@@ -1381,12 +828,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Shayan",
     "studentPhone": "03208399172",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-13",
-    "topicTitle": "Why People Overspend",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-10",
+    "topicTitle": "Ancient Mysteries That Were Finally Solved",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2041_03442302331",
@@ -1395,12 +849,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad ishaq",
     "studentPhone": "03442302331",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-5",
-    "topicTitle": "Why Focus Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-11",
+    "topicTitle": "Zombie Outbreak: 15 Days Hiding in a Floating Town of Boats",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2042_03122696850",
@@ -1409,12 +870,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Rizwan gatta",
     "studentPhone": "03122696850",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-3",
-    "topicTitle": "Why Apple Has Loyal Customers",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-11",
+    "topicTitle": "What If Everyone Could Read Each Other’s Minds?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2043_03130004765",
@@ -1423,12 +891,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul Rahman",
     "studentPhone": "03130004765",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-19",
-    "topicTitle": "Future Space Exploration",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-11",
+    "topicTitle": "How the Algorithm Hijacks Your Monkey Brain",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2044_03232384468",
@@ -1437,12 +912,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Suleman",
     "studentPhone": "03232384468",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-15",
-    "topicTitle": "AI and Productivity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-11",
+    "topicTitle": "Greek Mythology Explained — From the Beginning",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2045_03232835975",
@@ -1451,12 +933,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Rifat Parveen",
     "studentPhone": "03232835975",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-13",
-    "topicTitle": "Why Some Products Go Viral",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-12",
+    "topicTitle": "Zombie Outbreak: 15 Days at a Lighthouse — They Come to the Light",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2046_03237287447",
@@ -1465,12 +954,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Usman",
     "studentPhone": "03237287447",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-11",
-    "topicTitle": "Managing Stress Effectively",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-13",
+    "topicTitle": "What If You Were the Luckiest Person in the World?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2047_03022007022",
@@ -1479,12 +975,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad zohan Tobriya",
     "studentPhone": "03022007022",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-9",
-    "topicTitle": "How Inflation Affects Savings",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-12",
+    "topicTitle": "How to Rest and Recharge Properly — Explained by a Monkey",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2048_03182191521",
@@ -1495,10 +998,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-9",
-    "topicTitle": "What Is Dark Matter?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-12",
+    "topicTitle": "The Origins of the Titans and Olympian Gods — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2049_03053995644",
@@ -1509,10 +1019,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-9",
-    "topicTitle": "How Voice Assistants Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-13",
+    "topicTitle": "Zombie Outbreak: 61 Days Trapped on a Dead-End Street",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2050_03223389238",
@@ -1521,12 +1038,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Musfira",
     "studentPhone": "03223389238",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-11",
-    "topicTitle": "How Franchises Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-14",
+    "topicTitle": "What If Every Lie You Told Became Reality?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2051_03117784996",
@@ -1535,12 +1059,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Shiza Vayani",
     "studentPhone": "03117784996",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-14",
-    "topicTitle": "Growth Mindset Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-13",
+    "topicTitle": "How to Figure Out What You Actually Want in Life",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2052_03350211774",
@@ -1549,12 +1080,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "FAIZAN",
     "studentPhone": "03350211774",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-16",
-    "topicTitle": "Small Savings Big Results",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-13",
+    "topicTitle": "How Zeus Became King of the Gods — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2053_03213608797",
@@ -1563,12 +1101,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Rizwan Suriya",
     "studentPhone": "03213608797",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-1",
-    "topicTitle": "How to Stop Procrastinating",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-14",
+    "topicTitle": "Zombie Outbreak: 100 Days Stranded at a Truck Stop",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2054_03211237677",
@@ -1579,10 +1124,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-5",
-    "topicTitle": "Common Money Mistakes",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-15",
+    "topicTitle": "What If Everything Got 10,000x Cheaper?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2055_03192581669",
@@ -1591,12 +1143,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Dua Rani",
     "studentPhone": "03192581669",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-12",
-    "topicTitle": "How Human Memory Works",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-14",
+    "topicTitle": "6 Things Monkey Did to Stop Wasting Evenings",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2056_03043878599",
@@ -1605,12 +1164,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Usman",
     "studentPhone": "03043878599",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-19",
-    "topicTitle": "AI and Climate Solutions",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-14",
+    "topicTitle": "The Titanomachy: Titans vs. Olympians — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2057_03328256393",
@@ -1619,12 +1185,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Anabiya",
     "studentPhone": "03328256393",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-7",
-    "topicTitle": "Deepest Place in the Ocean",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-15",
+    "topicTitle": "Zombie Outbreak: The Laboratory Doors Sealed Before Escape",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2058_03141231849",
@@ -1633,12 +1206,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Ali raza",
     "studentPhone": "03141231849",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-17",
-    "topicTitle": "How Recommendation Algorithms Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-16",
+    "topicTitle": "What If You Could Heal Everything?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2059_03202019910",
@@ -1647,12 +1227,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Hassan Duroodwala",
     "studentPhone": "03202019910",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-8",
-    "topicTitle": "Life on Mars",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-15",
+    "topicTitle": "AI Investment Bubbles Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2060_03333622394",
@@ -1661,12 +1248,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Musfira",
     "studentPhone": "03333622394",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-1",
-    "topicTitle": "Power of Compound Interest",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-15",
+    "topicTitle": "The Story of the Cyclopes — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2061_03212074771",
@@ -1675,12 +1269,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Alvina Adnan",
     "studentPhone": "03212074771",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-15",
-    "topicTitle": "How DNA Works",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-16",
+    "topicTitle": "Zombie Outbreak: The Only Survivor Above the Toxic Fog",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2062_03003331470",
@@ -1691,10 +1292,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-10",
-    "topicTitle": "Needs vs Wants",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-17",
+    "topicTitle": "What If We Live in a Simulation?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2063_03292291223",
@@ -1703,26 +1311,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Dawood",
     "studentPhone": "03292291223",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-6",
-    "topicTitle": "Building Discipline",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2064_03234506419",
-    "studentId": "2064",
-    "studentRollNumber": "2064",
-    "studentName": "Ummerubab Amin",
-    "studentPhone": "03234506419",
-    "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-2",
-    "topicTitle": "How Rolex Became Famous",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-16",
+    "topicTitle": "The US National Debt Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2065_03422002587",
@@ -1731,12 +1332,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Ammara Dawood",
     "studentPhone": "03422002587",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-1",
-    "topicTitle": "5 Free AI Tools Every Student Should Know",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-16",
+    "topicTitle": "Achilles: The Myth Behind the Legendary Warrior",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2066_03458907900",
@@ -1745,12 +1353,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul Muqeet",
     "studentPhone": "03458907900",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-1",
-    "topicTitle": "Why the Sky Is Blue",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-17",
+    "topicTitle": "Nuclear Apocalypse: Surviving the First 30 Days",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2067_03352450111",
@@ -1761,10 +1376,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-4",
-    "topicTitle": "The 50/30/20 Budget Rule",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-18",
+    "topicTitle": "What If Everyone Else Had Zero EQ?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2068_03212109249",
@@ -1773,12 +1395,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hafiz Abdul Muqeet",
     "studentPhone": "03212109249",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-9",
-    "topicTitle": "Learning Faster Methods",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-17",
+    "topicTitle": "Tariff Wars Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2069_03128658028",
@@ -1787,12 +1416,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Anas",
     "studentPhone": "03128658028",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-14",
-    "topicTitle": "Value of Reputation",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-17",
+    "topicTitle": "Titanic Myths: What People Still Get Wrong",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2070_03062003608",
@@ -1803,10 +1439,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-20",
-    "topicTitle": "What Will AI Look Like in 2035?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-18",
+    "topicTitle": "Zombie Outbreak: 48 Hours Trapped in an Underground Subway Station",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2071_03012631092",
@@ -1815,12 +1458,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mustafa",
     "studentPhone": "03012631092",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-12",
-    "topicTitle": "Building Confidence",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-19",
+    "topicTitle": "What If Everyone Had a Power Level — and Yours Was 1?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2072_03493617766",
@@ -1831,10 +1481,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-20",
-    "topicTitle": "What Makes a Brand Memorable",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-18",
+    "topicTitle": "Credit Card Fees Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2073_03241026773",
@@ -1843,12 +1500,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Huzaifa Jafrani",
     "studentPhone": "03241026773",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-15",
-    "topicTitle": "Credit Scores Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-18",
+    "topicTitle": "Viking Myths: Separating History from Fiction",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2074_03233250091",
@@ -1859,10 +1523,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-8",
-    "topicTitle": "Self-Driving Cars Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-19",
+    "topicTitle": "Zombie Outbreak: 7 Days Inside a Supermarket with No Electricity",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2075_03242813051",
@@ -1871,12 +1542,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Urooj fatima",
     "studentPhone": "03242813051",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-8",
-    "topicTitle": "Goal Setting Techniques",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-20",
+    "topicTitle": "What If You Could Undo Every Mistake You Made?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2076_03171489598",
@@ -1885,12 +1563,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mhammad Hasnain",
     "studentPhone": "03171489598",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-6",
-    "topicTitle": "How Volcanoes Form",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-19",
+    "topicTitle": "RAM Prices Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2077_03482930755",
@@ -1899,12 +1584,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mohammed zain",
     "studentPhone": "03482930755",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-9",
-    "topicTitle": "Marketing vs Advertising",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-19",
+    "topicTitle": "Napoleon: Famous Myths vs. Historical Facts",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2078_03491288447",
@@ -1913,12 +1605,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Safa",
     "studentPhone": "03491288447",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-17",
-    "topicTitle": "Long-Term Investing",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-20",
+    "topicTitle": "Zombie Outbreak: Trapped on a Bridge — Both Ends Are Blocked",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2079_03152618881",
@@ -1929,10 +1628,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-3",
-    "topicTitle": "Emergency Funds Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-1",
+    "topicTitle": "What If Your Reaction Time Was 10x Faster?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2080_03311397266",
@@ -1941,12 +1647,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Shaheer",
     "studentPhone": "03311397266",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-12",
-    "topicTitle": "AI and Cybersecurity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-20",
+    "topicTitle": "US Government Shutdowns Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2081_03462062834",
@@ -1955,12 +1668,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Rooman Ahmed",
     "studentPhone": "03462062834",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-6",
-    "topicTitle": "AI in Healthcare",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-20",
+    "topicTitle": "Survival Myths That Can Get You Killed",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2082_03322083332",
@@ -1971,10 +1691,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-4",
-    "topicTitle": "AI in Everyday Life",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-1",
+    "topicTitle": "Zombie Outbreak: 30 Days Trapped in an Apartment",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2083_03232525686",
@@ -1983,12 +1710,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Manahil zohaib",
     "studentPhone": "03232525686",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-5",
-    "topicTitle": "Future of Smart Homes",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-2",
+    "topicTitle": "What If You Had 500 IQ?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2084_03112017119",
@@ -1997,12 +1731,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mustafa Adam",
     "studentPhone": "03112017119",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-11",
-    "topicTitle": "AI in Business",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-1",
+    "topicTitle": "How to Become Dangerously Self-Educated — Explained by a Monkey",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2085_03342377822",
@@ -2011,12 +1752,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Rufail Anees",
     "studentPhone": "03342377822",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-2",
-    "topicTitle": "Why Saving Money Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-1",
+    "topicTitle": "Craziest Things Alexander the Great Did",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2086_03212216604",
@@ -2025,12 +1773,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Salik Gaba",
     "studentPhone": "03212216604",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-14",
-    "topicTitle": "How Banks Make Money",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-2",
+    "topicTitle": "Zombie Outbreak: Surviving on a Rooftop with Almost No Food",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2087_03180035533",
@@ -2039,12 +1794,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Irfan",
     "studentPhone": "03180035533",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-8",
-    "topicTitle": "How Companies Build Trust",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-3",
+    "topicTitle": "What If One Second Felt Like Ten?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2088_03092567583",
@@ -2053,12 +1815,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Kinza",
     "studentPhone": "03092567583",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-5",
-    "topicTitle": "Science of Sleep",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-2",
+    "topicTitle": "Studying Is Hard Until You Build Systems Like These",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2089_03232646217",
@@ -2067,12 +1836,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mannan Gaba",
     "studentPhone": "03232646217",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-7",
-    "topicTitle": "Morning Habits of Successful People",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-2",
+    "topicTitle": "The Most Legendary Battles in History",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2090_03292183050",
@@ -2083,10 +1859,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-16",
-    "topicTitle": "Future Jobs Created by AI",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-3",
+    "topicTitle": "Zombie Outbreak: Escaping a Building — 30 Floors Down",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2091_03131101830",
@@ -2095,26 +1878,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Daniyal",
     "studentPhone": "03131101830",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-15",
-    "topicTitle": "Story of a Startup Success",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2092_03213874294",
-    "studentId": "2092",
-    "studentRollNumber": "2092",
-    "studentName": "Palvisha",
-    "studentPhone": "03213874294",
-    "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-10",
-    "topicTitle": "Importance of Consistency",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-4",
+    "topicTitle": "What If One Second Felt Like Forever?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2093_03362018612",
@@ -2123,12 +1899,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Osama Abdul Razzak",
     "studentPhone": "03362018612",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-19",
-    "topicTitle": "Financial Literacy Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-3",
+    "topicTitle": "How to Learn More in 2 Hours Than Most People Do All Day",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2094_03062963761",
@@ -2137,12 +1920,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Ayesha jangda",
     "studentPhone": "03062963761",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-3",
-    "topicTitle": "Time Management Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-3",
+    "topicTitle": "Historical Myths That Turned Out to Be Real",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2095_03282932230",
@@ -2151,12 +1941,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hadiya",
     "studentPhone": "03282932230",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-5",
-    "topicTitle": "Importance of Branding",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-4",
+    "topicTitle": "Zombie Outbreak: Trapped in a Flooding Basement with a Broken Key",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2096_03302454610",
@@ -2165,12 +1962,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Fahima Zubair",
     "studentPhone": "03302454610",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-2",
-    "topicTitle": "How AI Creates Images",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-5",
+    "topicTitle": "What If You Were Trapped in a Time Loop?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2097_03333984644",
@@ -2179,12 +1983,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Fizza Ali",
     "studentPhone": "03333984644",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-17",
-    "topicTitle": "Strongest Forces in Nature",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-4",
+    "topicTitle": "How Monkey Got Addicted to Studying",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2098_03343633893",
@@ -2193,12 +2004,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Huda Shafi",
     "studentPhone": "03343633893",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-18",
-    "topicTitle": "Future of Luxury Products",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-4",
+    "topicTitle": "Ancient Myths That Turned Out to Be True",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2099_03177753956",
@@ -2207,12 +2025,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Wania Ali",
     "studentPhone": "03177753956",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-6",
-    "topicTitle": "Customer Loyalty Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-5",
+    "topicTitle": "Zombie Outbreak: 12 Days Trapped in a Stadium",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2100_03323321443",
@@ -2221,12 +2046,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hajra",
     "studentPhone": "03323321443",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-1",
-    "topicTitle": "Why Luxury Brands Cost More",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-6",
+    "topicTitle": "What If You Could Rewind 10 Seconds?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2101_03213993871",
@@ -2237,10 +2069,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-10",
-    "topicTitle": "Building a Brand Identity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-5",
+    "topicTitle": "Don’t Delete Social Media — Do This Instead",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2102_03278221208",
@@ -2251,10 +2090,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-4",
-    "topicTitle": "Why We Dream",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-5",
+    "topicTitle": "Urban Legends That Turned Out to Be True",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2103_03122722358",
@@ -2263,12 +2109,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad moosa",
     "studentPhone": "03122722358",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-13",
-    "topicTitle": "Deep Work Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-6",
+    "topicTitle": "Zombie Outbreak: 100 Days Inside a Surrounded Barn",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2104_03222192402",
@@ -2279,10 +2132,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-8",
-    "topicTitle": "Investing for Beginners",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-7",
+    "topicTitle": "What If You Were Reborn with All Your Memories?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2105_03222192402",
@@ -2291,12 +2151,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Umme Hani",
     "studentPhone": "03222192402",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-20",
-    "topicTitle": "How Tsunamis Happen",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-6",
+    "topicTitle": "You’re Probably Wasting Your Youth",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2106_03342893099",
@@ -2305,12 +2172,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M.Owais",
     "studentPhone": "03342893099",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-7",
-    "topicTitle": "Why Premium Products Sell",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-6",
+    "topicTitle": "How History’s Greatest Warriors Died",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2107_03018224754",
@@ -2319,12 +2193,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Ayaz",
     "studentPhone": "03018224754",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-7",
-    "topicTitle": "Passive Income Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-7",
+    "topicTitle": "Zombie Outbreak: 72 Hours Trapped in a Hospital",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2108_03222940226",
@@ -2335,10 +2216,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-6",
-    "topicTitle": "Smart Spending Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-8",
+    "topicTitle": "What If You Stopped Aging at 18?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2109_03009249826",
@@ -2349,10 +2237,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-4",
-    "topicTitle": "Psychology of Luxury Products",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-7",
+    "topicTitle": "30 Small Habits That Quietly Change a Monkey’s Life",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2110_03212760768",
@@ -2363,10 +2258,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-18",
-    "topicTitle": "What If Earth Stopped Spinning?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-7",
+    "topicTitle": "Completely Wrong History “Facts” You Probably Believe",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2111_03481432703",
@@ -2375,12 +2277,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Kashif",
     "studentPhone": "03481432703",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-13",
-    "topicTitle": "Why People Overspend",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-8",
+    "topicTitle": "Zombie Outbreak: 14 Days Trapped in a Shopping Mall",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2112_03302126308",
@@ -2389,12 +2298,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hafsah Faraz",
     "studentPhone": "03302126308",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-10",
-    "topicTitle": "Future of Robotics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-9",
+    "topicTitle": "What If You Aged Backwards?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2113_03218295874",
@@ -2403,12 +2319,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Soban",
     "studentPhone": "03218295874",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-18",
-    "topicTitle": "AI in Agriculture",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-8",
+    "topicTitle": "How to Train Your Monkey Brain to Enjoy Doing Hard Things",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2114_03032216105",
@@ -2419,10 +2342,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-10",
-    "topicTitle": "How Satellites Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-8",
+    "topicTitle": "History’s Biggest Lies",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2115_03198644606",
@@ -2431,12 +2361,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "AHMED SHAHID",
     "studentPhone": "03198644606",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-12",
-    "topicTitle": "Budgeting for Students",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-9",
+    "topicTitle": "Zombie Outbreak: 14 Days Surviving in an Abandoned City",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2116_03212695330",
@@ -2447,10 +2384,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-20",
-    "topicTitle": "Wealth Building Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-10",
+    "topicTitle": "What If You Were the Last Human on Earth?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2117_03333121103",
@@ -2459,12 +2403,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul Nasir",
     "studentPhone": "03333121103",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-4",
-    "topicTitle": "Science of Motivation",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-9",
+    "topicTitle": "The Night Routine That Ruins Every Morning",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2118_03182191521",
@@ -2475,24 +2426,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-14",
-    "topicTitle": "Why Time Feels Fast",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2119_03131222833",
-    "studentId": "2119",
-    "studentRollNumber": "2119",
-    "studentName": "Sumera",
-    "studentPhone": "03131222833",
-    "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-3",
-    "topicTitle": "How Chatbots Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-9",
+    "topicTitle": "Facts That Sound Fake but Are Actually Real",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2120_03002215908",
@@ -2503,10 +2447,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-7",
-    "topicTitle": "Can AI Replace Teachers?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-10",
+    "topicTitle": "Zombie Outbreak: 100 Days Trapped on a Cruise Ship",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2121_03053754315",
@@ -2515,12 +2466,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Ibrahim Muhammadi",
     "studentPhone": "03053754315",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-5",
-    "topicTitle": "Why Focus Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-11",
+    "topicTitle": "What If Everyone Could Read Each Other’s Minds?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2122_03132042090",
@@ -2529,12 +2487,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Sumera Fatani",
     "studentPhone": "03132042090",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-11",
-    "topicTitle": "Financial Habits of Successful People",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-10",
+    "topicTitle": "Why You’re Always Tired Even When You Do Nothing",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2123_03143352206",
@@ -2545,10 +2510,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-3",
-    "topicTitle": "What Causes Earthquakes?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-10",
+    "topicTitle": "Ancient Mysteries That Were Finally Solved",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2124_03302020241",
@@ -2557,12 +2529,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Shumaila Noman Lakhani",
     "studentPhone": "03302020241",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-17",
-    "topicTitle": "Productivity Myths",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-11",
+    "topicTitle": "Zombie Outbreak: 15 Days Hiding in a Floating Town of Boats",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2125_03072066626",
@@ -2571,12 +2550,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Shifa",
     "studentPhone": "03072066626",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-19",
-    "topicTitle": "How Companies Create Demand",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-12",
+    "topicTitle": "What If You Could See Who Will Betray You?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2126_03222256909",
@@ -2585,12 +2571,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Warda",
     "studentPhone": "03222256909",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-2",
-    "topicTitle": "How Black Holes Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-11",
+    "topicTitle": "How the Algorithm Hijacks Your Monkey Brain",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2127_03080296299",
@@ -2599,12 +2592,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mrs Hanifa Sajjad",
     "studentPhone": "03080296299",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-18",
-    "topicTitle": "Money and Psychology",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-11",
+    "topicTitle": "Greek Mythology Explained — From the Beginning",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2128_03162799250",
@@ -2615,10 +2615,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-13",
-    "topicTitle": "AI in Education",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-12",
+    "topicTitle": "Zombie Outbreak: 15 Days at a Lighthouse — They Come to the Light",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2129_03340372523",
@@ -2627,12 +2634,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Manahil",
     "studentPhone": "03340372523",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-16",
-    "topicTitle": "Can Humans Live on Other Planets?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-13",
+    "topicTitle": "What If You Were the Luckiest Person in the World?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2130_03373834541",
@@ -2643,10 +2657,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-16",
-    "topicTitle": "Customer Experience Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-12",
+    "topicTitle": "How to Rest and Recharge Properly — Explained by a Monkey",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2131_03212777598",
@@ -2655,12 +2676,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Kinza asad",
     "studentPhone": "03212777598",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-14",
-    "topicTitle": "What Is Generative AI?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-12",
+    "topicTitle": "The Origins of the Titans and Olympian Gods — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2132_03092279533",
@@ -2669,12 +2697,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul raqeeb",
     "studentPhone": "03092279533",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-11",
-    "topicTitle": "Mysteries of the Universe",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-13",
+    "topicTitle": "Zombie Outbreak: 61 Days Trapped on a Dead-End Street",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2133_03249235300",
@@ -2683,12 +2718,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M. Ahmed",
     "studentPhone": "03249235300",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-16",
-    "topicTitle": "Lifelong Learning Benefits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-14",
+    "topicTitle": "What If Every Lie You Told Became Reality?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2134_03308732017",
@@ -2697,12 +2739,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Anfaal",
     "studentPhone": "03308732017",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-19",
-    "topicTitle": "Small Habits That Change Lives",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-13",
+    "topicTitle": "How to Figure Out What You Actually Want in Life",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2135_03212074771",
@@ -2711,12 +2760,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Ayesha",
     "studentPhone": "03212074771",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-12",
-    "topicTitle": "Secrets of Successful Brands",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-13",
+    "topicTitle": "How Zeus Became King of the Gods — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2136_03172549157",
@@ -2725,12 +2781,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Marwa",
     "studentPhone": "03172549157",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-2",
-    "topicTitle": "Power of Daily Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-14",
+    "topicTitle": "Zombie Outbreak: 100 Days Stranded at a Truck Stop",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2137_03243346711",
@@ -2739,12 +2802,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Maryam",
     "studentPhone": "03243346711",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-15",
-    "topicTitle": "Digital Distractions",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-15",
+    "topicTitle": "What If Everything Got 10,000x Cheaper?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2138_03313919220",
@@ -2753,12 +2823,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Huzaifa",
     "studentPhone": "03313919220",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-18",
-    "topicTitle": "How Successful People Learn",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-14",
+    "topicTitle": "6 Things Monkey Did to Stop Wasting Evenings",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2139_03458096209",
@@ -2767,12 +2844,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Jafar",
     "studentPhone": "03458096209",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-20",
-    "topicTitle": "Reading and Personal Growth",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-14",
+    "topicTitle": "The Titanomachy: Titans vs. Olympians — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2140_03238940229",
@@ -2781,12 +2865,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M.Hanif",
     "studentPhone": "03238940229",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-17",
-    "topicTitle": "Power of Word-of-Mouth Marketing",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-15",
+    "topicTitle": "Zombie Outbreak: The Laboratory Doors Sealed Before Escape",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2141_03452725705",
@@ -2795,12 +2886,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Usman",
     "studentPhone": "03452725705",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-13",
-    "topicTitle": "Secrets of the Human Brain",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-16",
+    "topicTitle": "What If You Could Heal Everything?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2142_03452565347",
@@ -2811,10 +2909,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-3",
-    "topicTitle": "Why Apple Has Loyal Customers",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-15",
+    "topicTitle": "AI Investment Bubbles Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2143_03484347414",
@@ -2823,12 +2928,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Usaid gaba",
     "studentPhone": "03484347414",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-7",
-    "topicTitle": "Morning Habits of Successful People",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-15",
+    "topicTitle": "The Story of the Cyclopes — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2144_03212569373",
@@ -2837,12 +2949,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Omaima",
     "studentPhone": "03212569373",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-11",
-    "topicTitle": "Financial Habits of Successful People",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-16",
+    "topicTitle": "Zombie Outbreak: The Only Survivor Above the Toxic Fog",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2145_03363800894",
@@ -2851,12 +2970,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Yahya",
     "studentPhone": "03363800894",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-17",
-    "topicTitle": "Strongest Forces in Nature",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-17",
+    "topicTitle": "What If We Live in a Simulation?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2146_03222475823",
@@ -2865,12 +2991,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muhammad Arif",
     "studentPhone": "03222475823",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-3",
-    "topicTitle": "Emergency Funds Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-16",
+    "topicTitle": "The US National Debt Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2147_03213843662",
@@ -2881,10 +3014,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-11",
-    "topicTitle": "Mysteries of the Universe",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-16",
+    "topicTitle": "Achilles: The Myth Behind the Legendary Warrior",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2148_03212948522",
@@ -2895,10 +3035,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-19",
-    "topicTitle": "AI and Climate Solutions",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-17",
+    "topicTitle": "Nuclear Apocalypse: Surviving the First 30 Days",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2149_03293021683",
@@ -2907,12 +3054,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hira",
     "studentPhone": "03293021683",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-9",
-    "topicTitle": "What Is Dark Matter?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-18",
+    "topicTitle": "What If Everyone Else Had Zero EQ?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2150_03328264045",
@@ -2921,12 +3075,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Misbah",
     "studentPhone": "03328264045",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-20",
-    "topicTitle": "What Will AI Look Like in 2035?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-17",
+    "topicTitle": "Tariff Wars Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2151_03181213870",
@@ -2937,10 +3098,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-13",
-    "topicTitle": "Secrets of the Human Brain",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-17",
+    "topicTitle": "Titanic Myths: What People Still Get Wrong",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2152_03453133691",
@@ -2949,12 +3117,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Umema nadeem",
     "studentPhone": "03453133691",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-6",
-    "topicTitle": "Smart Spending Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-18",
+    "topicTitle": "Zombie Outbreak: 48 Hours Trapped in an Underground Subway Station",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2153_03232803638",
@@ -2963,12 +3138,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mehreen Umer",
     "studentPhone": "03232803638",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-1",
-    "topicTitle": "How to Stop Procrastinating",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-19",
+    "topicTitle": "What If Everyone Had a Power Level — and Yours Was 1?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2154_03148862954",
@@ -2977,12 +3159,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "M. Hunain",
     "studentPhone": "03148862954",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-16",
-    "topicTitle": "Small Savings Big Results",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-18",
+    "topicTitle": "Credit Card Fees Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2155_03228284566",
@@ -2991,12 +3180,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Abdul Samad Vayani",
     "studentPhone": "03228284566",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-13",
-    "topicTitle": "Deep Work Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-18",
+    "topicTitle": "Viking Myths: Separating History from Fiction",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2156_03021954450",
@@ -3005,12 +3201,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Yaseen Jakhura",
     "studentPhone": "03021954450",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-10",
-    "topicTitle": "Building a Brand Identity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-19",
+    "topicTitle": "Zombie Outbreak: 7 Days Inside a Supermarket with No Electricity",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2157_03178407461",
@@ -3019,12 +3222,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Yusra Bilal",
     "studentPhone": "03178407461",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-8",
-    "topicTitle": "Self-Driving Cars Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-20",
+    "topicTitle": "What If You Could Undo Every Mistake You Made?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2158_03212328441",
@@ -3033,12 +3243,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mahad Sooria",
     "studentPhone": "03212328441",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-8",
-    "topicTitle": "Life on Mars",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-19",
+    "topicTitle": "RAM Prices Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2159_03242166715",
@@ -3047,12 +3264,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Noor us saba",
     "studentPhone": "03242166715",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-13",
-    "topicTitle": "Why People Overspend",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-19",
+    "topicTitle": "Napoleon: Famous Myths vs. Historical Facts",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2160_03705706322",
@@ -3061,12 +3285,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Umerfarooq",
     "studentPhone": "03705706322",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-17",
-    "topicTitle": "Productivity Myths",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-20",
+    "topicTitle": "Zombie Outbreak: Trapped on a Bridge — Both Ends Are Blocked",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2161_03701947014",
@@ -3075,12 +3306,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Muskan",
     "studentPhone": "03701947014",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-20",
-    "topicTitle": "What Makes a Brand Memorable",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-1",
+    "topicTitle": "What If Your Reaction Time Was 10x Faster?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2162_03213401300",
@@ -3089,12 +3327,40 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "uzma",
     "studentPhone": "03213401300",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-8",
-    "topicTitle": "Investing for Beginners",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-20",
+    "topicTitle": "US Government Shutdowns Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2163_3218288884",
+    "studentId": "2163",
+    "studentRollNumber": "2163",
+    "studentName": "Ashar barai",
+    "studentPhone": "3218288884",
+    "studentMode": "Hybrid",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-20",
+    "topicTitle": "Survival Myths That Can Get You Killed",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2164_03022350300",
@@ -3103,26 +3369,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "aqeel anjum",
     "studentPhone": "03022350300",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-19",
-    "topicTitle": "Small Habits That Change Lives",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2504_03068257083",
-    "studentId": "2504",
-    "studentRollNumber": "2504",
-    "studentName": "Muhammed Maier Hashir",
-    "studentPhone": "03068257083",
-    "studentMode": "Full Online",
     "setId": "set-a",
     "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-3",
-    "topicTitle": "How Chatbots Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-1",
+    "topicTitle": "Zombie Outbreak: 30 Days Trapped in an Apartment",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2165_03150241577",
@@ -3131,12 +3390,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Humza munawar",
     "studentPhone": "03150241577",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-1",
-    "topicTitle": "Why Luxury Brands Cost More",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-2",
+    "topicTitle": "What If You Had 500 IQ?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2166_03492349276",
@@ -3145,110 +3411,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Noormah",
     "studentPhone": "03492349276",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-13",
-    "topicTitle": "AI in Education",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2167_3327336995",
-    "studentId": "2167",
-    "studentRollNumber": "2167",
-    "studentName": "Rabiya",
-    "studentPhone": "3327336995",
-    "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-10",
-    "topicTitle": "Importance of Consistency",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2564_3347772903",
-    "studentId": "2564",
-    "studentRollNumber": "2564",
-    "studentName": "Maryam",
-    "studentPhone": "3347772903",
-    "studentMode": "Full Online",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-4",
-    "topicTitle": "AI in Everyday Life",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2561_3312993875",
-    "studentId": "2561",
-    "studentRollNumber": "2561",
-    "studentName": "Anzila Ubaid Khosa",
-    "studentPhone": "3312993875",
-    "studentMode": "Full Online",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-5",
-    "topicTitle": "Why Focus Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2562_3212291429",
-    "studentId": "2562",
-    "studentRollNumber": "2562",
-    "studentName": "Fatima sani",
-    "studentPhone": "3212291429",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-15",
-    "topicTitle": "How DNA Works",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2563_3053753722",
-    "studentId": "2563",
-    "studentRollNumber": "2563",
-    "studentName": "Rahima",
-    "studentPhone": "3053753722",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-5",
-    "topicTitle": "Science of Sleep",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2564_3347772903",
-    "studentId": "2564",
-    "studentRollNumber": "2564",
-    "studentName": "Maryam",
-    "studentPhone": "3347772903",
-    "studentMode": "Full Online",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-1",
-    "topicTitle": "Why the Sky Is Blue",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2565_3337242412",
-    "studentId": "2565",
-    "studentRollNumber": "2565",
-    "studentName": "Bushra Arif",
-    "studentPhone": "3337242412",
-    "studentMode": "Full Online",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-18",
-    "topicTitle": "Future of Luxury Products",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-1",
+    "topicTitle": "How to Become Dangerously Self-Educated — Explained by a Monkey",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2167_3378351717",
@@ -3257,12 +3432,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Haznala",
     "studentPhone": "3378351717",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-16",
-    "topicTitle": "Can Humans Live on Other Planets?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-2",
+    "topicTitle": "Zombie Outbreak: Surviving on a Rooftop with Almost No Food",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2168_03242873282",
@@ -3271,26 +3453,40 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Mst Kulsoom",
     "studentPhone": "03242873282",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-7",
-    "topicTitle": "Deepest Place in the Ocean",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-3",
+    "topicTitle": "What If One Second Felt Like Ten?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
-    "id": "asgn_b2_2169_-",
+    "id": "asgn_b2_2169_",
     "studentId": "2169",
     "studentRollNumber": "2169",
     "studentName": "Asif",
     "studentPhone": "-",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-4",
-    "topicTitle": "Why We Dream",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-2",
+    "topicTitle": "Studying Is Hard Until You Build Systems Like These",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2170_03322167064",
@@ -3301,10 +3497,17 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentMode": "Hybrid",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-6",
-    "topicTitle": "How Volcanoes Form",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-2",
+    "topicTitle": "The Most Legendary Battles in History",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2171_3001592449",
@@ -3313,12 +3516,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Shaheer",
     "studentPhone": "3001592449",
     "studentMode": "Hybrid",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-14",
-    "topicTitle": "Why Time Feels Fast",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-3",
+    "topicTitle": "Zombie Outbreak: Escaping a Building — 30 Floors Down",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2172_3251558880",
@@ -3327,12 +3537,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hamza",
     "studentPhone": "3251558880",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-3",
-    "topicTitle": "Time Management Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-4",
+    "topicTitle": "What If One Second Felt Like Forever?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2173_3152477341",
@@ -3341,12 +3558,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Hussain",
     "studentPhone": "3152477341",
     "studentMode": "Hybrid",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-14",
-    "topicTitle": "Growth Mindset Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-3",
+    "topicTitle": "How to Learn More in 2 Hours Than Most People Do All Day",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2174_3332308996",
@@ -3355,12 +3579,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Imran Ganatra",
     "studentPhone": "3332308996",
     "studentMode": "Hybrid",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-7",
-    "topicTitle": "Can AI Replace Teachers?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-3",
+    "topicTitle": "Historical Myths That Turned Out to Be Real",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2175_3222741616",
@@ -3369,12 +3600,19 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "ZAINAB ",
     "studentPhone": "3222741616",
     "studentMode": "Hybrid",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-4",
-    "topicTitle": "The 50/30/20 Budget Rule",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-4",
+    "topicTitle": "Zombie Outbreak: Trapped in a Flooding Basement with a Broken Key",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "asgn_b2_2176_03012060457",
@@ -3383,473 +3621,1404 @@ export const PRE_ASSIGNED_STUDENTS = [
     "studentName": "Irfan Nisar Gaba",
     "studentPhone": "03012060457",
     "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-5",
-    "topicTitle": "Importance of Branding",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_2163_3218288884",
-    "studentId": "2163",
-    "studentRollNumber": "2163",
-    "studentName": "Ashar barai",
-    "studentPhone": "3218288884",
-    "studentMode": "Hybrid",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-7",
-    "topicTitle": "Why Premium Products Sell",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1001_03323263647",
-    "studentId": "1001",
-    "studentRollNumber": "1001",
-    "studentName": "Areeba Mansoor",
-    "studentPhone": "03323263647",
-    "studentMode": "HYBIRD",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-18",
-    "topicTitle": "Money and Psychology",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1002_03353167613",
-    "studentId": "1002",
-    "studentRollNumber": "1002",
-    "studentName": "Naveed karar",
-    "studentPhone": "03353167613",
-    "studentMode": "HYBIRD",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-17",
-    "topicTitle": "Long-Term Investing",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1003_03118303843",
-    "studentId": "1003",
-    "studentRollNumber": "1003",
-    "studentName": "Abdul Rauf",
-    "studentPhone": "03118303843",
-    "studentMode": "HYBIRD",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-20",
-    "topicTitle": "Wealth Building Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1004_03222099878",
-    "studentId": "1004",
-    "studentRollNumber": "1004",
-    "studentName": "M.faisal Sodagar",
-    "studentPhone": "03222099878",
-    "studentMode": "HYBIRD",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-8",
-    "topicTitle": "How Companies Build Trust",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1005_03162826995",
-    "studentId": "1005",
-    "studentRollNumber": "1005",
-    "studentName": "Shumama",
-    "studentPhone": "03162826995",
-    "studentMode": "HYBIRD",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-15",
-    "topicTitle": "Story of a Startup Success",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1006_03128658028",
-    "studentId": "1006",
-    "studentRollNumber": "1006",
-    "studentName": "Muzammil",
-    "studentPhone": "03128658028",
-    "studentMode": "HYBIRD",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-18",
-    "topicTitle": "What If Earth Stopped Spinning?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1007_03032667856",
-    "studentId": "1007",
-    "studentRollNumber": "1007",
-    "studentName": "Wali Muhammad Jakhura",
-    "studentPhone": "03032667856",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-15",
-    "topicTitle": "Digital Distractions",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1008_03312669163",
-    "studentId": "1008",
-    "studentRollNumber": "1008",
-    "studentName": "Lubna Khalid Vayani",
-    "studentPhone": "03312669163",
-    "studentMode": "HYBIRD",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-14",
-    "topicTitle": "What Is Generative AI?",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1009_03330376393",
-    "studentId": "1009",
-    "studentRollNumber": "1009",
-    "studentName": "Sawera Karar",
-    "studentPhone": "03330376393",
-    "studentMode": "HYBIRD",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-2",
-    "topicTitle": "How Rolex Became Famous",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1010_03462666226",
-    "studentId": "1010",
-    "studentRollNumber": "1010",
-    "studentName": "mohdrizwan razzaq",
-    "studentPhone": "03462666226",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-2",
-    "topicTitle": "Power of Daily Habits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1011_03212098086",
-    "studentId": "1011",
-    "studentRollNumber": "1011",
-    "studentName": "Abdul Samad",
-    "studentPhone": "03212098086",
-    "studentMode": "HYBIRD",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-16",
-    "topicTitle": "Future Jobs Created by AI",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1012_03082812416",
-    "studentId": "1012",
-    "studentRollNumber": "1012",
-    "studentName": "Sadia muzzamil jiwani",
-    "studentPhone": "03082812416",
-    "studentMode": "HYBIRD",
-    "setId": "set-c",
-    "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-19",
-    "topicTitle": "How Companies Create Demand",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1013_03232010014",
-    "studentId": "1013",
-    "studentRollNumber": "1013",
-    "studentName": "Huzaifa",
-    "studentPhone": "03232010014",
-    "studentMode": "HYBIRD",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-15",
-    "topicTitle": "AI and Productivity",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1014_03262297552",
-    "studentId": "1014",
-    "studentRollNumber": "1014",
-    "studentName": "Saria Sohail",
-    "studentPhone": "03262297552",
-    "studentMode": "HYBIRD",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-20",
-    "topicTitle": "How Tsunamis Happen",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1015_03202094415",
-    "studentId": "1015",
-    "studentRollNumber": "1015",
-    "studentName": "Muhammad Yousuf",
-    "studentPhone": "03202094415",
-    "studentMode": "HYBIRD",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-19",
-    "topicTitle": "Financial Literacy Basics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1016_03198058672",
-    "studentId": "1016",
-    "studentRollNumber": "1016",
-    "studentName": "Nida Yasin",
-    "studentPhone": "03198058672",
-    "studentMode": "HYBIRD",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-17",
-    "topicTitle": "How Recommendation Algorithms Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1017_03243366708",
-    "studentId": "1017",
-    "studentRollNumber": "1017",
-    "studentName": "Faiza",
-    "studentPhone": "03243366708",
-    "studentMode": "HYBIRD",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-2",
-    "topicTitle": "How AI Creates Images",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1018_03222265720",
-    "studentId": "1018",
-    "studentRollNumber": "1018",
-    "studentName": "Quratulain",
-    "studentPhone": "03222265720",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-18",
-    "topicTitle": "How Successful People Learn",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1019_03208349429",
-    "studentId": "1019",
-    "studentRollNumber": "1019",
-    "studentName": "Ali Muhammad",
-    "studentPhone": "03208349429",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-20",
-    "topicTitle": "Reading and Personal Growth",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1020_03205429009",
-    "studentId": "1020",
-    "studentRollNumber": "1020",
-    "studentName": "Muhammad Noman",
-    "studentPhone": "03205429009",
-    "studentMode": "HYBIRD",
-    "setId": "set-a",
-    "setCode": "A",
-    "nicheName": "AI & Technology",
-    "topicId": "topic-a-10",
-    "topicTitle": "Future of Robotics",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1021_03701141846",
-    "studentId": "1021",
-    "studentRollNumber": "1021",
-    "studentName": "Sajjal",
-    "studentPhone": "03701141846",
-    "studentMode": "HYBIRD",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
     "topicId": "topic-b-12",
-    "topicTitle": "Budgeting for Students",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "topicTitle": "What If You Could See Who Will Betray You?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
-    "id": "asgn_b2_1022_03112412471",
-    "studentId": "1022",
-    "studentRollNumber": "1022",
-    "studentName": "Shibra farooq",
-    "studentPhone": "03112412471",
-    "studentMode": "HYBIRD",
+    "id": "asgn_b2_2501_03213801242",
+    "studentId": "2501",
+    "studentRollNumber": "2501",
+    "studentName": "Shahneel",
+    "studentPhone": "03213801242",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-5",
+    "topicTitle": "What If You Were Trapped in a Time Loop?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2502_03343443279",
+    "studentId": "2502",
+    "studentRollNumber": "2502",
+    "studentName": "M.fahim",
+    "studentPhone": "03343443279",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-4",
+    "topicTitle": "How Monkey Got Addicted to Studying",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2503_03422285546",
+    "studentId": "2503",
+    "studentRollNumber": "2503",
+    "studentName": "M.Sameer",
+    "studentPhone": "03422285546",
+    "studentMode": "Full Online",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-10",
-    "topicTitle": "How Satellites Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-4",
+    "topicTitle": "Ancient Myths That Turned Out to Be True",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
-    "id": "asgn_b2_1023_03002734966",
-    "studentId": "1023",
-    "studentRollNumber": "1023",
+    "id": "asgn_b2_2504_03068257083",
+    "studentId": "2504",
+    "studentRollNumber": "2504",
+    "studentName": "Muhammed Maier Hashir",
+    "studentPhone": "03068257083",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-5",
+    "topicTitle": "Zombie Outbreak: 12 Days Trapped in a Stadium",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2505_03353079781",
+    "studentId": "2505",
+    "studentRollNumber": "2505",
+    "studentName": "Kiran Fawad",
+    "studentPhone": "03353079781",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-6",
+    "topicTitle": "What If You Could Rewind 10 Seconds?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2506_03327922468",
+    "studentId": "2506",
+    "studentRollNumber": "2506",
+    "studentName": "Sumaira Zeeshan",
+    "studentPhone": "03327922468",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-5",
+    "topicTitle": "Don’t Delete Social Media — Do This Instead",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2507_03131033917",
+    "studentId": "2507",
+    "studentRollNumber": "2507",
+    "studentName": "ameen",
+    "studentPhone": "03131033917",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-5",
+    "topicTitle": "Urban Legends That Turned Out to Be True",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2508_03218947373",
+    "studentId": "2508",
+    "studentRollNumber": "2508",
+    "studentName": "Aisha",
+    "studentPhone": "03218947373",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-6",
+    "topicTitle": "Zombie Outbreak: 100 Days Inside a Surrounded Barn",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2509_03362105330",
+    "studentId": "2509",
+    "studentRollNumber": "2509",
+    "studentName": "Madiha Suleman",
+    "studentPhone": "03362105330",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-7",
+    "topicTitle": "What If You Were Reborn with All Your Memories?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2510_03132976678",
+    "studentId": "2510",
+    "studentRollNumber": "2510",
+    "studentName": "Saira",
+    "studentPhone": "03132976678",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-6",
+    "topicTitle": "You’re Probably Wasting Your Youth",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2511_03352083017",
+    "studentId": "2511",
+    "studentRollNumber": "2511",
+    "studentName": "MUHAMMAD SHAYAN",
+    "studentPhone": "03352083017",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-6",
+    "topicTitle": "How History’s Greatest Warriors Died",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2512_03452525992",
+    "studentId": "2512",
+    "studentRollNumber": "2512",
+    "studentName": "Muhammad wajid",
+    "studentPhone": "03452525992",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-7",
+    "topicTitle": "Zombie Outbreak: 72 Hours Trapped in a Hospital",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2513_03209280948",
+    "studentId": "2513",
+    "studentRollNumber": "2513",
+    "studentName": "Bushra",
+    "studentPhone": "03209280948",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-8",
+    "topicTitle": "What If You Stopped Aging at 18?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2514_03255314468",
+    "studentId": "2514",
+    "studentRollNumber": "2514",
+    "studentName": "Esha",
+    "studentPhone": "03255314468",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-7",
+    "topicTitle": "30 Small Habits That Quietly Change a Monkey’s Life",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2515_03113262454",
+    "studentId": "2515",
+    "studentRollNumber": "2515",
+    "studentName": "M sahal",
+    "studentPhone": "03113262454",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-7",
+    "topicTitle": "Completely Wrong History “Facts” You Probably Believe",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2516_03233113602",
+    "studentId": "2516",
+    "studentRollNumber": "2516",
+    "studentName": "M.Hamza",
+    "studentPhone": "03233113602",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-8",
+    "topicTitle": "Zombie Outbreak: 14 Days Trapped in a Shopping Mall",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2517_03242183323",
+    "studentId": "2517",
+    "studentRollNumber": "2517",
+    "studentName": "Muhammad Bin Furqan",
+    "studentPhone": "03242183323",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-9",
+    "topicTitle": "What If You Aged Backwards?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2518_03323868036",
+    "studentId": "2518",
+    "studentRollNumber": "2518",
+    "studentName": "Zaitoon",
+    "studentPhone": "03323868036",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-8",
+    "topicTitle": "How to Train Your Monkey Brain to Enjoy Doing Hard Things",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2519_03102889154",
+    "studentId": "2519",
+    "studentRollNumber": "2519",
+    "studentName": "Umm e hani",
+    "studentPhone": "03102889154",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-8",
+    "topicTitle": "History’s Biggest Lies",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2520_03233372728",
+    "studentId": "2520",
+    "studentRollNumber": "2520",
+    "studentName": "Saim Ahmed sheikh",
+    "studentPhone": "03233372728",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-9",
+    "topicTitle": "Zombie Outbreak: 14 Days Surviving in an Abandoned City",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2521_03352450777",
+    "studentId": "2521",
+    "studentRollNumber": "2521",
+    "studentName": "Adnan Memon",
+    "studentPhone": "03352450777",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-10",
+    "topicTitle": "What If You Were the Last Human on Earth?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2522_03073461872",
+    "studentId": "2522",
+    "studentRollNumber": "2522",
+    "studentName": "Aisha Nadeem",
+    "studentPhone": "03073461872",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-9",
+    "topicTitle": "The Night Routine That Ruins Every Morning",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2523_03062242424",
+    "studentId": "2523",
+    "studentRollNumber": "2523",
+    "studentName": "Mehwish Waqas",
+    "studentPhone": "03062242424",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-9",
+    "topicTitle": "Facts That Sound Fake but Are Actually Real",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2524_03352876583",
+    "studentId": "2524",
+    "studentRollNumber": "2524",
+    "studentName": "Eshaal Rao C/O Hussain Markatiya",
+    "studentPhone": "03352876583",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-10",
+    "topicTitle": "Zombie Outbreak: 100 Days Trapped on a Cruise Ship",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2525_03323246799",
+    "studentId": "2525",
+    "studentRollNumber": "2525",
+    "studentName": "M.Saim",
+    "studentPhone": "03323246799",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-11",
+    "topicTitle": "What If Everyone Could Read Each Other’s Minds?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2526_03212785115",
+    "studentId": "2526",
+    "studentRollNumber": "2526",
+    "studentName": "Aamna",
+    "studentPhone": "03212785115",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-10",
+    "topicTitle": "Why You’re Always Tired Even When You Do Nothing",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2527_03343607256",
+    "studentId": "2527",
+    "studentRollNumber": "2527",
+    "studentName": "Sumaiya",
+    "studentPhone": "03343607256",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-10",
+    "topicTitle": "Ancient Mysteries That Were Finally Solved",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2528_03362263561",
+    "studentId": "2528",
+    "studentRollNumber": "2528",
+    "studentName": "Ali Rehman",
+    "studentPhone": "03362263561",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-11",
+    "topicTitle": "Zombie Outbreak: 15 Days Hiding in a Floating Town of Boats",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2529_03038076296",
+    "studentId": "2529",
+    "studentRollNumber": "2529",
+    "studentName": "Warda",
+    "studentPhone": "03038076296",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-12",
+    "topicTitle": "What If You Could See Who Will Betray You?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2530_03243386129",
+    "studentId": "2530",
+    "studentRollNumber": "2530",
+    "studentName": "Summaiya",
+    "studentPhone": "03243386129",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-11",
+    "topicTitle": "How the Algorithm Hijacks Your Monkey Brain",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2531_03312358886",
+    "studentId": "2531",
+    "studentRollNumber": "2531",
+    "studentName": "Ahmed raza",
+    "studentPhone": "03312358886",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-11",
+    "topicTitle": "Greek Mythology Explained — From the Beginning",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2532_03347362637",
+    "studentId": "2532",
+    "studentRollNumber": "2532",
+    "studentName": "Ayesha",
+    "studentPhone": "03347362637",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-12",
+    "topicTitle": "Zombie Outbreak: 15 Days at a Lighthouse — They Come to the Light",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2533_03332220762",
+    "studentId": "2533",
+    "studentRollNumber": "2533",
+    "studentName": "Sidrah",
+    "studentPhone": "03332220762",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-13",
+    "topicTitle": "What If You Were the Luckiest Person in the World?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2534_03708875228",
+    "studentId": "2534",
+    "studentRollNumber": "2534",
+    "studentName": "Sana Sanober",
+    "studentPhone": "03708875228",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-12",
+    "topicTitle": "How to Rest and Recharge Properly — Explained by a Monkey",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2535_03043311362",
+    "studentId": "2535",
+    "studentRollNumber": "2535",
+    "studentName": "Emaan Asmat Ahmed",
+    "studentPhone": "03043311362",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-12",
+    "topicTitle": "The Origins of the Titans and Olympian Gods — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2536_03002734966",
+    "studentId": "2536",
+    "studentRollNumber": "2536",
     "studentName": "SARFARAZ HASAN SIDDIQUI",
     "studentPhone": "03002734966",
-    "studentMode": "HYBIRD",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-13",
+    "topicTitle": "Zombie Outbreak: 61 Days Trapped on a Dead-End Street",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2537_03213873368",
+    "studentId": "2537",
+    "studentRollNumber": "2537",
+    "studentName": "Tooba",
+    "studentPhone": "03213873368",
+    "studentMode": "Full Online",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-2",
-    "topicTitle": "Why Saving Money Matters",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-14",
+    "topicTitle": "What If Every Lie You Told Became Reality?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
-    "id": "asgn_b2_1024_03361812292",
-    "studentId": "1024",
-    "studentRollNumber": "1024",
-    "studentName": "Anayah",
-    "studentPhone": "03361812292",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-9",
-    "topicTitle": "Learning Faster Methods",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1025_03213833161",
-    "studentId": "1025",
-    "studentRollNumber": "1025",
-    "studentName": "Muhammad Yousuf",
-    "studentPhone": "03213833161",
-    "studentMode": "HYBIRD",
-    "setId": "set-d",
-    "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-2",
-    "topicTitle": "How Black Holes Work",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1026_03223559526",
-    "studentId": "1026",
-    "studentRollNumber": "1026",
-    "studentName": "Sumaira Faysal",
-    "studentPhone": "03223559526",
-    "studentMode": "HYBIRD",
+    "id": "asgn_b2_2538_03211332415",
+    "studentId": "2538",
+    "studentRollNumber": "2538",
+    "studentName": "Mariam",
+    "studentPhone": "03211332415",
+    "studentMode": "Full Online",
     "setId": "set-c",
     "setCode": "C",
-    "nicheName": "Business & Luxury Brands",
-    "topicId": "topic-c-17",
-    "topicTitle": "Power of Word-of-Mouth Marketing",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-13",
+    "topicTitle": "How to Figure Out What You Actually Want in Life",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
-    "id": "asgn_b2_1027_03092046052",
-    "studentId": "1027",
-    "studentRollNumber": "1027",
-    "studentName": "Ismail vayani",
-    "studentPhone": "03092046052",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-8",
-    "topicTitle": "Goal Setting Techniques",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1028_03378421240",
-    "studentId": "1028",
-    "studentRollNumber": "1028",
-    "studentName": "Faheem Ahmed",
-    "studentPhone": "03378421240",
-    "studentMode": "HYBIRD",
-    "setId": "set-b",
-    "setCode": "B",
-    "nicheName": "Finance & Wealth",
-    "topicId": "topic-b-5",
-    "topicTitle": "Common Money Mistakes",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1029_03322528902",
-    "studentId": "1029",
-    "studentRollNumber": "1029",
-    "studentName": "Binteashraf jakhura",
-    "studentPhone": "03322528902",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-11",
-    "topicTitle": "Managing Stress Effectively",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
-  },
-  {
-    "id": "asgn_b2_1030_03203405806",
-    "studentId": "1030",
-    "studentRollNumber": "1030",
-    "studentName": "Anshal",
-    "studentPhone": "03203405806",
-    "studentMode": "HYBIRD",
+    "id": "asgn_b2_2539_03313652530",
+    "studentId": "2539",
+    "studentRollNumber": "2539",
+    "studentName": "Sidra Ghaziani",
+    "studentPhone": "03313652530",
+    "studentMode": "Full Online",
     "setId": "set-d",
     "setCode": "D",
-    "nicheName": "Science & Knowledge",
-    "topicId": "topic-d-12",
-    "topicTitle": "How Human Memory Works",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-13",
+    "topicTitle": "How Zeus Became King of the Gods — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
-    "id": "asgn_b2_1031_03213037337",
-    "studentId": "1031",
-    "studentRollNumber": "1031",
-    "studentName": "Muhammad Anas Ali",
-    "studentPhone": "03213037337",
-    "studentMode": "HYBIRD",
-    "setId": "set-e",
-    "setCode": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "topicId": "topic-e-16",
-    "topicTitle": "Lifelong Learning Benefits",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "id": "asgn_b2_2540_03002602244",
+    "studentId": "2540",
+    "studentRollNumber": "2540",
+    "studentName": "Samina",
+    "studentPhone": "03002602244",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-14",
+    "topicTitle": "Zombie Outbreak: 100 Days Stranded at a Truck Stop",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   },
   {
-    "id": "asgn_b2_1032_03045807819",
-    "studentId": "1032",
-    "studentRollNumber": "1032",
-    "studentName": "M.Subhan",
-    "studentPhone": "03045807819",
-    "studentMode": "HYBIRD",
+    "id": "asgn_b2_2541_03133121103",
+    "studentId": "2541",
+    "studentRollNumber": "2541",
+    "studentName": "Hafsa",
+    "studentPhone": "03133121103",
+    "studentMode": "Full Online",
     "setId": "set-b",
     "setCode": "B",
-    "nicheName": "Finance & Wealth",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
     "topicId": "topic-b-15",
-    "topicTitle": "Credit Scores Explained",
-    "assignedAt": "2026-11-07T10:00:00.000Z"
+    "topicTitle": "What If Everything Got 10,000x Cheaper?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2542_03283570185",
+    "studentId": "2542",
+    "studentRollNumber": "2542",
+    "studentName": "Husnan",
+    "studentPhone": "03283570185",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-14",
+    "topicTitle": "6 Things Monkey Did to Stop Wasting Evenings",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2543_03333737586",
+    "studentId": "2543",
+    "studentRollNumber": "2543",
+    "studentName": "Mrs.Misbah Shahjahan",
+    "studentPhone": "03333737586",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-14",
+    "topicTitle": "The Titanomachy: Titans vs. Olympians — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2544_03202093451",
+    "studentId": "2544",
+    "studentRollNumber": "2544",
+    "studentName": "Mehak Abdul Rasheed",
+    "studentPhone": "03202093451",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-15",
+    "topicTitle": "Zombie Outbreak: The Laboratory Doors Sealed Before Escape",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2545_03202234176",
+    "studentId": "2545",
+    "studentRollNumber": "2545",
+    "studentName": "Zunaira Abdul Rasheed",
+    "studentPhone": "03202234176",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-16",
+    "topicTitle": "What If You Could Heal Everything?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2546_03143590898",
+    "studentId": "2546",
+    "studentRollNumber": "2546",
+    "studentName": "Zobia",
+    "studentPhone": "03143590898",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-15",
+    "topicTitle": "AI Investment Bubbles Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2547_03108825092",
+    "studentId": "2547",
+    "studentRollNumber": "2547",
+    "studentName": "Sehar",
+    "studentPhone": "03108825092",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-15",
+    "topicTitle": "The Story of the Cyclopes — Greek Mythology",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2548_03092347328",
+    "studentId": "2548",
+    "studentRollNumber": "2548",
+    "studentName": "Iqra hamza",
+    "studentPhone": "03092347328",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-16",
+    "topicTitle": "Zombie Outbreak: The Only Survivor Above the Toxic Fog",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2549_03222644606",
+    "studentId": "2549",
+    "studentRollNumber": "2549",
+    "studentName": "HAMNA SHAHID",
+    "studentPhone": "03222644606",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-17",
+    "topicTitle": "What If We Live in a Simulation?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2550_03242936266",
+    "studentId": "2550",
+    "studentRollNumber": "2550",
+    "studentName": "Azaan",
+    "studentPhone": "03242936266",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-16",
+    "topicTitle": "The US National Debt Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2551_03343091832",
+    "studentId": "2551",
+    "studentRollNumber": "2551",
+    "studentName": "Sakina Imran Dawra A",
+    "studentPhone": "03343091832",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-16",
+    "topicTitle": "Achilles: The Myth Behind the Legendary Warrior",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2552_03362046672",
+    "studentId": "2552",
+    "studentRollNumber": "2552",
+    "studentName": "Muhammad ishaq",
+    "studentPhone": "03362046672",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-17",
+    "topicTitle": "Nuclear Apocalypse: Surviving the First 30 Days",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2553_03121219608",
+    "studentId": "2553",
+    "studentRollNumber": "2553",
+    "studentName": "Mrs Saba Adil Vayani",
+    "studentPhone": "03121219608",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-18",
+    "topicTitle": "What If Everyone Else Had Zero EQ?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2554_03212209029",
+    "studentId": "2554",
+    "studentRollNumber": "2554",
+    "studentName": "Amna",
+    "studentPhone": "03212209029",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-17",
+    "topicTitle": "Tariff Wars Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2555_03302883555",
+    "studentId": "2555",
+    "studentRollNumber": "2555",
+    "studentName": "Uroosa Naz",
+    "studentPhone": "03302883555",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-17",
+    "topicTitle": "Titanic Myths: What People Still Get Wrong",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2556_03212538781",
+    "studentId": "2556",
+    "studentRollNumber": "2556",
+    "studentName": "Asma",
+    "studentPhone": "03212538781",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-18",
+    "topicTitle": "Zombie Outbreak: 48 Hours Trapped in an Underground Subway Station",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2557_03102880084",
+    "studentId": "2557",
+    "studentRollNumber": "2557",
+    "studentName": "Muhammad Affan",
+    "studentPhone": "03102880084",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-19",
+    "topicTitle": "What If Everyone Had a Power Level — and Yours Was 1?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2558_03357369017",
+    "studentId": "2558",
+    "studentRollNumber": "2558",
+    "studentName": "Maryam Muhammad Salman",
+    "studentPhone": "03357369017",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-18",
+    "topicTitle": "Credit Card Fees Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2559_03232426312",
+    "studentId": "2559",
+    "studentRollNumber": "2559",
+    "studentName": "Amna",
+    "studentPhone": "03232426312",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-18",
+    "topicTitle": "Viking Myths: Separating History from Fiction",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2560_03705593843",
+    "studentId": "2560",
+    "studentRollNumber": "2560",
+    "studentName": "Mehreen",
+    "studentPhone": "03705593843",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-19",
+    "topicTitle": "Zombie Outbreak: 7 Days Inside a Supermarket with No Electricity",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2561_3312993875",
+    "studentId": "2561",
+    "studentRollNumber": "2561",
+    "studentName": "Anzila Ubaid Khosa",
+    "studentPhone": "3312993875",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-20",
+    "topicTitle": "What If You Could Undo Every Mistake You Made?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2562_3212291429",
+    "studentId": "2562",
+    "studentRollNumber": "2562",
+    "studentName": "Fatima sani",
+    "studentPhone": "3212291429",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-19",
+    "topicTitle": "RAM Prices Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2563_3053753722",
+    "studentId": "2563",
+    "studentRollNumber": "2563",
+    "studentName": "Rahima",
+    "studentPhone": "3053753722",
+    "studentMode": "Full Online",
+    "setId": "set-d",
+    "setCode": "D",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterImages": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/D/character-d-assets.zip",
+    "topicId": "topic-d-19",
+    "topicTitle": "Napoleon: Famous Myths vs. Historical Facts",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2564_3347772903",
+    "studentId": "2564",
+    "studentRollNumber": "2564",
+    "studentName": "Maryam",
+    "studentPhone": "3347772903",
+    "studentMode": "Full Online",
+    "setId": "set-a",
+    "setCode": "A",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterImages": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/A/character-a-assets.zip",
+    "topicId": "topic-a-20",
+    "topicTitle": "Zombie Outbreak: Trapped on a Bridge — Both Ends Are Blocked",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2564_3347772903",
+    "studentId": "2564",
+    "studentRollNumber": "2564",
+    "studentName": "Maryam",
+    "studentPhone": "3347772903",
+    "studentMode": "Full Online",
+    "setId": "set-b",
+    "setCode": "B",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterImages": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/B/character-b-assets.zip",
+    "topicId": "topic-b-1",
+    "topicTitle": "What If Your Reaction Time Was 10x Faster?",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "asgn_b2_2565_3337242412",
+    "studentId": "2565",
+    "studentRollNumber": "2565",
+    "studentName": "Bushra Arif",
+    "studentPhone": "3337242412",
+    "studentMode": "Full Online",
+    "setId": "set-c",
+    "setCode": "C",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterImages": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "characterZipUrl": "/characters/C/character-c-assets.zip",
+    "topicId": "topic-c-20",
+    "topicTitle": "US Government Shutdowns Explained Using Bananas",
+    "assignedAt": "2026-11-08T00:00:00.000Z"
   }
 ];

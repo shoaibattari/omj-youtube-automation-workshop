@@ -57,12 +57,15 @@ export async function GET(request) {
 
     const rollNumber = String(assignment.studentRollNumber || student.participantId).trim();
 
-    // Generate official PDF with overlaid details
+    // Generate official PDF with overlaid details and Page 2 character sheet
     const pdfBytes = await generateTestPaperPdf({
       studentName: assignment.studentName || student.fullName,
       rollNumber: rollNumber,
       nicheName: assignment.nicheName,
       topicTitle: assignment.topicTitle,
+      setCode: assignment.setCode,
+      characterName: assignment.characterName,
+      characterImages: assignment.characterImages,
     });
 
     const isDownload = searchParams.get("download") === "1";

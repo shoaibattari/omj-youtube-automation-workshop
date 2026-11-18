@@ -17,10 +17,13 @@ import {
   FaPlug,
   FaBolt,
   FaChargingStation,
+  FaImage,
+  FaEye,
 } from "react-icons/fa";
 
 export default function ExamPaperPreview({ student, assignment, onReset, bypass = false }) {
   const [downloading, setDownloading] = useState(false);
+  const [selectedImageModal, setSelectedImageModal] = useState(null);
   const iframeRef = useRef(null);
 
   // Smooth scroll to top when preview opens
@@ -37,6 +40,23 @@ export default function ExamPaperPreview({ student, assignment, onReset, bypass 
     .replace(/[^a-zA-Z0-9]/g, "_")
     .replace(/_+/g, "_");
   const fileName = `${safeStudentName}_${rollNumber}_Batch_2_Final_Test_Paper.pdf`;
+
+  const setCode = String(
+    assignment?.setCode ||
+      (assignment?.setId ? assignment.setId.replace("set-", "") : "A")
+  ).toUpperCase();
+  const characterName = assignment?.characterName || `Character ${setCode}`;
+  const characterImages =
+    Array.isArray(assignment?.characterImages) && assignment.characterImages.length > 0
+      ? assignment.characterImages
+      : [
+          `/characters/${setCode}/character-${setCode.toLowerCase()}-1.jpeg`,
+          `/characters/${setCode}/character-${setCode.toLowerCase()}-2.jpeg`,
+          `/characters/${setCode}/character-${setCode.toLowerCase()}-3.jpeg`,
+        ];
+  const characterZipUrl =
+    assignment?.characterZipUrl ||
+    `/characters/${setCode}/character-${setCode.toLowerCase()}-assets.zip`;
 
   const bypassParam = bypass ? "&bypass=1" : "";
   const pdfUrl = `/api/test/paper?roll=${encodeURIComponent(rollNumber || "")}${bypassParam}&t=${Date.now()}`;
@@ -159,6 +179,75 @@ export default function ExamPaperPreview({ student, assignment, onReset, bypass 
           </div>
           <p className="text-xl md:text-2xl font-black text-white leading-snug">
             &ldquo;{assignment?.topicTitle}&rdquo;
+          </p>
+        </div>
+
+        {/* Assigned Character Visual Reference Sheet & Download Pack */}
+        <div className="mt-5 bg-slate-950 border-2 border-emerald-500/40 rounded-2xl p-5 text-left relative overflow-hidden shadow-xl">
+          <div className="absolute top-0 right-0 w-60 h-60 bg-emerald-500/10 blur-[90px] rounded-full pointer-events-none" />
+
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-slate-800">
+            <div>
+              <span className="text-[11px] font-black text-emerald-400 uppercase tracking-widest flex items-center gap-1.5 mb-1">
+                <FaImage /> Assigned Character Assets • {characterName}
+              </span>
+              <h4 className="text-base sm:text-lg font-black text-white">
+                Official 2D Animation Character Model Sheet
+              </h4>
+              <p className="text-xs text-slate-400 mt-0.5">
+                Use these 3 assigned character poses in your practical video, storyboard scenes, and thumbnail.
+              </p>
+            </div>
+
+            <a
+              href={characterZipUrl}
+              download={`${characterName.replace(/\s+/g, "_")}_Assets_Pack.zip`}
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-xs px-4 py-2.5 rounded-xl uppercase tracking-wider transition-all shadow-lg shadow-emerald-900/30 shrink-0 cursor-pointer"
+            >
+              <FaDownload /> Download Assets Pack (ZIP)
+            </a>
+          </div>
+
+          {/* 3 Character Poses Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {characterImages.map((imgSrc, index) => (
+              <div
+                key={index}
+                className="bg-slate-900/90 rounded-xl border border-slate-800 overflow-hidden flex flex-col group hover:border-emerald-500/50 transition-all shadow-md"
+              >
+                <div
+                  onClick={() => setSelectedImageModal(imgSrc)}
+                  className="relative aspect-square sm:aspect-[4/5] bg-black/60 flex items-center justify-center p-2 cursor-pointer overflow-hidden"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={imgSrc}
+                    alt={`${characterName} Pose ${index + 1}`}
+                    className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2 text-white font-bold text-xs">
+                    <FaEye /> Click to Zoom
+                  </div>
+                </div>
+
+                <div className="p-3 bg-slate-950/80 border-t border-slate-800/80 flex items-center justify-between">
+                  <span className="text-xs font-bold text-slate-300">
+                    Pose / Angle {index + 1}
+                  </span>
+                  <a
+                    href={imgSrc}
+                    download={`${characterName.replace(/\s+/g, "_")}_Pose_${index + 1}.jpeg`}
+                    className="text-[11px] font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1 bg-emerald-950/50 px-2 py-1 rounded-lg border border-emerald-800/60 transition-colors"
+                  >
+                    <FaDownload /> Save
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-[11px] text-slate-400 mt-3 italic">
+            * Note: This model sheet is also embedded inside Page 2 of your official PDF test paper.
           </p>
         </div>
 
@@ -319,6 +408,41 @@ export default function ExamPaperPreview({ student, assignment, onReset, bypass 
           </div>
         </div>
       </div>
+
+      {/* Lightbox Zoom Modal for Character Images */}
+      {selectedImageModal && (
+        <div
+          onClick={() => setSelectedImageModal(null)}
+          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4 cursor-pointer animate-fadeIn"
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="relative max-w-3xl max-h-[92vh] bg-slate-950 rounded-3xl border border-slate-800 p-3 shadow-2xl flex flex-col items-center"
+          >
+            <button
+              onClick={() => setSelectedImageModal(null)}
+              className="absolute top-4 right-4 text-white bg-slate-800/90 hover:bg-slate-700 w-9 h-9 rounded-full flex items-center justify-center cursor-pointer z-10 transition-colors"
+            >
+              ✕
+            </button>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={selectedImageModal}
+              alt="Character Zoom"
+              className="max-h-[78vh] max-w-full object-contain rounded-2xl"
+            />
+            <div className="mt-4 flex gap-3">
+              <a
+                href={selectedImageModal}
+                download="character_asset.jpeg"
+                className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl flex items-center gap-2 cursor-pointer shadow-lg transition-colors"
+              >
+                <FaDownload /> Download High-Res Image
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

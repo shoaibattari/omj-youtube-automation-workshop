@@ -2,36 +2,61 @@
   {
     "id": "set-a",
     "code": "A",
-    "nicheName": "AI & Technology",
+    "characterName": "Character A",
+    "nicheName": "Survival Stories / 2D Animation",
+    "characterDescription": "Apocalyptic survival character model for 2D animation, storyboarding, and thumbnail creation.",
+    "images": [
+      "/characters/A/character-a-1.jpeg",
+      "/characters/A/character-a-2.jpeg",
+      "/characters/A/character-a-3.jpeg"
+    ],
+    "zipUrl": "/characters/A/character-a-assets.zip",
     "isActive": true,
-    "createdAt": "2026-11-01T00:00:00.000Z"
+    "createdAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "set-b",
     "code": "B",
-    "nicheName": "Finance & Wealth",
+    "characterName": "Character B",
+    "nicheName": "What If / 2D Animation",
+    "characterDescription": "Sci-fi / What-If conceptual character model for 2D animation and thought-experiment storytelling.",
+    "images": [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg"
+    ],
+    "zipUrl": "/characters/B/character-b-assets.zip",
     "isActive": true,
-    "createdAt": "2026-11-01T00:00:00.000Z"
+    "createdAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "set-c",
     "code": "C",
-    "nicheName": "Business & Luxury Brands",
+    "characterName": "Character C",
+    "nicheName": "Monkey Explainer / Psychology",
+    "characterDescription": "Monkey explainer character model for educational psychology, finance, and productivity videos.",
+    "images": [
+      "/characters/C/character-c-1.jpeg",
+      "/characters/C/character-c-2.jpeg",
+      "/characters/C/character-c-3.jpeg"
+    ],
+    "zipUrl": "/characters/C/character-c-assets.zip",
     "isActive": true,
-    "createdAt": "2026-11-01T00:00:00.000Z"
+    "createdAt": "2026-11-08T00:00:00.000Z"
   },
   {
     "id": "set-d",
     "code": "D",
-    "nicheName": "Science & Knowledge",
+    "characterName": "Character D",
+    "nicheName": "History 2D Explainer",
+    "characterDescription": "Historical warrior / ancient myth explainer character model for docu-drama style videos.",
+    "images": [
+      "/characters/D/character-d-1.jpeg",
+      "/characters/D/character-d-2.jpeg",
+      "/characters/D/character-d-3.jpeg"
+    ],
+    "zipUrl": "/characters/D/character-d-assets.zip",
     "isActive": true,
-    "createdAt": "2026-11-01T00:00:00.000Z"
-  },
-  {
-    "id": "set-e",
-    "code": "E",
-    "nicheName": "Productivity & Self-Improvement",
-    "isActive": true,
-    "createdAt": "2026-11-01T00:00:00.000Z"
+    "createdAt": "2026-11-08T00:00:00.000Z"
   }
 ]

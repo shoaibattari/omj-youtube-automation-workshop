@@ -254,13 +254,13 @@ export default function Home() {
                 </Link>
 
                 <a
-                  href="https://chat.whatsapp.com/JCX5PQRS11iK5tbmUZggNv"
+                  href="https://chat.whatsapp.com/CNQBYrCw3CC8lZ3aJ95pxq"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-2xl border border-emerald-500/30 bg-emerald-950/50 hover:bg-emerald-900/60 px-6 py-3.5 text-center font-bold text-sm uppercase text-emerald-300 transition flex items-center justify-center gap-2 shadow-lg"
                 >
                   <FaWhatsapp className="text-lg text-emerald-400" />
-                  <span>Open Discussion Group</span>
+                  <span>YouTube Session Community</span>
                 </a>
               </div>
             </div>
@@ -405,7 +405,7 @@ export default function Home() {
                   <div className="flex items-start gap-3 bg-slate-950/70 p-3.5 rounded-xl border border-slate-800">
                     <FaLightbulb className="text-yellow-400 mt-1 shrink-0" />
                     <div>
-                      <strong className="text-white">Open Discussion Group mein Share Karein:</strong>
+                      <strong className="text-white">YouTube Session Community mein Share Karein:</strong>
                       <ul className="mt-1 list-disc list-inside text-slate-400 space-y-0.5">
                         <li>Apna exciting activity idea share karein</li>
                         <li>Planning mein apni zimmedari batayein</li>
@@ -425,12 +425,12 @@ export default function Home() {
 
               <div className="mt-6">
                 <a
-                  href="https://chat.whatsapp.com/JCX5PQRS11iK5tbmUZggNv"
+                  href="https://chat.whatsapp.com/CNQBYrCw3CC8lZ3aJ95pxq"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-3 px-5 rounded-xl text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-lg cursor-pointer"
                 >
-                  <FaWhatsapp className="text-base" /> Share Ideas on WhatsApp Group
+                  <FaWhatsapp className="text-base" /> YouTube Session Community
                 </a>
               </div>
             </div>
@@ -701,9 +701,10 @@ export default function Home() {
           <FaIdCard className="text-red-500" /> Status
         </Link>
         <a
-          href="https://chat.whatsapp.com/JCX5PQRS11iK5tbmUZggNv"
+          href="https://chat.whatsapp.com/CNQBYrCw3CC8lZ3aJ95pxq"
           target="_blank"
           rel="noopener noreferrer"
+          title="YouTube Session Community"
           className="rounded-2xl bg-green-600 px-4 py-3.5 text-center font-black uppercase shadow-xl flex items-center justify-center text-white"
         >
           <FaWhatsapp className="text-lg" />

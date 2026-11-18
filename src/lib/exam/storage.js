@@ -134,6 +134,55 @@ export async function getAssignments() {
   return [...memStore.assignments];
 }
 
+export function enrichAssignmentWithCharacter(assignment) {
+  if (!assignment) return null;
+  const setCode = String(assignment.setCode || (assignment.setId ? assignment.setId.replace("set-", "") : "a")).toUpperCase();
+  const characterName = assignment.characterName || `Character ${setCode}`;
+  const characterImages =
+    Array.isArray(assignment.characterImages) && assignment.characterImages.length > 0
+      ? assignment.characterImages
+      : [
+          `/characters/${setCode}/character-${setCode.toLowerCase()}-1.jpeg`,
+          `/characters/${setCode}/character-${setCode.toLowerCase()}-2.jpeg`,
+          `/characters/${setCode}/character-${setCode.toLowerCase()}-3.jpeg`,
+        ];
+  const characterZipUrl =
+    assignment.characterZipUrl ||
+    `/characters/${setCode}/character-${setCode.toLowerCase()}-assets.zip`;
+
+  return {
+    ...assignment,
+    characterName,
+    characterImages,
+    characterZipUrl,
+  };
+}
+
+// Hardcoded locked assignments that must never change (e.g. Student 2176 already took paper)
+export const LOCKED_STUDENT_ASSIGNMENTS = {
+  "2176": {
+    id: "asgn_b2_2176_03012060457",
+    studentId: "2176",
+    studentRollNumber: "2176",
+    studentName: "Irfan Nisar Gaba",
+    studentPhone: "03012060457",
+    studentMode: "Hybrid",
+    setId: "set-b",
+    setCode: "B",
+    characterName: "Character B",
+    nicheName: "What If / 2D Animation",
+    characterImages: [
+      "/characters/B/character-b-1.jpeg",
+      "/characters/B/character-b-2.jpeg",
+      "/characters/B/character-b-3.jpeg",
+    ],
+    characterZipUrl: "/characters/B/character-b-assets.zip",
+    topicId: "topic-b-12",
+    topicTitle: "What If You Could See Who Will Betray You?",
+    assignedAt: "2026-11-08T00:00:00.000Z",
+  },
+};
+
 // Get an existing assignment for a student
 export async function getStudentAssignment(identifier) {
   if (!identifier) return null;
@@ -150,6 +199,12 @@ export async function getStudentAssignment(identifier) {
   }
 
   const cleanPhone = normalizePakistaniPhone(phone);
+
+  // Check locked permanent assignments first
+  if (roll === "2176" || cleanPhone === "923012060457") {
+    return enrichAssignmentWithCharacter(LOCKED_STUDENT_ASSIGNMENTS["2176"]);
+  }
+
   const assignments = await getAssignments();
 
   // 1. Search in current/disk assignments
@@ -160,7 +215,7 @@ export async function getStudentAssignment(identifier) {
     if (cleanPhone && aPhone && aPhone === cleanPhone) return true;
     return false;
   });
-  if (found) return found;
+  if (found) return enrichAssignmentWithCharacter(found);
 
   // 2. Fallback to pre-assigned dataset
   if (Array.isArray(PRE_ASSIGNED_STUDENTS)) {
@@ -171,7 +226,7 @@ export async function getStudentAssignment(identifier) {
       if (cleanPhone && aPhone && aPhone === cleanPhone) return true;
       return false;
     });
-    if (pre) return pre;
+    if (pre) return enrichAssignmentWithCharacter(pre);
   }
   return null;
 }
@@ -189,6 +244,11 @@ export async function assignTopicToStudent(student) {
   const roll = String(student.participantId || student.rollNumber || "").trim();
   const phone = String(student.whatsaapNumber || student.phone || "").trim();
   const cleanPhone = normalizePakistaniPhone(phone);
+
+  // Check locked permanent assignments first
+  if (roll === "2176" || cleanPhone === "923012060457") {
+    return enrichAssignmentWithCharacter(LOCKED_STUDENT_ASSIGNMENTS["2176"]);
+  }
 
   return await withLock(async () => {
     // 1. Double-check if already assigned in active assignments - NEVER RE-ASSIGN!
@@ -272,7 +332,7 @@ export async function assignTopicToStudent(student) {
     };
 
     // 7. Create permanent assignment record with immutable snapshot
-    const assignmentRecord = {
+    const assignmentRecord = enrichAssignmentWithCharacter({
       id: `asgn_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`,
       studentId: roll,
       studentRollNumber: roll,
@@ -280,11 +340,14 @@ export async function assignTopicToStudent(student) {
       studentMode: student.mode || "Hybrid",
       setId: parentSet.id,
       setCode: parentSet.code,
+      characterName: parentSet.characterName || `Character ${parentSet.code}`,
       nicheName: parentSet.nicheName,
+      characterImages: parentSet.images,
+      characterZipUrl: parentSet.zipUrl,
       topicId: selectedTopic.id,
       topicTitle: selectedTopic.title,
       assignedAt: new Date().toISOString(),
-    };
+    });
 
     memStore.assignments.push(assignmentRecord);
     writeJsonFile("assignments.json", memStore.assignments);
